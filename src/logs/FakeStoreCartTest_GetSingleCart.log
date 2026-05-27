@@ -1,0 +1,1057 @@
+2026-05-27 10:35:51.407 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreCartTest_GetSingleCart.log
+2026-05-27 10:35:51.426 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Cart_GetSingleCart
+2026-05-27 10:35:51.428 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up CartTests...
+2026-05-27 10:35:51.428 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests setup completed
+2026-05-27 10:35:51.430 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:GetSingleCart
+2026-05-27 10:35:51.430 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 10:35:51.430 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:35:51.430 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: GetSingleCart
+2026-05-27 10:35:51.565 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:35:51.569 [main] ERROR c.f.automation.utils.LoggerUtil - Test failed: testGetSingleCart
+2026-05-27 10:35:51.582 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down CartTests...
+2026-05-27 10:35:51.582 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests teardown completed
+2026-05-27 10:35:51.582 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Cart_GetSingleCart
+2026-05-27 10:35:51.651 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-27 10:39:12.800 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreCartTest_GetSingleCart.log
+2026-05-27 10:39:12.806 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Cart_GetSingleCart
+2026-05-27 10:39:12.808 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up CartTests...
+2026-05-27 10:39:12.808 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests setup completed
+2026-05-27 10:39:12.808 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:GetSingleCart
+2026-05-27 10:39:12.809 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 10:39:12.809 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:39:12.809 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: GetSingleCart
+2026-05-27 10:39:13.013 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:39:13.016 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 5
+2026-05-27 10:39:13.016 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-27 10:39:13.022 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 10:39:13.024 [main] ERROR c.f.automation.utils.LoggerUtil - Test failed: testGetSingleCart
+2026-05-27 10:39:13.040 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 10:39:13.040 [main] ERROR c.f.automation.utils.LoggerUtil - Test failed: testGetSingleCart
+2026-05-27 10:39:13.051 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 10:39:13.052 [main] ERROR c.f.automation.utils.LoggerUtil - Test failed: testGetSingleCart
+2026-05-27 10:39:13.060 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 10:39:13.066 [main] ERROR c.f.automation.utils.LoggerUtil - Test failed: testGetSingleCart
+2026-05-27 10:39:13.069 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 10:39:13.069 [main] ERROR c.f.automation.utils.LoggerUtil - Test failed: testGetSingleCart
+2026-05-27 10:39:13.079 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down CartTests...
+2026-05-27 10:39:13.080 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests teardown completed
+2026-05-27 10:39:13.080 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Cart_GetSingleCart
+2026-05-27 10:39:13.151 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-27 10:46:31.292 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreCartTest_GetSingleCart.log
+2026-05-27 10:46:31.296 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Cart_GetSingleCart
+2026-05-27 10:46:31.296 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up CartTests...
+2026-05-27 10:46:31.296 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests setup completed
+2026-05-27 10:46:31.296 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:GetSingleCart
+2026-05-27 10:46:31.296 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 10:46:31.296 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:46:31.296 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: GetSingleCart
+2026-05-27 10:46:31.369 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:46:31.374 [main] ERROR c.f.automation.utils.LoggerUtil - Test failed: testGetSingleCart
+2026-05-27 10:46:31.380 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down CartTests...
+2026-05-27 10:46:31.380 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests teardown completed
+2026-05-27 10:46:31.380 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Cart_GetSingleCart
+2026-05-27 10:46:31.411 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-27 10:53:06.846 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreCartTest_GetSingleCart.log
+2026-05-27 10:53:06.850 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Cart_GetSingleCart
+2026-05-27 10:53:06.851 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up CartTests...
+2026-05-27 10:53:06.852 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests setup completed
+2026-05-27 10:53:06.852 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:GetSingleCart
+2026-05-27 10:53:06.852 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 10:53:06.852 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:53:06.852 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: GetSingleCart
+2026-05-27 10:53:06.936 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:53:06.938 [main] ERROR c.f.automation.utils.LoggerUtil - Test failed: testGetSingleCart
+2026-05-27 10:53:06.948 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down CartTests...
+2026-05-27 10:53:06.948 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests teardown completed
+2026-05-27 10:53:06.949 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Cart_GetSingleCart
+2026-05-27 10:53:07.008 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-27 10:59:06.680 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreCartTest_GetSingleCart.log
+2026-05-27 10:59:06.687 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Cart_GetSingleCart
+2026-05-27 10:59:06.689 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up CartTests...
+2026-05-27 10:59:06.689 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests setup completed
+2026-05-27 10:59:06.689 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:GetSingleCart
+2026-05-27 10:59:06.689 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 10:59:06.689 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:59:06.689 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: GetSingleCart
+2026-05-27 10:59:06.806 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:59:06.808 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 5
+2026-05-27 10:59:06.808 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-27 10:59:06.810 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 10:59:06.810 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Cart ==========
+2026-05-27 10:59:06.810 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC1, CartID=1, CartId=1}
+2026-05-27 10:59:06.810 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-27 10:59:06.812 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Cart ID: 1
+2026-05-27 10:59:06.812 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching cart with ID: 1
+2026-05-27 10:59:06.812 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/1
+2026-05-27 10:59:06.812 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/carts/1
+2026-05-27 10:59:06.812 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:59:06.812 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:59:07.293 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:59:07.293 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:59:07.293 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:59:07.294 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1,"userId":1,"date":"2020-03-02T00:00:00.000Z","products":[{"productId":1,"quantity":4},{"productId":2,"quantity":1},{"productId":3,"quantity":6}],"__v":0}
+2026-05-27 10:59:07.294 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:59:07.294 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:59:07.295 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Data Validation PASSED: Response contains data
+2026-05-27 10:59:07.295 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ PASS - Cart ID Validation: Response ID (1) matches requested cart ID
+2026-05-27 10:59:07.295 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'userId' field
+2026-05-27 10:59:07.295 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ userId Validation PASSED: userId is a valid number
+2026-05-27 10:59:07.295 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'date' field
+2026-05-27 10:59:07.295 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Date Format Validation PASSED: Date is in ISO 8601 format
+2026-05-27 10:59:07.295 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'products' field
+2026-05-27 10:59:07.296 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Structure Validation PASSED: Products is an array
+2026-05-27 10:59:07.296 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Array Validation PASSED: Products array contains items
+2026-05-27 10:59:07.296 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product Structure Validation PASSED: Products have 'productId' and 'quantity' fields
+2026-05-27 10:59:07.296 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Optional Field Detected: Response contains '__v' field (MongoDB version)
+2026-05-27 10:59:07.297 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Complete Attribute Validation PASSED: All 4 required attributes found
+2026-05-27 10:59:07.302 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-27 10:59:07.302 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleCart
+2026-05-27 10:59:07.305 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 10:59:07.306 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Cart ==========
+2026-05-27 10:59:07.306 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC2, CartID=2, CartId=2}
+2026-05-27 10:59:07.306 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-27 10:59:07.306 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Cart ID: 2
+2026-05-27 10:59:07.306 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching cart with ID: 2
+2026-05-27 10:59:07.306 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/2
+2026-05-27 10:59:07.306 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/carts/2
+2026-05-27 10:59:07.306 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:59:07.306 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:59:07.809 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:59:07.809 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:59:07.809 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:59:07.810 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":2,"userId":1,"date":"2020-01-02T00:00:00.000Z","products":[{"productId":2,"quantity":4},{"productId":1,"quantity":10},{"productId":5,"quantity":2}],"__v":0}
+2026-05-27 10:59:07.810 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:59:07.810 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:59:07.810 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Data Validation PASSED: Response contains data
+2026-05-27 10:59:07.810 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ PASS - Cart ID Validation: Response ID (2) matches requested cart ID
+2026-05-27 10:59:07.810 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'userId' field
+2026-05-27 10:59:07.810 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ userId Validation PASSED: userId is a valid number
+2026-05-27 10:59:07.810 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'date' field
+2026-05-27 10:59:07.810 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Date Format Validation PASSED: Date is in ISO 8601 format
+2026-05-27 10:59:07.810 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'products' field
+2026-05-27 10:59:07.810 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Structure Validation PASSED: Products is an array
+2026-05-27 10:59:07.811 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Array Validation PASSED: Products array contains items
+2026-05-27 10:59:07.811 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product Structure Validation PASSED: Products have 'productId' and 'quantity' fields
+2026-05-27 10:59:07.811 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Optional Field Detected: Response contains '__v' field (MongoDB version)
+2026-05-27 10:59:07.811 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Complete Attribute Validation PASSED: All 4 required attributes found
+2026-05-27 10:59:07.811 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-27 10:59:07.811 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleCart
+2026-05-27 10:59:07.813 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 10:59:07.813 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Cart ==========
+2026-05-27 10:59:07.814 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC3, CartID=3, CartId=3}
+2026-05-27 10:59:07.814 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC3
+2026-05-27 10:59:07.814 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Cart ID: 3
+2026-05-27 10:59:07.814 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching cart with ID: 3
+2026-05-27 10:59:07.814 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/3
+2026-05-27 10:59:07.814 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/carts/3
+2026-05-27 10:59:07.814 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:59:07.814 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:59:08.276 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:59:08.276 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:59:08.276 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:59:08.278 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":3,"userId":2,"date":"2020-03-01T00:00:00.000Z","products":[{"productId":1,"quantity":2},{"productId":9,"quantity":1}],"__v":0}
+2026-05-27 10:59:08.278 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:59:08.278 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:59:08.278 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Data Validation PASSED: Response contains data
+2026-05-27 10:59:08.278 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ PASS - Cart ID Validation: Response ID (3) matches requested cart ID
+2026-05-27 10:59:08.278 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'userId' field
+2026-05-27 10:59:08.278 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ userId Validation PASSED: userId is a valid number
+2026-05-27 10:59:08.278 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'date' field
+2026-05-27 10:59:08.278 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Date Format Validation PASSED: Date is in ISO 8601 format
+2026-05-27 10:59:08.278 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'products' field
+2026-05-27 10:59:08.278 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Structure Validation PASSED: Products is an array
+2026-05-27 10:59:08.278 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Array Validation PASSED: Products array contains items
+2026-05-27 10:59:08.279 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product Structure Validation PASSED: Products have 'productId' and 'quantity' fields
+2026-05-27 10:59:08.279 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Optional Field Detected: Response contains '__v' field (MongoDB version)
+2026-05-27 10:59:08.279 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Complete Attribute Validation PASSED: All 4 required attributes found
+2026-05-27 10:59:08.279 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC3 ==========
+2026-05-27 10:59:08.279 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleCart
+2026-05-27 10:59:08.281 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 10:59:08.282 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Cart ==========
+2026-05-27 10:59:08.282 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC4, CartID=4, CartId=4}
+2026-05-27 10:59:08.282 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC4
+2026-05-27 10:59:08.282 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Cart ID: 4
+2026-05-27 10:59:08.282 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching cart with ID: 4
+2026-05-27 10:59:08.282 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/4
+2026-05-27 10:59:08.282 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/carts/4
+2026-05-27 10:59:08.282 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:59:08.282 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:59:08.757 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:59:08.757 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:59:08.757 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:59:08.757 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":4,"userId":3,"date":"2020-01-01T00:00:00.000Z","products":[{"productId":1,"quantity":4}],"__v":0}
+2026-05-27 10:59:08.759 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:59:08.759 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:59:08.759 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Data Validation PASSED: Response contains data
+2026-05-27 10:59:08.759 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ PASS - Cart ID Validation: Response ID (4) matches requested cart ID
+2026-05-27 10:59:08.759 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'userId' field
+2026-05-27 10:59:08.759 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ userId Validation PASSED: userId is a valid number
+2026-05-27 10:59:08.759 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'date' field
+2026-05-27 10:59:08.759 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Date Format Validation PASSED: Date is in ISO 8601 format
+2026-05-27 10:59:08.759 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'products' field
+2026-05-27 10:59:08.759 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Structure Validation PASSED: Products is an array
+2026-05-27 10:59:08.759 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Array Validation PASSED: Products array contains items
+2026-05-27 10:59:08.759 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product Structure Validation PASSED: Products have 'productId' and 'quantity' fields
+2026-05-27 10:59:08.759 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Optional Field Detected: Response contains '__v' field (MongoDB version)
+2026-05-27 10:59:08.759 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Complete Attribute Validation PASSED: All 4 required attributes found
+2026-05-27 10:59:08.761 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC4 ==========
+2026-05-27 10:59:08.761 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleCart
+2026-05-27 10:59:08.761 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 10:59:08.761 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Cart ==========
+2026-05-27 10:59:08.761 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC5, CartID=5, CartId=5}
+2026-05-27 10:59:08.761 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC5
+2026-05-27 10:59:08.761 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Cart ID: 5
+2026-05-27 10:59:08.761 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching cart with ID: 5
+2026-05-27 10:59:08.765 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/5
+2026-05-27 10:59:08.765 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/carts/5
+2026-05-27 10:59:08.765 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:59:08.765 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:59:09.238 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:59:09.238 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:59:09.238 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:59:09.238 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":5,"userId":3,"date":"2020-03-01T00:00:00.000Z","products":[{"productId":7,"quantity":1},{"productId":8,"quantity":1}],"__v":0}
+2026-05-27 10:59:09.238 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:59:09.238 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:59:09.238 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Data Validation PASSED: Response contains data
+2026-05-27 10:59:09.238 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ PASS - Cart ID Validation: Response ID (5) matches requested cart ID
+2026-05-27 10:59:09.238 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'userId' field
+2026-05-27 10:59:09.238 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ userId Validation PASSED: userId is a valid number
+2026-05-27 10:59:09.238 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'date' field
+2026-05-27 10:59:09.238 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Date Format Validation PASSED: Date is in ISO 8601 format
+2026-05-27 10:59:09.238 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'products' field
+2026-05-27 10:59:09.238 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Structure Validation PASSED: Products is an array
+2026-05-27 10:59:09.238 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Array Validation PASSED: Products array contains items
+2026-05-27 10:59:09.238 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product Structure Validation PASSED: Products have 'productId' and 'quantity' fields
+2026-05-27 10:59:09.238 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Optional Field Detected: Response contains '__v' field (MongoDB version)
+2026-05-27 10:59:09.238 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Complete Attribute Validation PASSED: All 4 required attributes found
+2026-05-27 10:59:09.238 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC5 ==========
+2026-05-27 10:59:09.238 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleCart
+2026-05-27 10:59:09.242 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down CartTests...
+2026-05-27 10:59:09.242 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests teardown completed
+2026-05-27 10:59:09.242 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Cart_GetSingleCart
+2026-05-27 10:59:09.266 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-27 11:04:59.273 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreCartTest_GetSingleCart.log
+2026-05-27 11:04:59.273 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Cart_GetSingleCart
+2026-05-27 11:04:59.273 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up CartTests...
+2026-05-27 11:04:59.273 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests setup completed
+2026-05-27 11:04:59.273 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:GetSingleCart
+2026-05-27 11:04:59.273 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 11:04:59.273 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 11:04:59.273 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: GetSingleCart
+2026-05-27 11:04:59.359 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 11:04:59.361 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 5
+2026-05-27 11:04:59.361 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-27 11:04:59.363 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 11:04:59.363 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Cart ==========
+2026-05-27 11:04:59.363 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC1, CartID=1, CartId=1}
+2026-05-27 11:04:59.363 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-27 11:04:59.365 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Cart ID: 1
+2026-05-27 11:04:59.365 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching cart with ID: 1
+2026-05-27 11:04:59.365 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/1
+2026-05-27 11:04:59.365 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/carts/1
+2026-05-27 11:04:59.365 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:04:59.365 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:04:59.843 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:04:59.843 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:04:59.844 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:04:59.845 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1,"userId":1,"date":"2020-03-02T00:00:00.000Z","products":[{"productId":1,"quantity":4},{"productId":2,"quantity":1},{"productId":3,"quantity":6}],"__v":0}
+2026-05-27 11:04:59.846 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:04:59.846 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:04:59.846 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Data Validation PASSED: Response contains data
+2026-05-27 11:04:59.846 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ PASS - Cart ID Validation: Response ID (1) matches requested cart ID
+2026-05-27 11:04:59.846 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'userId' field
+2026-05-27 11:04:59.846 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ userId Validation PASSED: userId is a valid number
+2026-05-27 11:04:59.846 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'date' field
+2026-05-27 11:04:59.846 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Date Format Validation PASSED: Date is in ISO 8601 format
+2026-05-27 11:04:59.846 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'products' field
+2026-05-27 11:04:59.846 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Structure Validation PASSED: Products is an array
+2026-05-27 11:04:59.846 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Array Validation PASSED: Products array contains items
+2026-05-27 11:04:59.846 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product Structure Validation PASSED: Products have 'productId' and 'quantity' fields
+2026-05-27 11:04:59.846 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Optional Field Detected: Response contains '__v' field (MongoDB version)
+2026-05-27 11:04:59.846 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Complete Attribute Validation PASSED: All 4 required attributes found
+2026-05-27 11:04:59.863 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-27 11:04:59.865 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleCart
+2026-05-27 11:04:59.869 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 11:04:59.871 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Cart ==========
+2026-05-27 11:04:59.871 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC2, CartID=2, CartId=2}
+2026-05-27 11:04:59.871 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-27 11:04:59.871 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Cart ID: 2
+2026-05-27 11:04:59.871 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching cart with ID: 2
+2026-05-27 11:04:59.873 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/2
+2026-05-27 11:04:59.873 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/carts/2
+2026-05-27 11:04:59.873 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:04:59.873 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:05:00.364 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:05:00.364 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:05:00.364 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:05:00.364 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":2,"userId":1,"date":"2020-01-02T00:00:00.000Z","products":[{"productId":2,"quantity":4},{"productId":1,"quantity":10},{"productId":5,"quantity":2}],"__v":0}
+2026-05-27 11:05:00.364 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:05:00.364 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:05:00.364 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Data Validation PASSED: Response contains data
+2026-05-27 11:05:00.364 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ PASS - Cart ID Validation: Response ID (2) matches requested cart ID
+2026-05-27 11:05:00.364 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'userId' field
+2026-05-27 11:05:00.364 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ userId Validation PASSED: userId is a valid number
+2026-05-27 11:05:00.364 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'date' field
+2026-05-27 11:05:00.364 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Date Format Validation PASSED: Date is in ISO 8601 format
+2026-05-27 11:05:00.364 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'products' field
+2026-05-27 11:05:00.364 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Structure Validation PASSED: Products is an array
+2026-05-27 11:05:00.364 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Array Validation PASSED: Products array contains items
+2026-05-27 11:05:00.364 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product Structure Validation PASSED: Products have 'productId' and 'quantity' fields
+2026-05-27 11:05:00.364 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Optional Field Detected: Response contains '__v' field (MongoDB version)
+2026-05-27 11:05:00.364 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Complete Attribute Validation PASSED: All 4 required attributes found
+2026-05-27 11:05:00.364 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-27 11:05:00.364 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleCart
+2026-05-27 11:05:00.384 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 11:05:00.385 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Cart ==========
+2026-05-27 11:05:00.385 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC3, CartID=3, CartId=3}
+2026-05-27 11:05:00.385 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC3
+2026-05-27 11:05:00.385 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Cart ID: 3
+2026-05-27 11:05:00.386 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching cart with ID: 3
+2026-05-27 11:05:00.386 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/3
+2026-05-27 11:05:00.386 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/carts/3
+2026-05-27 11:05:00.386 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:05:00.387 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:05:00.885 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:05:00.885 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:05:00.885 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:05:00.885 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":3,"userId":2,"date":"2020-03-01T00:00:00.000Z","products":[{"productId":1,"quantity":2},{"productId":9,"quantity":1}],"__v":0}
+2026-05-27 11:05:00.885 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:05:00.885 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:05:00.885 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Data Validation PASSED: Response contains data
+2026-05-27 11:05:00.885 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ PASS - Cart ID Validation: Response ID (3) matches requested cart ID
+2026-05-27 11:05:00.885 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'userId' field
+2026-05-27 11:05:00.885 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ userId Validation PASSED: userId is a valid number
+2026-05-27 11:05:00.885 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'date' field
+2026-05-27 11:05:00.885 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Date Format Validation PASSED: Date is in ISO 8601 format
+2026-05-27 11:05:00.885 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'products' field
+2026-05-27 11:05:00.885 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Structure Validation PASSED: Products is an array
+2026-05-27 11:05:00.885 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Array Validation PASSED: Products array contains items
+2026-05-27 11:05:00.885 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product Structure Validation PASSED: Products have 'productId' and 'quantity' fields
+2026-05-27 11:05:00.885 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Optional Field Detected: Response contains '__v' field (MongoDB version)
+2026-05-27 11:05:00.885 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Complete Attribute Validation PASSED: All 4 required attributes found
+2026-05-27 11:05:00.885 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC3 ==========
+2026-05-27 11:05:00.885 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleCart
+2026-05-27 11:05:00.885 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 11:05:00.885 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Cart ==========
+2026-05-27 11:05:00.885 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC4, CartID=4, CartId=4}
+2026-05-27 11:05:00.885 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC4
+2026-05-27 11:05:00.885 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Cart ID: 4
+2026-05-27 11:05:00.885 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching cart with ID: 4
+2026-05-27 11:05:00.885 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/4
+2026-05-27 11:05:00.885 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/carts/4
+2026-05-27 11:05:00.885 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:05:00.885 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:05:01.363 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:05:01.363 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:05:01.363 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:05:01.363 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":4,"userId":3,"date":"2020-01-01T00:00:00.000Z","products":[{"productId":1,"quantity":4}],"__v":0}
+2026-05-27 11:05:01.364 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:05:01.364 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:05:01.364 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Data Validation PASSED: Response contains data
+2026-05-27 11:05:01.364 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ PASS - Cart ID Validation: Response ID (4) matches requested cart ID
+2026-05-27 11:05:01.364 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'userId' field
+2026-05-27 11:05:01.364 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ userId Validation PASSED: userId is a valid number
+2026-05-27 11:05:01.364 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'date' field
+2026-05-27 11:05:01.364 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Date Format Validation PASSED: Date is in ISO 8601 format
+2026-05-27 11:05:01.364 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'products' field
+2026-05-27 11:05:01.364 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Structure Validation PASSED: Products is an array
+2026-05-27 11:05:01.365 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Array Validation PASSED: Products array contains items
+2026-05-27 11:05:01.365 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product Structure Validation PASSED: Products have 'productId' and 'quantity' fields
+2026-05-27 11:05:01.365 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Optional Field Detected: Response contains '__v' field (MongoDB version)
+2026-05-27 11:05:01.365 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Complete Attribute Validation PASSED: All 4 required attributes found
+2026-05-27 11:05:01.365 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC4 ==========
+2026-05-27 11:05:01.365 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleCart
+2026-05-27 11:05:01.368 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 11:05:01.368 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Cart ==========
+2026-05-27 11:05:01.368 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC5, CartID=5, CartId=5}
+2026-05-27 11:05:01.368 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC5
+2026-05-27 11:05:01.368 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Cart ID: 5
+2026-05-27 11:05:01.369 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching cart with ID: 5
+2026-05-27 11:05:01.369 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/5
+2026-05-27 11:05:01.369 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/carts/5
+2026-05-27 11:05:01.369 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:05:01.369 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:05:01.831 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:05:01.831 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:05:01.831 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:05:01.831 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":5,"userId":3,"date":"2020-03-01T00:00:00.000Z","products":[{"productId":7,"quantity":1},{"productId":8,"quantity":1}],"__v":0}
+2026-05-27 11:05:01.831 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:05:01.831 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:05:01.831 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Data Validation PASSED: Response contains data
+2026-05-27 11:05:01.831 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ PASS - Cart ID Validation: Response ID (5) matches requested cart ID
+2026-05-27 11:05:01.831 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'userId' field
+2026-05-27 11:05:01.831 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ userId Validation PASSED: userId is a valid number
+2026-05-27 11:05:01.831 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'date' field
+2026-05-27 11:05:01.831 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Date Format Validation PASSED: Date is in ISO 8601 format
+2026-05-27 11:05:01.831 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'products' field
+2026-05-27 11:05:01.847 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Structure Validation PASSED: Products is an array
+2026-05-27 11:05:01.847 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Array Validation PASSED: Products array contains items
+2026-05-27 11:05:01.847 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product Structure Validation PASSED: Products have 'productId' and 'quantity' fields
+2026-05-27 11:05:01.847 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Optional Field Detected: Response contains '__v' field (MongoDB version)
+2026-05-27 11:05:01.847 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Complete Attribute Validation PASSED: All 4 required attributes found
+2026-05-27 11:05:01.847 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC5 ==========
+2026-05-27 11:05:01.847 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleCart
+2026-05-27 11:05:01.847 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down CartTests...
+2026-05-27 11:05:01.847 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests teardown completed
+2026-05-27 11:05:01.847 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Cart_GetSingleCart
+2026-05-27 11:05:01.900 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-27 11:08:24.063 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreCartTest_GetSingleCart.log
+2026-05-27 11:08:24.066 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Cart_GetSingleCart
+2026-05-27 11:08:24.066 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up CartTests...
+2026-05-27 11:08:24.066 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests setup completed
+2026-05-27 11:08:24.066 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:GetSingleCart
+2026-05-27 11:08:24.066 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 11:08:24.066 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 11:08:24.066 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: GetSingleCart
+2026-05-27 11:08:24.137 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 11:08:24.138 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 5
+2026-05-27 11:08:24.138 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-27 11:08:24.139 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 11:08:24.140 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Cart ==========
+2026-05-27 11:08:24.140 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC1, CartID=1, CartId=1}
+2026-05-27 11:08:24.141 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-27 11:08:24.141 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Cart ID: 1
+2026-05-27 11:08:24.141 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching cart with ID: 1
+2026-05-27 11:08:24.141 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/1
+2026-05-27 11:08:24.141 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/carts/1
+2026-05-27 11:08:24.141 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:08:24.141 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:08:24.607 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:08:24.607 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:08:24.607 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:08:24.607 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1,"userId":1,"date":"2020-03-02T00:00:00.000Z","products":[{"productId":1,"quantity":4},{"productId":2,"quantity":1},{"productId":3,"quantity":6}],"__v":0}
+2026-05-27 11:08:24.609 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:08:24.609 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:08:24.609 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Data Validation PASSED: Response contains data
+2026-05-27 11:08:24.609 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ PASS - Cart ID Validation: Response ID (1) matches requested cart ID
+2026-05-27 11:08:24.611 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'userId' field
+2026-05-27 11:08:24.611 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ userId Validation PASSED: userId is a valid number
+2026-05-27 11:08:24.611 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'date' field
+2026-05-27 11:08:24.611 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Date Format Validation PASSED: Date is in ISO 8601 format
+2026-05-27 11:08:24.611 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'products' field
+2026-05-27 11:08:24.611 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Structure Validation PASSED: Products is an array
+2026-05-27 11:08:24.611 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Array Validation PASSED: Products array contains items
+2026-05-27 11:08:24.611 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product Structure Validation PASSED: Products have 'productId' and 'quantity' fields
+2026-05-27 11:08:24.611 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Optional Field Detected: Response contains '__v' field (MongoDB version)
+2026-05-27 11:08:24.611 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Complete Attribute Validation PASSED: All 4 required attributes found
+2026-05-27 11:08:24.617 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-27 11:08:24.617 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleCart
+2026-05-27 11:08:24.617 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 11:08:24.624 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Cart ==========
+2026-05-27 11:08:24.624 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC2, CartID=2, CartId=2}
+2026-05-27 11:08:24.624 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-27 11:08:24.624 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Cart ID: 2
+2026-05-27 11:08:24.624 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching cart with ID: 2
+2026-05-27 11:08:24.624 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/2
+2026-05-27 11:08:24.624 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/carts/2
+2026-05-27 11:08:24.624 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:08:24.624 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:08:25.089 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:08:25.091 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:08:25.091 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:08:25.091 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":2,"userId":1,"date":"2020-01-02T00:00:00.000Z","products":[{"productId":2,"quantity":4},{"productId":1,"quantity":10},{"productId":5,"quantity":2}],"__v":0}
+2026-05-27 11:08:25.091 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:08:25.091 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:08:25.091 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Data Validation PASSED: Response contains data
+2026-05-27 11:08:25.091 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ PASS - Cart ID Validation: Response ID (2) matches requested cart ID
+2026-05-27 11:08:25.091 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'userId' field
+2026-05-27 11:08:25.091 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ userId Validation PASSED: userId is a valid number
+2026-05-27 11:08:25.091 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'date' field
+2026-05-27 11:08:25.091 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Date Format Validation PASSED: Date is in ISO 8601 format
+2026-05-27 11:08:25.091 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'products' field
+2026-05-27 11:08:25.091 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Structure Validation PASSED: Products is an array
+2026-05-27 11:08:25.091 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Array Validation PASSED: Products array contains items
+2026-05-27 11:08:25.091 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product Structure Validation PASSED: Products have 'productId' and 'quantity' fields
+2026-05-27 11:08:25.091 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Optional Field Detected: Response contains '__v' field (MongoDB version)
+2026-05-27 11:08:25.091 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Complete Attribute Validation PASSED: All 4 required attributes found
+2026-05-27 11:08:25.091 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-27 11:08:25.091 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleCart
+2026-05-27 11:08:25.093 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 11:08:25.095 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Cart ==========
+2026-05-27 11:08:25.095 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC3, CartID=3, CartId=3}
+2026-05-27 11:08:25.095 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC3
+2026-05-27 11:08:25.095 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Cart ID: 3
+2026-05-27 11:08:25.095 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching cart with ID: 3
+2026-05-27 11:08:25.095 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/3
+2026-05-27 11:08:25.095 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/carts/3
+2026-05-27 11:08:25.095 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:08:25.095 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:08:25.568 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:08:25.568 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:08:25.568 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:08:25.568 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":3,"userId":2,"date":"2020-03-01T00:00:00.000Z","products":[{"productId":1,"quantity":2},{"productId":9,"quantity":1}],"__v":0}
+2026-05-27 11:08:25.568 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:08:25.568 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:08:25.568 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Data Validation PASSED: Response contains data
+2026-05-27 11:08:25.568 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ PASS - Cart ID Validation: Response ID (3) matches requested cart ID
+2026-05-27 11:08:25.568 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'userId' field
+2026-05-27 11:08:25.568 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ userId Validation PASSED: userId is a valid number
+2026-05-27 11:08:25.568 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'date' field
+2026-05-27 11:08:25.568 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Date Format Validation PASSED: Date is in ISO 8601 format
+2026-05-27 11:08:25.568 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'products' field
+2026-05-27 11:08:25.568 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Structure Validation PASSED: Products is an array
+2026-05-27 11:08:25.568 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Array Validation PASSED: Products array contains items
+2026-05-27 11:08:25.568 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product Structure Validation PASSED: Products have 'productId' and 'quantity' fields
+2026-05-27 11:08:25.568 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Optional Field Detected: Response contains '__v' field (MongoDB version)
+2026-05-27 11:08:25.568 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Complete Attribute Validation PASSED: All 4 required attributes found
+2026-05-27 11:08:25.568 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC3 ==========
+2026-05-27 11:08:25.568 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleCart
+2026-05-27 11:08:25.568 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 11:08:25.568 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Cart ==========
+2026-05-27 11:08:25.568 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC4, CartID=4, CartId=4}
+2026-05-27 11:08:25.568 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC4
+2026-05-27 11:08:25.568 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Cart ID: 4
+2026-05-27 11:08:25.568 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching cart with ID: 4
+2026-05-27 11:08:25.568 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/4
+2026-05-27 11:08:25.568 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/carts/4
+2026-05-27 11:08:25.568 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:08:25.568 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:08:26.028 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:08:26.028 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:08:26.028 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:08:26.028 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":4,"userId":3,"date":"2020-01-01T00:00:00.000Z","products":[{"productId":1,"quantity":4}],"__v":0}
+2026-05-27 11:08:26.028 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:08:26.028 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:08:26.028 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Data Validation PASSED: Response contains data
+2026-05-27 11:08:26.028 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ PASS - Cart ID Validation: Response ID (4) matches requested cart ID
+2026-05-27 11:08:26.029 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'userId' field
+2026-05-27 11:08:26.029 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ userId Validation PASSED: userId is a valid number
+2026-05-27 11:08:26.029 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'date' field
+2026-05-27 11:08:26.029 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Date Format Validation PASSED: Date is in ISO 8601 format
+2026-05-27 11:08:26.029 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'products' field
+2026-05-27 11:08:26.029 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Structure Validation PASSED: Products is an array
+2026-05-27 11:08:26.029 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Array Validation PASSED: Products array contains items
+2026-05-27 11:08:26.029 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product Structure Validation PASSED: Products have 'productId' and 'quantity' fields
+2026-05-27 11:08:26.029 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Optional Field Detected: Response contains '__v' field (MongoDB version)
+2026-05-27 11:08:26.029 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Complete Attribute Validation PASSED: All 4 required attributes found
+2026-05-27 11:08:26.029 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC4 ==========
+2026-05-27 11:08:26.029 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleCart
+2026-05-27 11:08:26.031 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 11:08:26.032 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Cart ==========
+2026-05-27 11:08:26.032 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC5, CartID=5, CartId=5}
+2026-05-27 11:08:26.032 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC5
+2026-05-27 11:08:26.032 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Cart ID: 5
+2026-05-27 11:08:26.032 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching cart with ID: 5
+2026-05-27 11:08:26.032 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/5
+2026-05-27 11:08:26.032 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/carts/5
+2026-05-27 11:08:26.032 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:08:26.032 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:08:26.485 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:08:26.485 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:08:26.487 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:08:26.487 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":5,"userId":3,"date":"2020-03-01T00:00:00.000Z","products":[{"productId":7,"quantity":1},{"productId":8,"quantity":1}],"__v":0}
+2026-05-27 11:08:26.487 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:08:26.487 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:08:26.487 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Data Validation PASSED: Response contains data
+2026-05-27 11:08:26.487 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ PASS - Cart ID Validation: Response ID (5) matches requested cart ID
+2026-05-27 11:08:26.487 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'userId' field
+2026-05-27 11:08:26.487 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ userId Validation PASSED: userId is a valid number
+2026-05-27 11:08:26.487 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'date' field
+2026-05-27 11:08:26.487 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Date Format Validation PASSED: Date is in ISO 8601 format
+2026-05-27 11:08:26.487 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'products' field
+2026-05-27 11:08:26.487 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Structure Validation PASSED: Products is an array
+2026-05-27 11:08:26.487 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Array Validation PASSED: Products array contains items
+2026-05-27 11:08:26.487 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product Structure Validation PASSED: Products have 'productId' and 'quantity' fields
+2026-05-27 11:08:26.487 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Optional Field Detected: Response contains '__v' field (MongoDB version)
+2026-05-27 11:08:26.487 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Complete Attribute Validation PASSED: All 4 required attributes found
+2026-05-27 11:08:26.487 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC5 ==========
+2026-05-27 11:08:26.487 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleCart
+2026-05-27 11:08:26.489 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down CartTests...
+2026-05-27 11:08:26.489 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests teardown completed
+2026-05-27 11:08:26.489 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Cart_GetSingleCart
+2026-05-27 11:08:26.512 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-27 11:20:22.254 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreCartTest_GetSingleCart.log
+2026-05-27 11:20:22.259 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Cart_GetSingleCart
+2026-05-27 11:20:22.261 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up CartTests...
+2026-05-27 11:20:22.261 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests setup completed
+2026-05-27 11:20:22.261 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:GetSingleCart
+2026-05-27 11:20:22.261 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 11:20:22.261 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 11:20:22.261 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: GetSingleCart
+2026-05-27 11:20:22.336 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 11:20:22.338 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 5
+2026-05-27 11:20:22.338 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-27 11:20:22.340 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 11:20:22.340 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Cart ==========
+2026-05-27 11:20:22.340 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC1, CartID=1, CartId=1}
+2026-05-27 11:20:22.340 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-27 11:20:22.340 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Cart ID: 1
+2026-05-27 11:20:22.340 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching cart with ID: 1
+2026-05-27 11:20:22.340 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/1
+2026-05-27 11:20:22.340 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/carts/1
+2026-05-27 11:20:22.340 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:20:22.340 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:20:22.854 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:20:22.856 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:20:22.856 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:20:22.856 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1,"userId":1,"date":"2020-03-02T00:00:00.000Z","products":[{"productId":1,"quantity":4},{"productId":2,"quantity":1},{"productId":3,"quantity":6}],"__v":0}
+2026-05-27 11:20:22.856 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:20:22.856 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:20:22.856 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Data Validation PASSED: Response contains data
+2026-05-27 11:20:22.856 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ PASS - Cart ID Validation: Response ID (1) matches requested cart ID
+2026-05-27 11:20:22.856 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'userId' field
+2026-05-27 11:20:22.856 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ userId Validation PASSED: userId is a valid number
+2026-05-27 11:20:22.856 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'date' field
+2026-05-27 11:20:22.856 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Date Format Validation PASSED: Date is in ISO 8601 format
+2026-05-27 11:20:22.856 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'products' field
+2026-05-27 11:20:22.856 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Structure Validation PASSED: Products is an array
+2026-05-27 11:20:22.856 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Array Validation PASSED: Products array contains items
+2026-05-27 11:20:22.856 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product Structure Validation PASSED: Products have 'productId' and 'quantity' fields
+2026-05-27 11:20:22.856 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Optional Field Detected: Response contains '__v' field (MongoDB version)
+2026-05-27 11:20:22.856 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Complete Attribute Validation PASSED: All 4 required attributes found
+2026-05-27 11:20:22.863 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-27 11:20:22.863 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleCart
+2026-05-27 11:20:22.864 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 11:20:22.864 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Cart ==========
+2026-05-27 11:20:22.864 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC2, CartID=2, CartId=2}
+2026-05-27 11:20:22.864 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-27 11:20:22.864 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Cart ID: 2
+2026-05-27 11:20:22.864 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching cart with ID: 2
+2026-05-27 11:20:22.864 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/2
+2026-05-27 11:20:22.864 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/carts/2
+2026-05-27 11:20:22.864 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:20:22.864 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:20:23.564 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:20:23.564 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:20:23.564 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:20:23.564 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":2,"userId":1,"date":"2020-01-02T00:00:00.000Z","products":[{"productId":2,"quantity":4},{"productId":1,"quantity":10},{"productId":5,"quantity":2}],"__v":0}
+2026-05-27 11:20:23.564 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:20:23.564 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:20:23.564 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Data Validation PASSED: Response contains data
+2026-05-27 11:20:23.564 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ PASS - Cart ID Validation: Response ID (2) matches requested cart ID
+2026-05-27 11:20:23.564 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'userId' field
+2026-05-27 11:20:23.564 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ userId Validation PASSED: userId is a valid number
+2026-05-27 11:20:23.564 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'date' field
+2026-05-27 11:20:23.564 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Date Format Validation PASSED: Date is in ISO 8601 format
+2026-05-27 11:20:23.564 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'products' field
+2026-05-27 11:20:23.564 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Structure Validation PASSED: Products is an array
+2026-05-27 11:20:23.564 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Array Validation PASSED: Products array contains items
+2026-05-27 11:20:23.564 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product Structure Validation PASSED: Products have 'productId' and 'quantity' fields
+2026-05-27 11:20:23.564 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Optional Field Detected: Response contains '__v' field (MongoDB version)
+2026-05-27 11:20:23.564 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Complete Attribute Validation PASSED: All 4 required attributes found
+2026-05-27 11:20:23.564 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-27 11:20:23.564 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleCart
+2026-05-27 11:20:23.571 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 11:20:23.571 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Cart ==========
+2026-05-27 11:20:23.571 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC3, CartID=3, CartId=3}
+2026-05-27 11:20:23.571 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC3
+2026-05-27 11:20:23.571 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Cart ID: 3
+2026-05-27 11:20:23.571 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching cart with ID: 3
+2026-05-27 11:20:23.571 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/3
+2026-05-27 11:20:23.571 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/carts/3
+2026-05-27 11:20:23.571 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:20:23.571 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:20:24.176 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:20:24.176 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:20:24.176 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:20:24.176 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":3,"userId":2,"date":"2020-03-01T00:00:00.000Z","products":[{"productId":1,"quantity":2},{"productId":9,"quantity":1}],"__v":0}
+2026-05-27 11:20:24.176 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:20:24.176 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:20:24.176 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Data Validation PASSED: Response contains data
+2026-05-27 11:20:24.176 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ PASS - Cart ID Validation: Response ID (3) matches requested cart ID
+2026-05-27 11:20:24.176 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'userId' field
+2026-05-27 11:20:24.176 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ userId Validation PASSED: userId is a valid number
+2026-05-27 11:20:24.176 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'date' field
+2026-05-27 11:20:24.176 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Date Format Validation PASSED: Date is in ISO 8601 format
+2026-05-27 11:20:24.176 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'products' field
+2026-05-27 11:20:24.176 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Structure Validation PASSED: Products is an array
+2026-05-27 11:20:24.176 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Array Validation PASSED: Products array contains items
+2026-05-27 11:20:24.176 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product Structure Validation PASSED: Products have 'productId' and 'quantity' fields
+2026-05-27 11:20:24.176 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Optional Field Detected: Response contains '__v' field (MongoDB version)
+2026-05-27 11:20:24.176 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Complete Attribute Validation PASSED: All 4 required attributes found
+2026-05-27 11:20:24.176 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC3 ==========
+2026-05-27 11:20:24.176 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleCart
+2026-05-27 11:20:24.179 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 11:20:24.179 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Cart ==========
+2026-05-27 11:20:24.179 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC4, CartID=4, CartId=4}
+2026-05-27 11:20:24.179 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC4
+2026-05-27 11:20:24.179 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Cart ID: 4
+2026-05-27 11:20:24.179 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching cart with ID: 4
+2026-05-27 11:20:24.179 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/4
+2026-05-27 11:20:24.179 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/carts/4
+2026-05-27 11:20:24.179 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:20:24.179 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:20:24.781 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:20:24.781 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:20:24.795 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:20:24.795 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":4,"userId":3,"date":"2020-01-01T00:00:00.000Z","products":[{"productId":1,"quantity":4}],"__v":0}
+2026-05-27 11:20:24.795 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:20:24.795 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:20:24.795 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Data Validation PASSED: Response contains data
+2026-05-27 11:20:24.795 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ PASS - Cart ID Validation: Response ID (4) matches requested cart ID
+2026-05-27 11:20:24.795 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'userId' field
+2026-05-27 11:20:24.795 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ userId Validation PASSED: userId is a valid number
+2026-05-27 11:20:24.795 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'date' field
+2026-05-27 11:20:24.795 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Date Format Validation PASSED: Date is in ISO 8601 format
+2026-05-27 11:20:24.795 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'products' field
+2026-05-27 11:20:24.795 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Structure Validation PASSED: Products is an array
+2026-05-27 11:20:24.795 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Array Validation PASSED: Products array contains items
+2026-05-27 11:20:24.795 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product Structure Validation PASSED: Products have 'productId' and 'quantity' fields
+2026-05-27 11:20:24.795 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Optional Field Detected: Response contains '__v' field (MongoDB version)
+2026-05-27 11:20:24.795 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Complete Attribute Validation PASSED: All 4 required attributes found
+2026-05-27 11:20:24.795 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC4 ==========
+2026-05-27 11:20:24.795 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleCart
+2026-05-27 11:20:24.797 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 11:20:24.799 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Cart ==========
+2026-05-27 11:20:24.799 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC5, CartID=5, CartId=5}
+2026-05-27 11:20:24.799 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC5
+2026-05-27 11:20:24.799 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Cart ID: 5
+2026-05-27 11:20:24.799 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching cart with ID: 5
+2026-05-27 11:20:24.799 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/5
+2026-05-27 11:20:24.799 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/carts/5
+2026-05-27 11:20:24.799 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:20:24.799 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:20:25.454 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:20:25.454 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:20:25.456 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:20:25.456 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":5,"userId":3,"date":"2020-03-01T00:00:00.000Z","products":[{"productId":7,"quantity":1},{"productId":8,"quantity":1}],"__v":0}
+2026-05-27 11:20:25.456 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:20:25.456 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:20:25.456 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Data Validation PASSED: Response contains data
+2026-05-27 11:20:25.456 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ PASS - Cart ID Validation: Response ID (5) matches requested cart ID
+2026-05-27 11:20:25.456 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'userId' field
+2026-05-27 11:20:25.456 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ userId Validation PASSED: userId is a valid number
+2026-05-27 11:20:25.456 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'date' field
+2026-05-27 11:20:25.456 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Date Format Validation PASSED: Date is in ISO 8601 format
+2026-05-27 11:20:25.456 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'products' field
+2026-05-27 11:20:25.456 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Structure Validation PASSED: Products is an array
+2026-05-27 11:20:25.456 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Array Validation PASSED: Products array contains items
+2026-05-27 11:20:25.456 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product Structure Validation PASSED: Products have 'productId' and 'quantity' fields
+2026-05-27 11:20:25.456 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Optional Field Detected: Response contains '__v' field (MongoDB version)
+2026-05-27 11:20:25.456 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Complete Attribute Validation PASSED: All 4 required attributes found
+2026-05-27 11:20:25.456 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC5 ==========
+2026-05-27 11:20:25.456 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleCart
+2026-05-27 11:20:25.458 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down CartTests...
+2026-05-27 11:20:25.458 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests teardown completed
+2026-05-27 11:20:25.458 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Cart_GetSingleCart
+2026-05-27 11:20:25.479 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-27 11:25:04.097 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreCartTest_GetSingleCart.log
+2026-05-27 11:25:04.102 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Cart_GetSingleCart
+2026-05-27 11:25:04.103 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up CartTests...
+2026-05-27 11:25:04.103 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests setup completed
+2026-05-27 11:25:04.104 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:GetSingleCart
+2026-05-27 11:25:04.104 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 11:25:04.104 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 11:25:04.104 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: GetSingleCart
+2026-05-27 11:25:04.215 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 11:25:04.217 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 5
+2026-05-27 11:25:04.217 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-27 11:25:04.219 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 11:25:04.220 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Cart ==========
+2026-05-27 11:25:04.220 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC1, CartID=1, CartId=1}
+2026-05-27 11:25:04.220 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-27 11:25:04.221 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Cart ID: 1
+2026-05-27 11:25:04.221 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching cart with ID: 1
+2026-05-27 11:25:04.221 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/1
+2026-05-27 11:25:04.221 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/carts/1
+2026-05-27 11:25:04.221 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:25:04.221 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:25:04.746 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:25:04.749 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:25:04.749 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:25:04.749 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1,"userId":1,"date":"2020-03-02T00:00:00.000Z","products":[{"productId":1,"quantity":4},{"productId":2,"quantity":1},{"productId":3,"quantity":6}],"__v":0}
+2026-05-27 11:25:04.749 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:25:04.749 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:25:04.749 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Data Validation PASSED: Response contains data
+2026-05-27 11:25:04.749 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ PASS - Cart ID Validation: Response ID (1) matches requested cart ID
+2026-05-27 11:25:04.749 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'userId' field
+2026-05-27 11:25:04.749 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ userId Validation PASSED: userId is a valid number
+2026-05-27 11:25:04.749 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'date' field
+2026-05-27 11:25:04.749 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Date Format Validation PASSED: Date is in ISO 8601 format
+2026-05-27 11:25:04.749 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'products' field
+2026-05-27 11:25:04.749 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Structure Validation PASSED: Products is an array
+2026-05-27 11:25:04.749 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Array Validation PASSED: Products array contains items
+2026-05-27 11:25:04.749 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product Structure Validation PASSED: Products have 'productId' and 'quantity' fields
+2026-05-27 11:25:04.749 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Optional Field Detected: Response contains '__v' field (MongoDB version)
+2026-05-27 11:25:04.749 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Complete Attribute Validation PASSED: All 4 required attributes found
+2026-05-27 11:25:04.759 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-27 11:25:04.759 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleCart
+2026-05-27 11:25:04.761 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 11:25:04.761 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Cart ==========
+2026-05-27 11:25:04.761 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC2, CartID=2, CartId=2}
+2026-05-27 11:25:04.761 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-27 11:25:04.761 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Cart ID: 2
+2026-05-27 11:25:04.761 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching cart with ID: 2
+2026-05-27 11:25:04.761 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/2
+2026-05-27 11:25:04.761 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/carts/2
+2026-05-27 11:25:04.766 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:25:04.766 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:25:05.297 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:25:05.297 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:25:05.297 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:25:05.297 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":2,"userId":1,"date":"2020-01-02T00:00:00.000Z","products":[{"productId":2,"quantity":4},{"productId":1,"quantity":10},{"productId":5,"quantity":2}],"__v":0}
+2026-05-27 11:25:05.298 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:25:05.298 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:25:05.298 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Data Validation PASSED: Response contains data
+2026-05-27 11:25:05.298 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ PASS - Cart ID Validation: Response ID (2) matches requested cart ID
+2026-05-27 11:25:05.298 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'userId' field
+2026-05-27 11:25:05.298 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ userId Validation PASSED: userId is a valid number
+2026-05-27 11:25:05.298 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'date' field
+2026-05-27 11:25:05.298 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Date Format Validation PASSED: Date is in ISO 8601 format
+2026-05-27 11:25:05.298 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'products' field
+2026-05-27 11:25:05.298 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Structure Validation PASSED: Products is an array
+2026-05-27 11:25:05.299 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Array Validation PASSED: Products array contains items
+2026-05-27 11:25:05.299 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product Structure Validation PASSED: Products have 'productId' and 'quantity' fields
+2026-05-27 11:25:05.299 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Optional Field Detected: Response contains '__v' field (MongoDB version)
+2026-05-27 11:25:05.299 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Complete Attribute Validation PASSED: All 4 required attributes found
+2026-05-27 11:25:05.299 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-27 11:25:05.299 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleCart
+2026-05-27 11:25:05.301 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 11:25:05.301 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Cart ==========
+2026-05-27 11:25:05.302 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC3, CartID=3, CartId=3}
+2026-05-27 11:25:05.302 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC3
+2026-05-27 11:25:05.302 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Cart ID: 3
+2026-05-27 11:25:05.302 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching cart with ID: 3
+2026-05-27 11:25:05.302 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/3
+2026-05-27 11:25:05.302 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/carts/3
+2026-05-27 11:25:05.302 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:25:05.302 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:25:05.819 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:25:05.819 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:25:05.819 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:25:05.819 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":3,"userId":2,"date":"2020-03-01T00:00:00.000Z","products":[{"productId":1,"quantity":2},{"productId":9,"quantity":1}],"__v":0}
+2026-05-27 11:25:05.819 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:25:05.819 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:25:05.819 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Data Validation PASSED: Response contains data
+2026-05-27 11:25:05.819 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ PASS - Cart ID Validation: Response ID (3) matches requested cart ID
+2026-05-27 11:25:05.819 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'userId' field
+2026-05-27 11:25:05.819 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ userId Validation PASSED: userId is a valid number
+2026-05-27 11:25:05.819 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'date' field
+2026-05-27 11:25:05.819 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Date Format Validation PASSED: Date is in ISO 8601 format
+2026-05-27 11:25:05.819 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'products' field
+2026-05-27 11:25:05.819 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Structure Validation PASSED: Products is an array
+2026-05-27 11:25:05.819 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Array Validation PASSED: Products array contains items
+2026-05-27 11:25:05.819 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product Structure Validation PASSED: Products have 'productId' and 'quantity' fields
+2026-05-27 11:25:05.819 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Optional Field Detected: Response contains '__v' field (MongoDB version)
+2026-05-27 11:25:05.823 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Complete Attribute Validation PASSED: All 4 required attributes found
+2026-05-27 11:25:05.825 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC3 ==========
+2026-05-27 11:25:05.825 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleCart
+2026-05-27 11:25:05.831 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 11:25:05.832 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Cart ==========
+2026-05-27 11:25:05.832 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC4, CartID=4, CartId=4}
+2026-05-27 11:25:05.832 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC4
+2026-05-27 11:25:05.832 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Cart ID: 4
+2026-05-27 11:25:05.832 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching cart with ID: 4
+2026-05-27 11:25:05.832 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/4
+2026-05-27 11:25:05.832 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/carts/4
+2026-05-27 11:25:05.832 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:25:05.833 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:25:06.344 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:25:06.345 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:25:06.345 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:25:06.345 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":4,"userId":3,"date":"2020-01-01T00:00:00.000Z","products":[{"productId":1,"quantity":4}],"__v":0}
+2026-05-27 11:25:06.345 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:25:06.346 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:25:06.346 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Data Validation PASSED: Response contains data
+2026-05-27 11:25:06.346 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ PASS - Cart ID Validation: Response ID (4) matches requested cart ID
+2026-05-27 11:25:06.346 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'userId' field
+2026-05-27 11:25:06.346 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ userId Validation PASSED: userId is a valid number
+2026-05-27 11:25:06.346 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'date' field
+2026-05-27 11:25:06.346 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Date Format Validation PASSED: Date is in ISO 8601 format
+2026-05-27 11:25:06.346 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'products' field
+2026-05-27 11:25:06.346 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Structure Validation PASSED: Products is an array
+2026-05-27 11:25:06.346 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Array Validation PASSED: Products array contains items
+2026-05-27 11:25:06.346 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product Structure Validation PASSED: Products have 'productId' and 'quantity' fields
+2026-05-27 11:25:06.346 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Optional Field Detected: Response contains '__v' field (MongoDB version)
+2026-05-27 11:25:06.346 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Complete Attribute Validation PASSED: All 4 required attributes found
+2026-05-27 11:25:06.347 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC4 ==========
+2026-05-27 11:25:06.347 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleCart
+2026-05-27 11:25:06.349 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 11:25:06.350 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Cart ==========
+2026-05-27 11:25:06.350 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC5, CartID=5, CartId=5}
+2026-05-27 11:25:06.350 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC5
+2026-05-27 11:25:06.350 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Cart ID: 5
+2026-05-27 11:25:06.350 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching cart with ID: 5
+2026-05-27 11:25:06.350 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/5
+2026-05-27 11:25:06.350 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/carts/5
+2026-05-27 11:25:06.351 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:25:06.351 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:25:06.862 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:25:06.862 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:25:06.862 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:25:06.862 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":5,"userId":3,"date":"2020-03-01T00:00:00.000Z","products":[{"productId":7,"quantity":1},{"productId":8,"quantity":1}],"__v":0}
+2026-05-27 11:25:06.862 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:25:06.862 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:25:06.862 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Data Validation PASSED: Response contains data
+2026-05-27 11:25:06.862 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ PASS - Cart ID Validation: Response ID (5) matches requested cart ID
+2026-05-27 11:25:06.862 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'userId' field
+2026-05-27 11:25:06.862 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ userId Validation PASSED: userId is a valid number
+2026-05-27 11:25:06.862 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'date' field
+2026-05-27 11:25:06.862 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Date Format Validation PASSED: Date is in ISO 8601 format
+2026-05-27 11:25:06.862 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'products' field
+2026-05-27 11:25:06.862 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Structure Validation PASSED: Products is an array
+2026-05-27 11:25:06.862 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Array Validation PASSED: Products array contains items
+2026-05-27 11:25:06.862 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product Structure Validation PASSED: Products have 'productId' and 'quantity' fields
+2026-05-27 11:25:06.862 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Optional Field Detected: Response contains '__v' field (MongoDB version)
+2026-05-27 11:25:06.862 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Complete Attribute Validation PASSED: All 4 required attributes found
+2026-05-27 11:25:06.862 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC5 ==========
+2026-05-27 11:25:06.862 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleCart
+2026-05-27 11:25:06.867 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down CartTests...
+2026-05-27 11:25:06.867 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests teardown completed
+2026-05-27 11:25:06.867 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Cart_GetSingleCart
+2026-05-27 11:25:06.894 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-27 11:42:16.262 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreCartTest_GetSingleCart.log
+2026-05-27 11:42:16.271 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Cart_GetSingleCart
+2026-05-27 11:42:16.271 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up CartTests...
+2026-05-27 11:42:16.271 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests setup completed
+2026-05-27 11:42:16.271 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:GetSingleCart
+2026-05-27 11:42:16.271 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 11:42:16.271 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 11:42:16.271 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: GetSingleCart
+2026-05-27 11:42:16.354 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 11:42:16.354 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 5
+2026-05-27 11:42:16.354 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-27 11:42:16.354 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 11:42:16.354 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Cart ==========
+2026-05-27 11:42:16.359 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC1, CartID=1, CartId=1}
+2026-05-27 11:42:16.359 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-27 11:42:16.359 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Cart ID: 1
+2026-05-27 11:42:16.359 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching cart with ID: 1
+2026-05-27 11:42:16.359 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/1
+2026-05-27 11:42:16.359 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/carts/1
+2026-05-27 11:42:16.359 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:42:16.359 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:42:16.872 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:42:16.872 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:42:16.872 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:42:16.872 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1,"userId":1,"date":"2020-03-02T00:00:00.000Z","products":[{"productId":1,"quantity":4},{"productId":2,"quantity":1},{"productId":3,"quantity":6}],"__v":0}
+2026-05-27 11:42:16.874 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:42:16.874 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:42:16.874 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Data Validation PASSED: Response contains data
+2026-05-27 11:42:16.874 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ PASS - Cart ID Validation: Response ID (1) matches requested cart ID
+2026-05-27 11:42:16.876 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'userId' field
+2026-05-27 11:42:16.876 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ userId Validation PASSED: userId is a valid number
+2026-05-27 11:42:16.876 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'date' field
+2026-05-27 11:42:16.876 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Date Format Validation PASSED: Date is in ISO 8601 format
+2026-05-27 11:42:16.876 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'products' field
+2026-05-27 11:42:16.876 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Structure Validation PASSED: Products is an array
+2026-05-27 11:42:16.876 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Array Validation PASSED: Products array contains items
+2026-05-27 11:42:16.876 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product Structure Validation PASSED: Products have 'productId' and 'quantity' fields
+2026-05-27 11:42:16.876 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Optional Field Detected: Response contains '__v' field (MongoDB version)
+2026-05-27 11:42:16.878 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Complete Attribute Validation PASSED: All 4 required attributes found
+2026-05-27 11:42:16.884 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-27 11:42:16.884 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleCart
+2026-05-27 11:42:16.886 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 11:42:16.886 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Cart ==========
+2026-05-27 11:42:16.886 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC2, CartID=2, CartId=2}
+2026-05-27 11:42:16.886 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-27 11:42:16.886 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Cart ID: 2
+2026-05-27 11:42:16.886 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching cart with ID: 2
+2026-05-27 11:42:16.886 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/2
+2026-05-27 11:42:16.886 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/carts/2
+2026-05-27 11:42:16.886 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:42:16.886 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:42:17.403 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:42:17.403 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:42:17.403 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:42:17.403 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":2,"userId":1,"date":"2020-01-02T00:00:00.000Z","products":[{"productId":2,"quantity":4},{"productId":1,"quantity":10},{"productId":5,"quantity":2}],"__v":0}
+2026-05-27 11:42:17.403 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:42:17.403 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:42:17.403 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Data Validation PASSED: Response contains data
+2026-05-27 11:42:17.403 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ PASS - Cart ID Validation: Response ID (2) matches requested cart ID
+2026-05-27 11:42:17.403 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'userId' field
+2026-05-27 11:42:17.403 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ userId Validation PASSED: userId is a valid number
+2026-05-27 11:42:17.403 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'date' field
+2026-05-27 11:42:17.403 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Date Format Validation PASSED: Date is in ISO 8601 format
+2026-05-27 11:42:17.403 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'products' field
+2026-05-27 11:42:17.403 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Structure Validation PASSED: Products is an array
+2026-05-27 11:42:17.403 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Array Validation PASSED: Products array contains items
+2026-05-27 11:42:17.403 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product Structure Validation PASSED: Products have 'productId' and 'quantity' fields
+2026-05-27 11:42:17.403 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Optional Field Detected: Response contains '__v' field (MongoDB version)
+2026-05-27 11:42:17.403 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Complete Attribute Validation PASSED: All 4 required attributes found
+2026-05-27 11:42:17.419 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-27 11:42:17.419 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleCart
+2026-05-27 11:42:17.423 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 11:42:17.423 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Cart ==========
+2026-05-27 11:42:17.423 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC3, CartID=3, CartId=3}
+2026-05-27 11:42:17.423 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC3
+2026-05-27 11:42:17.423 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Cart ID: 3
+2026-05-27 11:42:17.423 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching cart with ID: 3
+2026-05-27 11:42:17.423 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/3
+2026-05-27 11:42:17.423 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/carts/3
+2026-05-27 11:42:17.423 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:42:17.423 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:42:17.935 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:42:17.935 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:42:17.947 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:42:17.947 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":3,"userId":2,"date":"2020-03-01T00:00:00.000Z","products":[{"productId":1,"quantity":2},{"productId":9,"quantity":1}],"__v":0}
+2026-05-27 11:42:17.947 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:42:17.947 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:42:17.947 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Data Validation PASSED: Response contains data
+2026-05-27 11:42:17.949 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ PASS - Cart ID Validation: Response ID (3) matches requested cart ID
+2026-05-27 11:42:17.949 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'userId' field
+2026-05-27 11:42:17.949 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ userId Validation PASSED: userId is a valid number
+2026-05-27 11:42:17.949 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'date' field
+2026-05-27 11:42:17.949 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Date Format Validation PASSED: Date is in ISO 8601 format
+2026-05-27 11:42:17.949 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'products' field
+2026-05-27 11:42:17.949 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Structure Validation PASSED: Products is an array
+2026-05-27 11:42:17.949 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Array Validation PASSED: Products array contains items
+2026-05-27 11:42:17.949 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product Structure Validation PASSED: Products have 'productId' and 'quantity' fields
+2026-05-27 11:42:17.949 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Optional Field Detected: Response contains '__v' field (MongoDB version)
+2026-05-27 11:42:17.949 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Complete Attribute Validation PASSED: All 4 required attributes found
+2026-05-27 11:42:17.952 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC3 ==========
+2026-05-27 11:42:17.954 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleCart
+2026-05-27 11:42:17.961 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 11:42:17.961 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Cart ==========
+2026-05-27 11:42:17.961 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC4, CartID=4, CartId=4}
+2026-05-27 11:42:17.964 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC4
+2026-05-27 11:42:17.964 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Cart ID: 4
+2026-05-27 11:42:17.964 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching cart with ID: 4
+2026-05-27 11:42:17.964 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/4
+2026-05-27 11:42:17.964 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/carts/4
+2026-05-27 11:42:17.966 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:42:17.966 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:42:18.448 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:42:18.448 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:42:18.448 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:42:18.448 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":4,"userId":3,"date":"2020-01-01T00:00:00.000Z","products":[{"productId":1,"quantity":4}],"__v":0}
+2026-05-27 11:42:18.448 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:42:18.448 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:42:18.448 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Data Validation PASSED: Response contains data
+2026-05-27 11:42:18.448 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ PASS - Cart ID Validation: Response ID (4) matches requested cart ID
+2026-05-27 11:42:18.448 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'userId' field
+2026-05-27 11:42:18.448 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ userId Validation PASSED: userId is a valid number
+2026-05-27 11:42:18.448 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'date' field
+2026-05-27 11:42:18.448 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Date Format Validation PASSED: Date is in ISO 8601 format
+2026-05-27 11:42:18.448 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'products' field
+2026-05-27 11:42:18.448 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Structure Validation PASSED: Products is an array
+2026-05-27 11:42:18.448 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Array Validation PASSED: Products array contains items
+2026-05-27 11:42:18.448 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product Structure Validation PASSED: Products have 'productId' and 'quantity' fields
+2026-05-27 11:42:18.448 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Optional Field Detected: Response contains '__v' field (MongoDB version)
+2026-05-27 11:42:18.448 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Complete Attribute Validation PASSED: All 4 required attributes found
+2026-05-27 11:42:18.448 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC4 ==========
+2026-05-27 11:42:18.448 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleCart
+2026-05-27 11:42:18.448 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleCart
+2026-05-27 11:42:18.448 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Cart ==========
+2026-05-27 11:42:18.448 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC5, CartID=5, CartId=5}
+2026-05-27 11:42:18.448 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC5
+2026-05-27 11:42:18.448 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Cart ID: 5
+2026-05-27 11:42:18.448 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching cart with ID: 5
+2026-05-27 11:42:18.448 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/5
+2026-05-27 11:42:18.448 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/carts/5
+2026-05-27 11:42:18.448 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:42:18.448 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:42:18.949 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:42:18.949 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:42:18.949 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:42:18.949 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":5,"userId":3,"date":"2020-03-01T00:00:00.000Z","products":[{"productId":7,"quantity":1},{"productId":8,"quantity":1}],"__v":0}
+2026-05-27 11:42:18.949 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:42:18.951 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:42:18.951 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Data Validation PASSED: Response contains data
+2026-05-27 11:42:18.951 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ PASS - Cart ID Validation: Response ID (5) matches requested cart ID
+2026-05-27 11:42:18.951 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'userId' field
+2026-05-27 11:42:18.951 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ userId Validation PASSED: userId is a valid number
+2026-05-27 11:42:18.951 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'date' field
+2026-05-27 11:42:18.951 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Date Format Validation PASSED: Date is in ISO 8601 format
+2026-05-27 11:42:18.951 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Attribute Validation PASSED: Contains 'products' field
+2026-05-27 11:42:18.951 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Structure Validation PASSED: Products is an array
+2026-05-27 11:42:18.951 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Products Array Validation PASSED: Products array contains items
+2026-05-27 11:42:18.951 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product Structure Validation PASSED: Products have 'productId' and 'quantity' fields
+2026-05-27 11:42:18.951 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Optional Field Detected: Response contains '__v' field (MongoDB version)
+2026-05-27 11:42:18.951 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Complete Attribute Validation PASSED: All 4 required attributes found
+2026-05-27 11:42:18.953 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC5 ==========
+2026-05-27 11:42:18.953 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleCart
+2026-05-27 11:42:18.955 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down CartTests...
+2026-05-27 11:42:18.955 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests teardown completed
+2026-05-27 11:42:18.955 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Cart_GetSingleCart
+2026-05-27 11:42:19.024 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully

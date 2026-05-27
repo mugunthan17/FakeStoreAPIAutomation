@@ -1,0 +1,699 @@
+2026-05-26 22:29:59.118 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreLoginTest_AddNewUser.log
+2026-05-26 22:29:59.122 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Login_AddNewUser
+2026-05-26 22:29:59.123 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up LoginTests...
+2026-05-26 22:29:59.125 [main] INFO  c.f.automation.utils.LoggerUtil - LoginTests setup completed
+2026-05-26 22:29:59.126 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:AddNewUser
+2026-05-26 22:29:59.127 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-26 22:29:59.127 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-26 22:29:59.127 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: AddNewUser
+2026-05-26 22:29:59.185 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-26 22:29:59.187 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 2
+2026-05-26 22:29:59.188 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-26 22:29:59.191 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testAddNewUser
+2026-05-26 22:29:59.191 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Add New User ==========
+2026-05-26 22:29:59.193 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {Email=ab.devillers@rcb.com, FirstName=John, Latitude=13, City=Chennai, Longitude=80, Number=10, TestCase=TC1, Username=johndoe, Phone=9876543210, Zipcode=600001, Street=Anna Salai, LastName=Doe, Password=test123}
+2026-05-26 22:29:59.193 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-26 22:29:59.193 [main] INFO  c.f.automation.utils.LoggerUtil - Email: ab.devillers@rcb.com
+2026-05-26 22:29:59.193 [main] INFO  c.f.automation.utils.LoggerUtil - Username: johndoe
+2026-05-26 22:29:59.193 [main] INFO  c.f.automation.utils.LoggerUtil - Name: John Doe
+2026-05-26 22:29:59.193 [main] INFO  c.f.automation.utils.LoggerUtil - User Payload: {password=test123, address={zipcode=600001, number=10, city=Chennai, street=Anna Salai, geolocation={lat=13, long=80}}, phone=9876543210, name={firstname=John, lastname=Doe}, email=ab.devillers@rcb.com, username=johndoe}
+2026-05-26 22:29:59.194 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Payload Data Validation PASSED: All required fields have values
+2026-05-26 22:29:59.194 [main] INFO  c.f.automation.utils.LoggerUtil - Creating new user
+2026-05-26 22:29:59.194 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> POST https://fakestoreapi.com/users
+2026-05-26 22:29:59.194 [main] DEBUG c.f.automation.utils.LoggerUtil - Request Payload: {
+  "password" : "test123",
+  "address" : {
+    "zipcode" : "600001",
+    "number" : 10,
+    "city" : "Chennai",
+    "street" : "Anna Salai",
+    "geolocation" : {
+      "lat" : "13",
+      "long" : "80"
+    }
+  },
+  "phone" : "9876543210",
+  "name" : {
+    "firstname" : "John",
+    "lastname" : "Doe"
+  },
+  "email" : "ab.devillers@rcb.com",
+  "username" : "johndoe"
+}
+2026-05-26 22:29:59.194 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-26 22:29:59.194 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-26 22:29:59.815 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:29:59.816 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-26 22:29:59.816 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:29:59.816 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1}
+2026-05-26 22:29:59.817 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 201 is a success code
+2026-05-26 22:29:59.817 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-26 22:29:59.824 [main] ERROR c.f.automation.utils.LoggerUtil - ✗ Response Body Validation FAILED: Response should contain 'email' field expected [true] but found [false]
+2026-05-26 22:29:59.824 [main] ERROR c.f.automation.utils.LoggerUtil - Test failed: testAddNewUser
+2026-05-26 22:29:59.829 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testAddNewUser
+2026-05-26 22:29:59.830 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Add New User ==========
+2026-05-26 22:29:59.830 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {Email=virat.kohli@rcb.com, FirstName=Jane, Latitude=12, City=Bangalore, Longitude=77, Number=20, TestCase=TC2, Username=janedoe, Phone=9988776655, Zipcode=560001, Street=MG Road, LastName=Doe, Password=pass456}
+2026-05-26 22:29:59.830 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-26 22:29:59.830 [main] INFO  c.f.automation.utils.LoggerUtil - Email: virat.kohli@rcb.com
+2026-05-26 22:29:59.830 [main] INFO  c.f.automation.utils.LoggerUtil - Username: janedoe
+2026-05-26 22:29:59.830 [main] INFO  c.f.automation.utils.LoggerUtil - Name: Jane Doe
+2026-05-26 22:29:59.830 [main] INFO  c.f.automation.utils.LoggerUtil - User Payload: {password=pass456, address={zipcode=560001, number=20, city=Bangalore, street=MG Road, geolocation={lat=12, long=77}}, phone=9988776655, name={firstname=Jane, lastname=Doe}, email=virat.kohli@rcb.com, username=janedoe}
+2026-05-26 22:29:59.830 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Payload Data Validation PASSED: All required fields have values
+2026-05-26 22:29:59.830 [main] INFO  c.f.automation.utils.LoggerUtil - Creating new user
+2026-05-26 22:29:59.831 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> POST https://fakestoreapi.com/users
+2026-05-26 22:29:59.831 [main] DEBUG c.f.automation.utils.LoggerUtil - Request Payload: {
+  "password" : "pass456",
+  "address" : {
+    "zipcode" : "560001",
+    "number" : 20,
+    "city" : "Bangalore",
+    "street" : "MG Road",
+    "geolocation" : {
+      "lat" : "12",
+      "long" : "77"
+    }
+  },
+  "phone" : "9988776655",
+  "name" : {
+    "firstname" : "Jane",
+    "lastname" : "Doe"
+  },
+  "email" : "virat.kohli@rcb.com",
+  "username" : "janedoe"
+}
+2026-05-26 22:29:59.831 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-26 22:29:59.831 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-26 22:30:00.419 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:30:00.421 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-26 22:30:00.421 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:30:00.422 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":11}
+2026-05-26 22:30:00.422 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 201 is a success code
+2026-05-26 22:30:00.423 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-26 22:30:00.423 [main] ERROR c.f.automation.utils.LoggerUtil - ✗ Response Body Validation FAILED: Response should contain 'email' field expected [true] but found [false]
+2026-05-26 22:30:00.423 [main] ERROR c.f.automation.utils.LoggerUtil - Test failed: testAddNewUser
+2026-05-26 22:30:00.429 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down LoginTests...
+2026-05-26 22:30:00.430 [main] INFO  c.f.automation.utils.LoggerUtil - LoginTests teardown completed
+2026-05-26 22:30:00.431 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Login_AddNewUser
+2026-05-26 22:30:00.463 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-26 22:34:32.730 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreLoginTest_AddNewUser.log
+2026-05-26 22:34:32.734 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Login_AddNewUser
+2026-05-26 22:34:32.735 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up LoginTests...
+2026-05-26 22:34:32.735 [main] INFO  c.f.automation.utils.LoggerUtil - LoginTests setup completed
+2026-05-26 22:34:32.736 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:AddNewUser
+2026-05-26 22:34:32.736 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-26 22:34:32.736 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-26 22:34:32.736 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: AddNewUser
+2026-05-26 22:34:32.795 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-26 22:34:32.796 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 2
+2026-05-26 22:34:32.797 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-26 22:34:32.799 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testAddNewUser
+2026-05-26 22:34:32.799 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Add New User ==========
+2026-05-26 22:34:32.799 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {Email=ab.devillers@rcb.com, FirstName=John, Latitude=13, City=Chennai, Longitude=80, Number=10, TestCase=TC1, Username=johndoe, Phone=9876543210, Zipcode=600001, Street=Anna Salai, LastName=Doe, Password=test123}
+2026-05-26 22:34:32.800 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-26 22:34:32.800 [main] INFO  c.f.automation.utils.LoggerUtil - Email: ab.devillers@rcb.com
+2026-05-26 22:34:32.800 [main] INFO  c.f.automation.utils.LoggerUtil - Username: johndoe
+2026-05-26 22:34:32.800 [main] INFO  c.f.automation.utils.LoggerUtil - Name: John Doe
+2026-05-26 22:34:32.800 [main] INFO  c.f.automation.utils.LoggerUtil - User Payload: {password=test123, address={zipcode=600001, number=10, city=Chennai, street=Anna Salai, geolocation={lat=13, long=80}}, phone=9876543210, name={firstname=John, lastname=Doe}, email=ab.devillers@rcb.com, username=johndoe}
+2026-05-26 22:34:32.800 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Payload Data Validation PASSED: All required fields have values
+2026-05-26 22:34:32.800 [main] INFO  c.f.automation.utils.LoggerUtil - Creating new user
+2026-05-26 22:34:32.801 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> POST https://fakestoreapi.com/users
+2026-05-26 22:34:32.801 [main] DEBUG c.f.automation.utils.LoggerUtil - Request Payload: {
+  "password" : "test123",
+  "address" : {
+    "zipcode" : "600001",
+    "number" : 10,
+    "city" : "Chennai",
+    "street" : "Anna Salai",
+    "geolocation" : {
+      "lat" : "13",
+      "long" : "80"
+    }
+  },
+  "phone" : "9876543210",
+  "name" : {
+    "firstname" : "John",
+    "lastname" : "Doe"
+  },
+  "email" : "ab.devillers@rcb.com",
+  "username" : "johndoe"
+}
+2026-05-26 22:34:32.801 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-26 22:34:32.801 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-26 22:34:33.439 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:34:33.440 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-26 22:34:33.441 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:34:33.441 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1}
+2026-05-26 22:34:33.443 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 201 is a success code
+2026-05-26 22:34:33.444 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-26 22:34:33.456 [main] ERROR c.f.automation.utils.LoggerUtil - ✗ Response Body Validation FAILED: Response should contain 'email' field expected [true] but found [false]
+2026-05-26 22:34:33.457 [main] ERROR c.f.automation.utils.LoggerUtil - Test failed: testAddNewUser
+2026-05-26 22:34:33.463 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testAddNewUser
+2026-05-26 22:34:33.464 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Add New User ==========
+2026-05-26 22:34:33.464 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {Email=virat.kohli@rcb.com, FirstName=Jane, Latitude=12, City=Bangalore, Longitude=77, Number=20, TestCase=TC2, Username=janedoe, Phone=9988776655, Zipcode=560001, Street=MG Road, LastName=Doe, Password=pass456}
+2026-05-26 22:34:33.464 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-26 22:34:33.464 [main] INFO  c.f.automation.utils.LoggerUtil - Email: virat.kohli@rcb.com
+2026-05-26 22:34:33.464 [main] INFO  c.f.automation.utils.LoggerUtil - Username: janedoe
+2026-05-26 22:34:33.464 [main] INFO  c.f.automation.utils.LoggerUtil - Name: Jane Doe
+2026-05-26 22:34:33.464 [main] INFO  c.f.automation.utils.LoggerUtil - User Payload: {password=pass456, address={zipcode=560001, number=20, city=Bangalore, street=MG Road, geolocation={lat=12, long=77}}, phone=9988776655, name={firstname=Jane, lastname=Doe}, email=virat.kohli@rcb.com, username=janedoe}
+2026-05-26 22:34:33.464 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Payload Data Validation PASSED: All required fields have values
+2026-05-26 22:34:33.464 [main] INFO  c.f.automation.utils.LoggerUtil - Creating new user
+2026-05-26 22:34:33.464 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> POST https://fakestoreapi.com/users
+2026-05-26 22:34:33.464 [main] DEBUG c.f.automation.utils.LoggerUtil - Request Payload: {
+  "password" : "pass456",
+  "address" : {
+    "zipcode" : "560001",
+    "number" : 20,
+    "city" : "Bangalore",
+    "street" : "MG Road",
+    "geolocation" : {
+      "lat" : "12",
+      "long" : "77"
+    }
+  },
+  "phone" : "9988776655",
+  "name" : {
+    "firstname" : "Jane",
+    "lastname" : "Doe"
+  },
+  "email" : "virat.kohli@rcb.com",
+  "username" : "janedoe"
+}
+2026-05-26 22:34:33.464 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-26 22:34:33.465 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-26 22:34:34.095 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:34:34.095 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-26 22:34:34.096 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:34:34.096 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":11}
+2026-05-26 22:34:34.096 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 201 is a success code
+2026-05-26 22:34:34.096 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-26 22:34:34.096 [main] ERROR c.f.automation.utils.LoggerUtil - ✗ Response Body Validation FAILED: Response should contain 'email' field expected [true] but found [false]
+2026-05-26 22:34:34.096 [main] ERROR c.f.automation.utils.LoggerUtil - Test failed: testAddNewUser
+2026-05-26 22:34:34.099 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down LoginTests...
+2026-05-26 22:34:34.099 [main] INFO  c.f.automation.utils.LoggerUtil - LoginTests teardown completed
+2026-05-26 22:34:34.099 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Login_AddNewUser
+2026-05-26 22:34:34.118 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-26 22:35:39.095 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreLoginTest_AddNewUser.log
+2026-05-26 22:35:39.099 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Login_AddNewUser
+2026-05-26 22:35:39.100 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up LoginTests...
+2026-05-26 22:35:39.102 [main] INFO  c.f.automation.utils.LoggerUtil - LoginTests setup completed
+2026-05-26 22:35:39.103 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:AddNewUser
+2026-05-26 22:35:39.103 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-26 22:35:39.103 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-26 22:35:39.103 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: AddNewUser
+2026-05-26 22:35:39.153 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-26 22:35:39.155 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 2
+2026-05-26 22:35:39.155 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-26 22:35:39.156 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testAddNewUser
+2026-05-26 22:35:39.157 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Add New User ==========
+2026-05-26 22:35:39.157 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {Email=ab.devillers@rcb.com, FirstName=John, Latitude=13, City=Chennai, Longitude=80, Number=10, TestCase=TC1, Username=johndoe, Phone=9876543210, Zipcode=600001, Street=Anna Salai, LastName=Doe, Password=test123}
+2026-05-26 22:35:39.157 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-26 22:35:39.157 [main] INFO  c.f.automation.utils.LoggerUtil - Email: ab.devillers@rcb.com
+2026-05-26 22:35:39.157 [main] INFO  c.f.automation.utils.LoggerUtil - Username: johndoe
+2026-05-26 22:35:39.157 [main] INFO  c.f.automation.utils.LoggerUtil - Name: John Doe
+2026-05-26 22:35:39.157 [main] INFO  c.f.automation.utils.LoggerUtil - User Payload: {password=test123, address={zipcode=600001, number=10, city=Chennai, street=Anna Salai, geolocation={lat=13, long=80}}, phone=9876543210, name={firstname=John, lastname=Doe}, email=ab.devillers@rcb.com, username=johndoe}
+2026-05-26 22:35:39.158 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Payload Data Validation PASSED: All required fields have values
+2026-05-26 22:35:39.158 [main] INFO  c.f.automation.utils.LoggerUtil - Creating new user
+2026-05-26 22:35:39.158 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> POST https://fakestoreapi.com/users
+2026-05-26 22:35:39.158 [main] DEBUG c.f.automation.utils.LoggerUtil - Request Payload: {
+  "password" : "test123",
+  "address" : {
+    "zipcode" : "600001",
+    "number" : 10,
+    "city" : "Chennai",
+    "street" : "Anna Salai",
+    "geolocation" : {
+      "lat" : "13",
+      "long" : "80"
+    }
+  },
+  "phone" : "9876543210",
+  "name" : {
+    "firstname" : "John",
+    "lastname" : "Doe"
+  },
+  "email" : "ab.devillers@rcb.com",
+  "username" : "johndoe"
+}
+2026-05-26 22:35:39.158 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-26 22:35:39.158 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-26 22:35:39.857 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:35:39.858 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-26 22:35:39.859 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:35:39.859 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1}
+2026-05-26 22:35:39.860 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 201 is a success code
+2026-05-26 22:35:39.861 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-26 22:35:39.861 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-26 22:35:39.861 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ User ID Validation PASSED: Valid user ID found in response
+2026-05-26 22:35:39.862 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-26 22:35:39.862 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testAddNewUser
+2026-05-26 22:35:39.865 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testAddNewUser
+2026-05-26 22:35:39.865 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Add New User ==========
+2026-05-26 22:35:39.866 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {Email=virat.kohli@rcb.com, FirstName=Jane, Latitude=12, City=Bangalore, Longitude=77, Number=20, TestCase=TC2, Username=janedoe, Phone=9988776655, Zipcode=560001, Street=MG Road, LastName=Doe, Password=pass456}
+2026-05-26 22:35:39.866 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-26 22:35:39.866 [main] INFO  c.f.automation.utils.LoggerUtil - Email: virat.kohli@rcb.com
+2026-05-26 22:35:39.866 [main] INFO  c.f.automation.utils.LoggerUtil - Username: janedoe
+2026-05-26 22:35:39.866 [main] INFO  c.f.automation.utils.LoggerUtil - Name: Jane Doe
+2026-05-26 22:35:39.866 [main] INFO  c.f.automation.utils.LoggerUtil - User Payload: {password=pass456, address={zipcode=560001, number=20, city=Bangalore, street=MG Road, geolocation={lat=12, long=77}}, phone=9988776655, name={firstname=Jane, lastname=Doe}, email=virat.kohli@rcb.com, username=janedoe}
+2026-05-26 22:35:39.866 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Payload Data Validation PASSED: All required fields have values
+2026-05-26 22:35:39.866 [main] INFO  c.f.automation.utils.LoggerUtil - Creating new user
+2026-05-26 22:35:39.867 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> POST https://fakestoreapi.com/users
+2026-05-26 22:35:39.867 [main] DEBUG c.f.automation.utils.LoggerUtil - Request Payload: {
+  "password" : "pass456",
+  "address" : {
+    "zipcode" : "560001",
+    "number" : 20,
+    "city" : "Bangalore",
+    "street" : "MG Road",
+    "geolocation" : {
+      "lat" : "12",
+      "long" : "77"
+    }
+  },
+  "phone" : "9988776655",
+  "name" : {
+    "firstname" : "Jane",
+    "lastname" : "Doe"
+  },
+  "email" : "virat.kohli@rcb.com",
+  "username" : "janedoe"
+}
+2026-05-26 22:35:39.867 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-26 22:35:39.867 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-26 22:35:40.505 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:35:40.505 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-26 22:35:40.505 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:35:40.505 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1}
+2026-05-26 22:35:40.506 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 201 is a success code
+2026-05-26 22:35:40.506 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-26 22:35:40.506 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-26 22:35:40.506 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ User ID Validation PASSED: Valid user ID found in response
+2026-05-26 22:35:40.506 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-26 22:35:40.506 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testAddNewUser
+2026-05-26 22:35:40.509 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down LoginTests...
+2026-05-26 22:35:40.509 [main] INFO  c.f.automation.utils.LoggerUtil - LoginTests teardown completed
+2026-05-26 22:35:40.509 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Login_AddNewUser
+2026-05-26 22:35:40.542 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-26 22:39:17.165 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreLoginTest_AddNewUser.log
+2026-05-26 22:39:17.169 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Login_AddNewUser
+2026-05-26 22:39:17.170 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up LoginTests...
+2026-05-26 22:39:17.171 [main] INFO  c.f.automation.utils.LoggerUtil - LoginTests setup completed
+2026-05-26 22:39:17.171 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:AddNewUser
+2026-05-26 22:39:17.172 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-26 22:39:17.172 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-26 22:39:17.172 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: AddNewUser
+2026-05-26 22:39:17.215 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-26 22:39:17.217 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 2
+2026-05-26 22:39:17.217 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-26 22:39:17.218 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testAddNewUser
+2026-05-26 22:39:17.219 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Add New User ==========
+2026-05-26 22:39:17.219 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {Email=ab.devillers@rcb.com, FirstName=John, Latitude=13, City=Chennai, Longitude=80, Number=10, TestCase=TC1, Username=johndoe, Phone=9876543210, Zipcode=600001, Street=Anna Salai, LastName=Doe, Password=test123}
+2026-05-26 22:39:17.219 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-26 22:39:17.219 [main] INFO  c.f.automation.utils.LoggerUtil - Email: ab.devillers@rcb.com
+2026-05-26 22:39:17.219 [main] INFO  c.f.automation.utils.LoggerUtil - Username: johndoe
+2026-05-26 22:39:17.220 [main] INFO  c.f.automation.utils.LoggerUtil - Name: John Doe
+2026-05-26 22:39:17.220 [main] INFO  c.f.automation.utils.LoggerUtil - User Payload: {password=test123, address={zipcode=600001, number=10, city=Chennai, street=Anna Salai, geolocation={lat=13, long=80}}, phone=9876543210, name={firstname=John, lastname=Doe}, email=ab.devillers@rcb.com, username=johndoe}
+2026-05-26 22:39:17.220 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Payload Data Validation PASSED: All required fields have values
+2026-05-26 22:39:17.220 [main] INFO  c.f.automation.utils.LoggerUtil - Creating new user
+2026-05-26 22:39:17.220 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> POST https://fakestoreapi.com/users
+2026-05-26 22:39:17.221 [main] DEBUG c.f.automation.utils.LoggerUtil - Request Payload: {
+  "password" : "test123",
+  "address" : {
+    "zipcode" : "600001",
+    "number" : 10,
+    "city" : "Chennai",
+    "street" : "Anna Salai",
+    "geolocation" : {
+      "lat" : "13",
+      "long" : "80"
+    }
+  },
+  "phone" : "9876543210",
+  "name" : {
+    "firstname" : "John",
+    "lastname" : "Doe"
+  },
+  "email" : "ab.devillers@rcb.com",
+  "username" : "johndoe"
+}
+2026-05-26 22:39:17.221 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-26 22:39:17.221 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-26 22:39:18.021 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:39:18.022 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-26 22:39:18.023 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:39:18.024 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1}
+2026-05-26 22:39:18.026 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 201 is a success code
+2026-05-26 22:39:18.027 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-26 22:39:18.027 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-26 22:39:18.028 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ User ID Validation PASSED: Valid user ID found in response
+2026-05-26 22:39:18.028 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-26 22:39:18.029 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testAddNewUser
+2026-05-26 22:39:18.033 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testAddNewUser
+2026-05-26 22:39:18.034 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Add New User ==========
+2026-05-26 22:39:18.034 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {Email=virat.kohli@rcb.com, FirstName=Jane, Latitude=12, City=Bangalore, Longitude=77, Number=20, TestCase=TC2, Username=janedoe, Phone=9988776655, Zipcode=560001, Street=MG Road, LastName=Doe, Password=pass456}
+2026-05-26 22:39:18.034 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-26 22:39:18.034 [main] INFO  c.f.automation.utils.LoggerUtil - Email: virat.kohli@rcb.com
+2026-05-26 22:39:18.034 [main] INFO  c.f.automation.utils.LoggerUtil - Username: janedoe
+2026-05-26 22:39:18.034 [main] INFO  c.f.automation.utils.LoggerUtil - Name: Jane Doe
+2026-05-26 22:39:18.034 [main] INFO  c.f.automation.utils.LoggerUtil - User Payload: {password=pass456, address={zipcode=560001, number=20, city=Bangalore, street=MG Road, geolocation={lat=12, long=77}}, phone=9988776655, name={firstname=Jane, lastname=Doe}, email=virat.kohli@rcb.com, username=janedoe}
+2026-05-26 22:39:18.034 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Payload Data Validation PASSED: All required fields have values
+2026-05-26 22:39:18.035 [main] INFO  c.f.automation.utils.LoggerUtil - Creating new user
+2026-05-26 22:39:18.035 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> POST https://fakestoreapi.com/users
+2026-05-26 22:39:18.035 [main] DEBUG c.f.automation.utils.LoggerUtil - Request Payload: {
+  "password" : "pass456",
+  "address" : {
+    "zipcode" : "560001",
+    "number" : 20,
+    "city" : "Bangalore",
+    "street" : "MG Road",
+    "geolocation" : {
+      "lat" : "12",
+      "long" : "77"
+    }
+  },
+  "phone" : "9988776655",
+  "name" : {
+    "firstname" : "Jane",
+    "lastname" : "Doe"
+  },
+  "email" : "virat.kohli@rcb.com",
+  "username" : "janedoe"
+}
+2026-05-26 22:39:18.035 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-26 22:39:18.035 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-26 22:39:18.582 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:39:18.582 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-26 22:39:18.582 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:39:18.582 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1}
+2026-05-26 22:39:18.582 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 201 is a success code
+2026-05-26 22:39:18.582 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-26 22:39:18.582 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-26 22:39:18.582 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ User ID Validation PASSED: Valid user ID found in response
+2026-05-26 22:39:18.582 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-26 22:39:18.582 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testAddNewUser
+2026-05-26 22:39:18.583 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down LoginTests...
+2026-05-26 22:39:18.584 [main] INFO  c.f.automation.utils.LoggerUtil - LoginTests teardown completed
+2026-05-26 22:39:18.584 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Login_AddNewUser
+2026-05-26 22:39:18.598 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-26 22:47:55.791 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreLoginTest_AddNewUser.log
+2026-05-26 22:47:55.795 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Login_AddNewUser
+2026-05-26 22:47:55.795 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up LoginTests...
+2026-05-26 22:47:55.796 [main] INFO  c.f.automation.utils.LoggerUtil - LoginTests setup completed
+2026-05-26 22:47:55.797 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:AddNewUser
+2026-05-26 22:47:55.797 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-26 22:47:55.797 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-26 22:47:55.797 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: AddNewUser
+2026-05-26 22:47:55.836 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-26 22:47:55.838 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 2
+2026-05-26 22:47:55.838 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-26 22:47:55.839 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testAddNewUser
+2026-05-26 22:47:55.839 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Add New User ==========
+2026-05-26 22:47:55.839 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {Email=ab.devillers@rcb.com, FirstName=John, Latitude=13, City=Chennai, Longitude=80, Number=10, TestCase=TC1, Username=johndoe, Phone=9876543210, Zipcode=600001, Street=Anna Salai, LastName=Doe, Password=test123}
+2026-05-26 22:47:55.839 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-26 22:47:55.839 [main] INFO  c.f.automation.utils.LoggerUtil - Email: ab.devillers@rcb.com
+2026-05-26 22:47:55.839 [main] INFO  c.f.automation.utils.LoggerUtil - Username: johndoe
+2026-05-26 22:47:55.839 [main] INFO  c.f.automation.utils.LoggerUtil - Name: John Doe
+2026-05-26 22:47:55.840 [main] INFO  c.f.automation.utils.LoggerUtil - User Payload: {password=test123, address={zipcode=600001, number=10, city=Chennai, street=Anna Salai, geolocation={lat=13, long=80}}, phone=9876543210, name={firstname=John, lastname=Doe}, email=ab.devillers@rcb.com, username=johndoe}
+2026-05-26 22:47:55.840 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Payload Data Validation PASSED: All required fields have values
+2026-05-26 22:47:55.840 [main] INFO  c.f.automation.utils.LoggerUtil - Creating new user
+2026-05-26 22:47:55.840 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> POST https://fakestoreapi.com/users
+2026-05-26 22:47:55.840 [main] DEBUG c.f.automation.utils.LoggerUtil - Request Payload: {
+  "password" : "test123",
+  "address" : {
+    "zipcode" : "600001",
+    "number" : 10,
+    "city" : "Chennai",
+    "street" : "Anna Salai",
+    "geolocation" : {
+      "lat" : "13",
+      "long" : "80"
+    }
+  },
+  "phone" : "9876543210",
+  "name" : {
+    "firstname" : "John",
+    "lastname" : "Doe"
+  },
+  "email" : "ab.devillers@rcb.com",
+  "username" : "johndoe"
+}
+2026-05-26 22:47:55.840 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-26 22:47:55.840 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-26 22:47:57.334 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:47:57.334 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 1 seconds
+2026-05-26 22:47:57.335 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:47:57.336 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":11}
+2026-05-26 22:47:57.337 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 201 is a success code
+2026-05-26 22:47:57.337 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-26 22:47:57.337 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-26 22:47:57.337 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ User ID Validation PASSED: Valid user ID found in response
+2026-05-26 22:47:57.337 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-26 22:47:57.338 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testAddNewUser
+2026-05-26 22:47:57.340 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testAddNewUser
+2026-05-26 22:47:57.341 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Add New User ==========
+2026-05-26 22:47:57.341 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {Email=virat.kohli@rcb.com, FirstName=Jane, Latitude=12, City=Bangalore, Longitude=77, Number=20, TestCase=TC2, Username=janedoe, Phone=9988776655, Zipcode=560001, Street=MG Road, LastName=Doe, Password=pass456}
+2026-05-26 22:47:57.341 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-26 22:47:57.341 [main] INFO  c.f.automation.utils.LoggerUtil - Email: virat.kohli@rcb.com
+2026-05-26 22:47:57.341 [main] INFO  c.f.automation.utils.LoggerUtil - Username: janedoe
+2026-05-26 22:47:57.341 [main] INFO  c.f.automation.utils.LoggerUtil - Name: Jane Doe
+2026-05-26 22:47:57.341 [main] INFO  c.f.automation.utils.LoggerUtil - User Payload: {password=pass456, address={zipcode=560001, number=20, city=Bangalore, street=MG Road, geolocation={lat=12, long=77}}, phone=9988776655, name={firstname=Jane, lastname=Doe}, email=virat.kohli@rcb.com, username=janedoe}
+2026-05-26 22:47:57.341 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Payload Data Validation PASSED: All required fields have values
+2026-05-26 22:47:57.341 [main] INFO  c.f.automation.utils.LoggerUtil - Creating new user
+2026-05-26 22:47:57.342 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> POST https://fakestoreapi.com/users
+2026-05-26 22:47:57.342 [main] DEBUG c.f.automation.utils.LoggerUtil - Request Payload: {
+  "password" : "pass456",
+  "address" : {
+    "zipcode" : "560001",
+    "number" : 20,
+    "city" : "Bangalore",
+    "street" : "MG Road",
+    "geolocation" : {
+      "lat" : "12",
+      "long" : "77"
+    }
+  },
+  "phone" : "9988776655",
+  "name" : {
+    "firstname" : "Jane",
+    "lastname" : "Doe"
+  },
+  "email" : "virat.kohli@rcb.com",
+  "username" : "janedoe"
+}
+2026-05-26 22:47:57.342 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-26 22:47:57.342 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-26 22:47:57.996 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:47:57.996 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-26 22:47:57.997 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:47:57.997 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":11}
+2026-05-26 22:47:57.997 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 201 is a success code
+2026-05-26 22:47:57.997 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-26 22:47:57.997 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-26 22:47:57.998 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ User ID Validation PASSED: Valid user ID found in response
+2026-05-26 22:47:57.998 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-26 22:47:57.998 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testAddNewUser
+2026-05-26 22:47:58.001 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down LoginTests...
+2026-05-26 22:47:58.001 [main] INFO  c.f.automation.utils.LoggerUtil - LoginTests teardown completed
+2026-05-26 22:47:58.001 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Login_AddNewUser
+2026-05-26 22:47:58.036 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-26 22:56:26.229 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreLoginTest_AddNewUser.log
+2026-05-26 22:56:26.234 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Login_AddNewUser
+2026-05-26 22:56:26.235 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up LoginTests...
+2026-05-26 22:56:26.236 [main] INFO  c.f.automation.utils.LoggerUtil - LoginTests setup completed
+2026-05-26 22:56:26.237 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:AddNewUser
+2026-05-26 22:56:26.237 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-26 22:56:26.237 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-26 22:56:26.237 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: AddNewUser
+2026-05-26 22:56:26.288 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-26 22:56:26.290 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 2
+2026-05-26 22:56:26.290 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-26 22:56:26.291 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testAddNewUser
+2026-05-26 22:56:26.292 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Add New User ==========
+2026-05-26 22:56:26.292 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {Email=ab.devillers@rcb.com, FirstName=John, Latitude=13, City=Chennai, Longitude=80, Number=10, TestCase=TC1, Username=johndoe, Phone=9876543210, Zipcode=600001, Street=Anna Salai, LastName=Doe, Password=test123}
+2026-05-26 22:56:26.293 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-26 22:56:26.293 [main] INFO  c.f.automation.utils.LoggerUtil - Email: ab.devillers@rcb.com
+2026-05-26 22:56:26.293 [main] INFO  c.f.automation.utils.LoggerUtil - Username: johndoe
+2026-05-26 22:56:26.294 [main] INFO  c.f.automation.utils.LoggerUtil - Name: John Doe
+2026-05-26 22:56:26.294 [main] INFO  c.f.automation.utils.LoggerUtil - User Payload: {password=test123, address={zipcode=600001, number=10, city=Chennai, street=Anna Salai, geolocation={lat=13, long=80}}, phone=9876543210, name={firstname=John, lastname=Doe}, email=ab.devillers@rcb.com, username=johndoe}
+2026-05-26 22:56:26.294 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Payload Data Validation PASSED: All required fields have values
+2026-05-26 22:56:26.294 [main] INFO  c.f.automation.utils.LoggerUtil - Creating new user
+2026-05-26 22:56:26.294 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> POST https://fakestoreapi.com/users
+2026-05-26 22:56:26.294 [main] DEBUG c.f.automation.utils.LoggerUtil - Request Payload: {
+  "password" : "test123",
+  "address" : {
+    "zipcode" : "600001",
+    "number" : 10,
+    "city" : "Chennai",
+    "street" : "Anna Salai",
+    "geolocation" : {
+      "lat" : "13",
+      "long" : "80"
+    }
+  },
+  "phone" : "9876543210",
+  "name" : {
+    "firstname" : "John",
+    "lastname" : "Doe"
+  },
+  "email" : "ab.devillers@rcb.com",
+  "username" : "johndoe"
+}
+2026-05-26 22:56:26.295 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-26 22:56:26.295 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-26 22:56:26.914 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:56:26.914 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-26 22:56:26.916 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:56:26.916 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1}
+2026-05-26 22:56:26.920 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 201 is a success code
+2026-05-26 22:56:26.920 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-26 22:56:26.921 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-26 22:56:26.922 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ User ID Validation PASSED: Valid user ID found in response
+2026-05-26 22:56:26.922 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-26 22:56:26.923 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testAddNewUser
+2026-05-26 22:56:26.928 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testAddNewUser
+2026-05-26 22:56:26.928 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Add New User ==========
+2026-05-26 22:56:26.929 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {Email=virat.kohli@rcb.com, FirstName=Jane, Latitude=12, City=Bangalore, Longitude=77, Number=20, TestCase=TC2, Username=janedoe, Phone=9988776655, Zipcode=560001, Street=MG Road, LastName=Doe, Password=pass456}
+2026-05-26 22:56:26.929 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-26 22:56:26.929 [main] INFO  c.f.automation.utils.LoggerUtil - Email: virat.kohli@rcb.com
+2026-05-26 22:56:26.929 [main] INFO  c.f.automation.utils.LoggerUtil - Username: janedoe
+2026-05-26 22:56:26.929 [main] INFO  c.f.automation.utils.LoggerUtil - Name: Jane Doe
+2026-05-26 22:56:26.929 [main] INFO  c.f.automation.utils.LoggerUtil - User Payload: {password=pass456, address={zipcode=560001, number=20, city=Bangalore, street=MG Road, geolocation={lat=12, long=77}}, phone=9988776655, name={firstname=Jane, lastname=Doe}, email=virat.kohli@rcb.com, username=janedoe}
+2026-05-26 22:56:26.929 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Payload Data Validation PASSED: All required fields have values
+2026-05-26 22:56:26.929 [main] INFO  c.f.automation.utils.LoggerUtil - Creating new user
+2026-05-26 22:56:26.929 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> POST https://fakestoreapi.com/users
+2026-05-26 22:56:26.929 [main] DEBUG c.f.automation.utils.LoggerUtil - Request Payload: {
+  "password" : "pass456",
+  "address" : {
+    "zipcode" : "560001",
+    "number" : 20,
+    "city" : "Bangalore",
+    "street" : "MG Road",
+    "geolocation" : {
+      "lat" : "12",
+      "long" : "77"
+    }
+  },
+  "phone" : "9988776655",
+  "name" : {
+    "firstname" : "Jane",
+    "lastname" : "Doe"
+  },
+  "email" : "virat.kohli@rcb.com",
+  "username" : "janedoe"
+}
+2026-05-26 22:56:26.930 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-26 22:56:26.930 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-26 22:56:27.564 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:56:27.565 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-26 22:56:27.565 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:56:27.566 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":11}
+2026-05-26 22:56:27.566 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 201 is a success code
+2026-05-26 22:56:27.566 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-26 22:56:27.567 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-26 22:56:27.567 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ User ID Validation PASSED: Valid user ID found in response
+2026-05-26 22:56:27.567 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-26 22:56:27.568 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testAddNewUser
+2026-05-26 22:56:27.572 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down LoginTests...
+2026-05-26 22:56:27.572 [main] INFO  c.f.automation.utils.LoggerUtil - LoginTests teardown completed
+2026-05-26 22:56:27.572 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Login_AddNewUser
+2026-05-26 22:56:27.600 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-26 22:57:16.191 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreLoginTest_AddNewUser.log
+2026-05-26 22:57:16.199 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Login_AddNewUser
+2026-05-26 22:57:16.200 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up LoginTests...
+2026-05-26 22:57:16.203 [main] INFO  c.f.automation.utils.LoggerUtil - LoginTests setup completed
+2026-05-26 22:57:16.205 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:AddNewUser
+2026-05-26 22:57:16.205 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-26 22:57:16.205 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-26 22:57:16.205 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: AddNewUser
+2026-05-26 22:57:16.311 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-26 22:57:16.320 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 2
+2026-05-26 22:57:16.320 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-26 22:57:16.322 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testAddNewUser
+2026-05-26 22:57:16.322 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Add New User ==========
+2026-05-26 22:57:16.322 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {Email=ab.devillers@rcb.com, FirstName=John, Latitude=13, City=Chennai, Longitude=80, Number=10, TestCase=TC1, Username=johndoe, Phone=9876543210, Zipcode=600001, Street=Anna Salai, LastName=Doe, Password=test123}
+2026-05-26 22:57:16.322 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-26 22:57:16.322 [main] INFO  c.f.automation.utils.LoggerUtil - Email: ab.devillers@rcb.com
+2026-05-26 22:57:16.322 [main] INFO  c.f.automation.utils.LoggerUtil - Username: johndoe
+2026-05-26 22:57:16.322 [main] INFO  c.f.automation.utils.LoggerUtil - Name: John Doe
+2026-05-26 22:57:16.322 [main] INFO  c.f.automation.utils.LoggerUtil - User Payload: {password=test123, address={zipcode=600001, number=10, city=Chennai, street=Anna Salai, geolocation={lat=13, long=80}}, phone=9876543210, name={firstname=John, lastname=Doe}, email=ab.devillers@rcb.com, username=johndoe}
+2026-05-26 22:57:16.322 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Payload Data Validation PASSED: All required fields have values
+2026-05-26 22:57:16.322 [main] INFO  c.f.automation.utils.LoggerUtil - Creating new user
+2026-05-26 22:57:16.324 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> POST https://fakestoreapi.com/users
+2026-05-26 22:57:16.324 [main] DEBUG c.f.automation.utils.LoggerUtil - Request Payload: {
+  "password" : "test123",
+  "address" : {
+    "zipcode" : "600001",
+    "number" : 10,
+    "city" : "Chennai",
+    "street" : "Anna Salai",
+    "geolocation" : {
+      "lat" : "13",
+      "long" : "80"
+    }
+  },
+  "phone" : "9876543210",
+  "name" : {
+    "firstname" : "John",
+    "lastname" : "Doe"
+  },
+  "email" : "ab.devillers@rcb.com",
+  "username" : "johndoe"
+}
+2026-05-26 22:57:16.324 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-26 22:57:16.324 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-26 22:57:16.979 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:57:16.980 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-26 22:57:16.980 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:57:16.980 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1}
+2026-05-26 22:57:16.981 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 201 is a success code
+2026-05-26 22:57:16.981 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-26 22:57:16.983 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-26 22:57:16.983 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ User ID Validation PASSED: Valid user ID found in response
+2026-05-26 22:57:16.983 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-26 22:57:16.983 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testAddNewUser
+2026-05-26 22:57:16.985 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testAddNewUser
+2026-05-26 22:57:16.985 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Add New User ==========
+2026-05-26 22:57:16.985 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {Email=virat.kohli@rcb.com, FirstName=Jane, Latitude=12, City=Bangalore, Longitude=77, Number=20, TestCase=TC2, Username=janedoe, Phone=9988776655, Zipcode=560001, Street=MG Road, LastName=Doe, Password=pass456}
+2026-05-26 22:57:16.985 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-26 22:57:16.985 [main] INFO  c.f.automation.utils.LoggerUtil - Email: virat.kohli@rcb.com
+2026-05-26 22:57:16.985 [main] INFO  c.f.automation.utils.LoggerUtil - Username: janedoe
+2026-05-26 22:57:16.985 [main] INFO  c.f.automation.utils.LoggerUtil - Name: Jane Doe
+2026-05-26 22:57:16.985 [main] INFO  c.f.automation.utils.LoggerUtil - User Payload: {password=pass456, address={zipcode=560001, number=20, city=Bangalore, street=MG Road, geolocation={lat=12, long=77}}, phone=9988776655, name={firstname=Jane, lastname=Doe}, email=virat.kohli@rcb.com, username=janedoe}
+2026-05-26 22:57:16.985 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Payload Data Validation PASSED: All required fields have values
+2026-05-26 22:57:16.986 [main] INFO  c.f.automation.utils.LoggerUtil - Creating new user
+2026-05-26 22:57:16.986 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> POST https://fakestoreapi.com/users
+2026-05-26 22:57:16.986 [main] DEBUG c.f.automation.utils.LoggerUtil - Request Payload: {
+  "password" : "pass456",
+  "address" : {
+    "zipcode" : "560001",
+    "number" : 20,
+    "city" : "Bangalore",
+    "street" : "MG Road",
+    "geolocation" : {
+      "lat" : "12",
+      "long" : "77"
+    }
+  },
+  "phone" : "9988776655",
+  "name" : {
+    "firstname" : "Jane",
+    "lastname" : "Doe"
+  },
+  "email" : "virat.kohli@rcb.com",
+  "username" : "janedoe"
+}
+2026-05-26 22:57:16.986 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-26 22:57:16.986 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-26 22:57:17.618 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:57:17.618 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-26 22:57:17.619 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:57:17.619 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1}
+2026-05-26 22:57:17.619 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 201 is a success code
+2026-05-26 22:57:17.620 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-26 22:57:17.620 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-26 22:57:17.620 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ User ID Validation PASSED: Valid user ID found in response
+2026-05-26 22:57:17.620 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-26 22:57:17.620 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testAddNewUser
+2026-05-26 22:57:17.622 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down LoginTests...
+2026-05-26 22:57:17.623 [main] INFO  c.f.automation.utils.LoggerUtil - LoginTests teardown completed
+2026-05-26 22:57:17.624 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Login_AddNewUser
+2026-05-26 22:57:17.684 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully

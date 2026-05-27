@@ -1,0 +1,900 @@
+2026-05-27 10:24:40.206 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreCartTest_DeleteCart.log
+2026-05-27 10:24:40.215 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Cart_DeleteCart
+2026-05-27 10:24:40.215 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up CartTests...
+2026-05-27 10:24:40.215 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests setup completed
+2026-05-27 10:24:40.219 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:DeleteCart
+2026-05-27 10:24:40.221 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 10:24:40.221 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:24:40.221 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: DeleteCart
+2026-05-27 10:24:40.315 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:24:40.318 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 3
+2026-05-27 10:24:40.318 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-27 10:24:40.320 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 10:24:40.320 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 10:24:40.322 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC1, CartId=1}
+2026-05-27 10:24:40.322 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-27 10:24:40.322 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 1
+2026-05-27 10:24:40.322 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 1
+2026-05-27 10:24:40.322 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/1
+2026-05-27 10:24:40.322 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/1
+2026-05-27 10:24:40.322 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:24:40.322 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:24:40.920 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:24:40.923 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:24:40.923 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:24:40.923 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1,"userId":1,"date":"2020-03-02T00:00:00.000Z","products":[{"productId":1,"quantity":4},{"productId":2,"quantity":1},{"productId":3,"quantity":6}],"__v":0}
+2026-05-27 10:24:40.923 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:24:40.925 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:24:40.925 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:24:40.925 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (1)
+2026-05-27 10:24:40.925 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-27 10:24:40.925 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 10:24:40.927 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 10:24:40.929 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 10:24:40.929 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC2, CartId=2}
+2026-05-27 10:24:40.929 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-27 10:24:40.929 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 2
+2026-05-27 10:24:40.929 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 2
+2026-05-27 10:24:40.929 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/2
+2026-05-27 10:24:40.929 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/2
+2026-05-27 10:24:40.929 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:24:40.929 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:24:48.513 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:24:48.513 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 7 seconds
+2026-05-27 10:24:48.513 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:24:48.513 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":2,"userId":1,"date":"2020-01-02T00:00:00.000Z","products":[{"productId":2,"quantity":4},{"productId":1,"quantity":10},{"productId":5,"quantity":2}],"__v":0}
+2026-05-27 10:24:48.515 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:24:48.515 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:24:48.515 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:24:48.515 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (2)
+2026-05-27 10:24:48.515 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-27 10:24:48.515 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 10:24:48.517 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 10:24:48.517 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 10:24:48.517 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC3, CartId=5}
+2026-05-27 10:24:48.517 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC3
+2026-05-27 10:24:48.517 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 5
+2026-05-27 10:24:48.517 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 5
+2026-05-27 10:24:48.517 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/5
+2026-05-27 10:24:48.517 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/5
+2026-05-27 10:24:48.519 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:24:48.519 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:24:49.074 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:24:49.074 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:24:49.074 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:24:49.074 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":5,"userId":3,"date":"2020-03-01T00:00:00.000Z","products":[{"productId":7,"quantity":1},{"productId":8,"quantity":1}],"__v":0}
+2026-05-27 10:24:49.074 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:24:49.074 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:24:49.074 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:24:49.074 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (5)
+2026-05-27 10:24:49.076 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC3 ==========
+2026-05-27 10:24:49.076 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 10:24:49.076 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down CartTests...
+2026-05-27 10:24:49.076 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests teardown completed
+2026-05-27 10:24:49.076 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Cart_DeleteCart
+2026-05-27 10:24:49.129 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-27 10:28:54.142 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreCartTest_DeleteCart.log
+2026-05-27 10:28:54.144 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Cart_DeleteCart
+2026-05-27 10:28:54.144 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up CartTests...
+2026-05-27 10:28:54.144 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests setup completed
+2026-05-27 10:28:54.144 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:DeleteCart
+2026-05-27 10:28:54.144 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 10:28:54.144 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:28:54.144 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: DeleteCart
+2026-05-27 10:28:54.226 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:28:54.226 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 3
+2026-05-27 10:28:54.229 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-27 10:28:54.229 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 10:28:54.231 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 10:28:54.231 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC1, CartId=1}
+2026-05-27 10:28:54.231 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-27 10:28:54.231 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 1
+2026-05-27 10:28:54.231 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 1
+2026-05-27 10:28:54.231 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/1
+2026-05-27 10:28:54.231 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/1
+2026-05-27 10:28:54.231 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:28:54.231 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:28:54.887 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:28:54.887 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:28:54.887 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:28:54.887 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1,"userId":1,"date":"2020-03-02T00:00:00.000Z","products":[{"productId":1,"quantity":4},{"productId":2,"quantity":1},{"productId":3,"quantity":6}],"__v":0}
+2026-05-27 10:28:54.888 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:28:54.888 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:28:54.888 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:28:54.890 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (1)
+2026-05-27 10:28:54.890 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-27 10:28:54.890 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 10:28:54.892 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 10:28:54.892 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 10:28:54.892 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC2, CartId=2}
+2026-05-27 10:28:54.892 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-27 10:28:54.892 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 2
+2026-05-27 10:28:54.892 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 2
+2026-05-27 10:28:54.892 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/2
+2026-05-27 10:28:54.892 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/2
+2026-05-27 10:28:54.892 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:28:54.892 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:28:55.456 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:28:55.456 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:28:55.456 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:28:55.456 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":2,"userId":1,"date":"2020-01-02T00:00:00.000Z","products":[{"productId":2,"quantity":4},{"productId":1,"quantity":10},{"productId":5,"quantity":2}],"__v":0}
+2026-05-27 10:28:55.471 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:28:55.471 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:28:55.471 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:28:55.471 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (2)
+2026-05-27 10:28:55.471 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-27 10:28:55.471 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 10:28:55.471 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 10:28:55.471 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 10:28:55.471 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC3, CartId=5}
+2026-05-27 10:28:55.471 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC3
+2026-05-27 10:28:55.471 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 5
+2026-05-27 10:28:55.471 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 5
+2026-05-27 10:28:55.471 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/5
+2026-05-27 10:28:55.471 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/5
+2026-05-27 10:28:55.471 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:28:55.471 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:28:56.004 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:28:56.004 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:28:56.004 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:28:56.004 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":5,"userId":3,"date":"2020-03-01T00:00:00.000Z","products":[{"productId":7,"quantity":1},{"productId":8,"quantity":1}],"__v":0}
+2026-05-27 10:28:56.004 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:28:56.004 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:28:56.004 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:28:56.004 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (5)
+2026-05-27 10:28:56.004 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC3 ==========
+2026-05-27 10:28:56.004 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 10:28:56.004 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down CartTests...
+2026-05-27 10:28:56.004 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests teardown completed
+2026-05-27 10:28:56.004 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Cart_DeleteCart
+2026-05-27 10:28:56.030 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-27 10:35:49.427 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreCartTest_DeleteCart.log
+2026-05-27 10:35:49.437 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Cart_DeleteCart
+2026-05-27 10:35:49.439 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up CartTests...
+2026-05-27 10:35:49.439 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests setup completed
+2026-05-27 10:35:49.439 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:DeleteCart
+2026-05-27 10:35:49.439 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 10:35:49.439 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:35:49.439 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: DeleteCart
+2026-05-27 10:35:49.563 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:35:49.565 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 3
+2026-05-27 10:35:49.565 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-27 10:35:49.567 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 10:35:49.568 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 10:35:49.568 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC1, CartId=1}
+2026-05-27 10:35:49.568 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-27 10:35:49.568 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 1
+2026-05-27 10:35:49.571 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 1
+2026-05-27 10:35:49.571 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/1
+2026-05-27 10:35:49.571 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/1
+2026-05-27 10:35:49.571 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:35:49.571 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:35:50.202 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:35:50.204 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:35:50.204 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:35:50.204 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1,"userId":1,"date":"2020-03-02T00:00:00.000Z","products":[{"productId":1,"quantity":4},{"productId":2,"quantity":1},{"productId":3,"quantity":6}],"__v":0}
+2026-05-27 10:35:50.206 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:35:50.206 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:35:50.206 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:35:50.207 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (1)
+2026-05-27 10:35:50.207 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-27 10:35:50.207 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 10:35:50.211 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 10:35:50.213 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 10:35:50.214 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC2, CartId=2}
+2026-05-27 10:35:50.214 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-27 10:35:50.214 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 2
+2026-05-27 10:35:50.214 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 2
+2026-05-27 10:35:50.214 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/2
+2026-05-27 10:35:50.214 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/2
+2026-05-27 10:35:50.214 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:35:50.214 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:35:50.785 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:35:50.785 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:35:50.785 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:35:50.785 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":2,"userId":1,"date":"2020-01-02T00:00:00.000Z","products":[{"productId":2,"quantity":4},{"productId":1,"quantity":10},{"productId":5,"quantity":2}],"__v":0}
+2026-05-27 10:35:50.785 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:35:50.785 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:35:50.785 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:35:50.785 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (2)
+2026-05-27 10:35:50.785 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-27 10:35:50.785 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 10:35:50.793 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 10:35:50.793 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 10:35:50.793 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC3, CartId=5}
+2026-05-27 10:35:50.793 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC3
+2026-05-27 10:35:50.793 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 5
+2026-05-27 10:35:50.793 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 5
+2026-05-27 10:35:50.793 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/5
+2026-05-27 10:35:50.793 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/5
+2026-05-27 10:35:50.793 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:35:50.793 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:35:51.357 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:35:51.357 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:35:51.357 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:35:51.357 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":5,"userId":3,"date":"2020-03-01T00:00:00.000Z","products":[{"productId":7,"quantity":1},{"productId":8,"quantity":1}],"__v":0}
+2026-05-27 10:35:51.357 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:35:51.357 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:35:51.357 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:35:51.357 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (5)
+2026-05-27 10:35:51.357 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC3 ==========
+2026-05-27 10:35:51.357 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 10:35:51.357 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down CartTests...
+2026-05-27 10:35:51.357 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests teardown completed
+2026-05-27 10:35:51.357 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Cart_DeleteCart
+2026-05-27 10:35:51.395 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-27 10:39:09.303 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreCartTest_DeleteCart.log
+2026-05-27 10:39:09.307 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Cart_DeleteCart
+2026-05-27 10:39:09.309 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up CartTests...
+2026-05-27 10:39:09.309 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests setup completed
+2026-05-27 10:39:09.310 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:DeleteCart
+2026-05-27 10:39:09.310 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 10:39:09.310 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:39:09.310 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: DeleteCart
+2026-05-27 10:39:09.390 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:39:09.391 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 3
+2026-05-27 10:39:09.392 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-27 10:39:09.394 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 10:39:09.395 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 10:39:09.396 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC1, CartId=1}
+2026-05-27 10:39:09.397 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-27 10:39:09.397 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 1
+2026-05-27 10:39:09.398 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 1
+2026-05-27 10:39:09.398 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/1
+2026-05-27 10:39:09.398 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/1
+2026-05-27 10:39:09.398 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:39:09.400 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:39:11.251 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:39:11.252 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 1 seconds
+2026-05-27 10:39:11.252 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:39:11.252 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1,"userId":1,"date":"2020-03-02T00:00:00.000Z","products":[{"productId":1,"quantity":4},{"productId":2,"quantity":1},{"productId":3,"quantity":6}],"__v":0}
+2026-05-27 10:39:11.253 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:39:11.253 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:39:11.253 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:39:11.254 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (1)
+2026-05-27 10:39:11.254 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-27 10:39:11.254 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 10:39:11.256 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 10:39:11.257 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 10:39:11.257 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC2, CartId=2}
+2026-05-27 10:39:11.257 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-27 10:39:11.257 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 2
+2026-05-27 10:39:11.257 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 2
+2026-05-27 10:39:11.257 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/2
+2026-05-27 10:39:11.257 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/2
+2026-05-27 10:39:11.257 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:39:11.257 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:39:11.801 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:39:11.803 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:39:11.803 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:39:11.803 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":2,"userId":1,"date":"2020-01-02T00:00:00.000Z","products":[{"productId":2,"quantity":4},{"productId":1,"quantity":10},{"productId":5,"quantity":2}],"__v":0}
+2026-05-27 10:39:11.803 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:39:11.803 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:39:11.803 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:39:11.803 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (2)
+2026-05-27 10:39:11.803 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-27 10:39:11.803 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 10:39:11.805 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 10:39:11.807 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 10:39:11.807 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC3, CartId=5}
+2026-05-27 10:39:11.807 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC3
+2026-05-27 10:39:11.807 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 5
+2026-05-27 10:39:11.807 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 5
+2026-05-27 10:39:11.807 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/5
+2026-05-27 10:39:11.807 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/5
+2026-05-27 10:39:11.807 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:39:11.807 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:39:12.691 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:39:12.691 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:39:12.691 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:39:12.691 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":5,"userId":3,"date":"2020-03-01T00:00:00.000Z","products":[{"productId":7,"quantity":1},{"productId":8,"quantity":1}],"__v":0}
+2026-05-27 10:39:12.691 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:39:12.691 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:39:12.691 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:39:12.691 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (5)
+2026-05-27 10:39:12.691 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC3 ==========
+2026-05-27 10:39:12.691 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 10:39:12.691 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down CartTests...
+2026-05-27 10:39:12.691 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests teardown completed
+2026-05-27 10:39:12.691 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Cart_DeleteCart
+2026-05-27 10:39:12.784 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-27 10:46:27.717 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreCartTest_DeleteCart.log
+2026-05-27 10:46:27.717 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Cart_DeleteCart
+2026-05-27 10:46:27.717 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up CartTests...
+2026-05-27 10:46:27.717 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests setup completed
+2026-05-27 10:46:27.717 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:DeleteCart
+2026-05-27 10:46:27.717 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 10:46:27.717 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:46:27.717 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: DeleteCart
+2026-05-27 10:46:27.808 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:46:27.808 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 3
+2026-05-27 10:46:27.808 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-27 10:46:27.810 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 10:46:27.810 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 10:46:27.812 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC1, CartId=1}
+2026-05-27 10:46:27.812 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-27 10:46:27.812 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 1
+2026-05-27 10:46:27.812 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 1
+2026-05-27 10:46:27.812 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/1
+2026-05-27 10:46:27.812 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/1
+2026-05-27 10:46:27.812 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:46:27.812 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:46:29.430 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:46:29.430 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 1 seconds
+2026-05-27 10:46:29.430 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:46:29.430 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1,"userId":1,"date":"2020-03-02T00:00:00.000Z","products":[{"productId":1,"quantity":4},{"productId":2,"quantity":1},{"productId":3,"quantity":6}],"__v":0}
+2026-05-27 10:46:29.430 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:46:29.430 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:46:29.430 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:46:29.442 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (1)
+2026-05-27 10:46:29.442 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-27 10:46:29.442 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 10:46:29.446 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 10:46:29.446 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 10:46:29.446 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC2, CartId=2}
+2026-05-27 10:46:29.446 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-27 10:46:29.446 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 2
+2026-05-27 10:46:29.446 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 2
+2026-05-27 10:46:29.446 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/2
+2026-05-27 10:46:29.446 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/2
+2026-05-27 10:46:29.446 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:46:29.446 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:46:30.294 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:46:30.294 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:46:30.294 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:46:30.294 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":2,"userId":1,"date":"2020-01-02T00:00:00.000Z","products":[{"productId":2,"quantity":4},{"productId":1,"quantity":10},{"productId":5,"quantity":2}],"__v":0}
+2026-05-27 10:46:30.294 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:46:30.294 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:46:30.294 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:46:30.294 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (2)
+2026-05-27 10:46:30.294 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-27 10:46:30.294 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 10:46:30.306 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 10:46:30.306 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 10:46:30.306 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC3, CartId=5}
+2026-05-27 10:46:30.306 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC3
+2026-05-27 10:46:30.306 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 5
+2026-05-27 10:46:30.306 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 5
+2026-05-27 10:46:30.306 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/5
+2026-05-27 10:46:30.306 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/5
+2026-05-27 10:46:30.306 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:46:30.306 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:46:31.223 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:46:31.223 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:46:31.223 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:46:31.223 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":5,"userId":3,"date":"2020-03-01T00:00:00.000Z","products":[{"productId":7,"quantity":1},{"productId":8,"quantity":1}],"__v":0}
+2026-05-27 10:46:31.223 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:46:31.223 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:46:31.223 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:46:31.223 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (5)
+2026-05-27 10:46:31.223 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC3 ==========
+2026-05-27 10:46:31.223 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 10:46:31.227 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down CartTests...
+2026-05-27 10:46:31.227 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests teardown completed
+2026-05-27 10:46:31.227 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Cart_DeleteCart
+2026-05-27 10:46:31.271 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-27 10:53:04.084 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreCartTest_DeleteCart.log
+2026-05-27 10:53:04.090 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Cart_DeleteCart
+2026-05-27 10:53:04.093 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up CartTests...
+2026-05-27 10:53:04.093 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests setup completed
+2026-05-27 10:53:04.095 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:DeleteCart
+2026-05-27 10:53:04.095 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 10:53:04.095 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:53:04.095 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: DeleteCart
+2026-05-27 10:53:04.178 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:53:04.178 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 3
+2026-05-27 10:53:04.178 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-27 10:53:04.183 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 10:53:04.183 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 10:53:04.183 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC1, CartId=1}
+2026-05-27 10:53:04.183 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-27 10:53:04.183 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 1
+2026-05-27 10:53:04.183 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 1
+2026-05-27 10:53:04.183 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/1
+2026-05-27 10:53:04.183 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/1
+2026-05-27 10:53:04.183 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:53:04.186 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:53:05.596 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:53:05.597 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 1 seconds
+2026-05-27 10:53:05.598 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:53:05.599 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1,"userId":1,"date":"2020-03-02T00:00:00.000Z","products":[{"productId":1,"quantity":4},{"productId":2,"quantity":1},{"productId":3,"quantity":6}],"__v":0}
+2026-05-27 10:53:05.602 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:53:05.603 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:53:05.603 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:53:05.604 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (1)
+2026-05-27 10:53:05.605 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-27 10:53:05.606 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 10:53:05.612 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 10:53:05.614 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 10:53:05.614 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC2, CartId=2}
+2026-05-27 10:53:05.614 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-27 10:53:05.614 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 2
+2026-05-27 10:53:05.615 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 2
+2026-05-27 10:53:05.615 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/2
+2026-05-27 10:53:05.615 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/2
+2026-05-27 10:53:05.616 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:53:05.616 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:53:06.181 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:53:06.181 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:53:06.181 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:53:06.181 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":2,"userId":1,"date":"2020-01-02T00:00:00.000Z","products":[{"productId":2,"quantity":4},{"productId":1,"quantity":10},{"productId":5,"quantity":2}],"__v":0}
+2026-05-27 10:53:06.181 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:53:06.181 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:53:06.181 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:53:06.181 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (2)
+2026-05-27 10:53:06.181 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-27 10:53:06.181 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 10:53:06.201 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 10:53:06.201 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 10:53:06.201 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC3, CartId=5}
+2026-05-27 10:53:06.201 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC3
+2026-05-27 10:53:06.202 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 5
+2026-05-27 10:53:06.202 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 5
+2026-05-27 10:53:06.202 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/5
+2026-05-27 10:53:06.202 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/5
+2026-05-27 10:53:06.202 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:53:06.202 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:53:06.752 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:53:06.753 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:53:06.754 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:53:06.754 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":5,"userId":3,"date":"2020-03-01T00:00:00.000Z","products":[{"productId":7,"quantity":1},{"productId":8,"quantity":1}],"__v":0}
+2026-05-27 10:53:06.755 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:53:06.756 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:53:06.756 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:53:06.756 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (5)
+2026-05-27 10:53:06.757 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC3 ==========
+2026-05-27 10:53:06.757 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 10:53:06.762 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down CartTests...
+2026-05-27 10:53:06.762 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests teardown completed
+2026-05-27 10:53:06.763 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Cart_DeleteCart
+2026-05-27 10:53:06.833 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-27 10:59:04.728 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreCartTest_DeleteCart.log
+2026-05-27 10:59:04.742 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Cart_DeleteCart
+2026-05-27 10:59:04.742 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up CartTests...
+2026-05-27 10:59:04.744 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests setup completed
+2026-05-27 10:59:04.745 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:DeleteCart
+2026-05-27 10:59:04.745 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 10:59:04.746 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:59:04.746 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: DeleteCart
+2026-05-27 10:59:05.027 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:59:05.027 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 3
+2026-05-27 10:59:05.029 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-27 10:59:05.031 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 10:59:05.033 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 10:59:05.033 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC1, CartId=1}
+2026-05-27 10:59:05.036 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-27 10:59:05.038 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 1
+2026-05-27 10:59:05.039 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 1
+2026-05-27 10:59:05.039 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/1
+2026-05-27 10:59:05.039 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/1
+2026-05-27 10:59:05.039 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:59:05.040 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:59:05.559 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:59:05.561 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:59:05.561 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:59:05.561 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1,"userId":1,"date":"2020-03-02T00:00:00.000Z","products":[{"productId":1,"quantity":4},{"productId":2,"quantity":1},{"productId":3,"quantity":6}],"__v":0}
+2026-05-27 10:59:05.563 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:59:05.563 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:59:05.563 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:59:05.563 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (1)
+2026-05-27 10:59:05.563 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-27 10:59:05.565 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 10:59:05.565 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 10:59:05.565 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 10:59:05.565 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC2, CartId=2}
+2026-05-27 10:59:05.565 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-27 10:59:05.565 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 2
+2026-05-27 10:59:05.565 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 2
+2026-05-27 10:59:05.569 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/2
+2026-05-27 10:59:05.569 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/2
+2026-05-27 10:59:05.569 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:59:05.569 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:59:06.055 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:59:06.055 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:59:06.055 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:59:06.055 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":2,"userId":1,"date":"2020-01-02T00:00:00.000Z","products":[{"productId":2,"quantity":4},{"productId":1,"quantity":10},{"productId":5,"quantity":2}],"__v":0}
+2026-05-27 10:59:06.058 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:59:06.058 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:59:06.058 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:59:06.058 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (2)
+2026-05-27 10:59:06.058 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-27 10:59:06.058 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 10:59:06.062 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 10:59:06.062 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 10:59:06.062 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC3, CartId=5}
+2026-05-27 10:59:06.062 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC3
+2026-05-27 10:59:06.062 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 5
+2026-05-27 10:59:06.062 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 5
+2026-05-27 10:59:06.062 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/5
+2026-05-27 10:59:06.062 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/5
+2026-05-27 10:59:06.065 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:59:06.065 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:59:06.577 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:59:06.577 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:59:06.577 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:59:06.577 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":5,"userId":3,"date":"2020-03-01T00:00:00.000Z","products":[{"productId":7,"quantity":1},{"productId":8,"quantity":1}],"__v":0}
+2026-05-27 10:59:06.577 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:59:06.579 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:59:06.579 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:59:06.579 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (5)
+2026-05-27 10:59:06.579 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC3 ==========
+2026-05-27 10:59:06.579 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 10:59:06.581 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down CartTests...
+2026-05-27 10:59:06.581 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests teardown completed
+2026-05-27 10:59:06.581 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Cart_DeleteCart
+2026-05-27 10:59:06.663 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-27 11:04:57.585 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreCartTest_DeleteCart.log
+2026-05-27 11:04:57.589 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Cart_DeleteCart
+2026-05-27 11:04:57.589 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up CartTests...
+2026-05-27 11:04:57.589 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests setup completed
+2026-05-27 11:04:57.589 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:DeleteCart
+2026-05-27 11:04:57.589 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 11:04:57.589 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 11:04:57.589 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: DeleteCart
+2026-05-27 11:04:57.687 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 11:04:57.687 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 3
+2026-05-27 11:04:57.687 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-27 11:04:57.690 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 11:04:57.690 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 11:04:57.690 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC1, CartId=1}
+2026-05-27 11:04:57.690 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-27 11:04:57.690 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 1
+2026-05-27 11:04:57.690 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 1
+2026-05-27 11:04:57.690 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/1
+2026-05-27 11:04:57.690 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/1
+2026-05-27 11:04:57.690 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:04:57.690 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:04:58.167 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:04:58.167 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:04:58.167 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:04:58.167 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1,"userId":1,"date":"2020-03-02T00:00:00.000Z","products":[{"productId":1,"quantity":4},{"productId":2,"quantity":1},{"productId":3,"quantity":6}],"__v":0}
+2026-05-27 11:04:58.167 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:04:58.167 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 11:04:58.167 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:04:58.167 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (1)
+2026-05-27 11:04:58.167 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-27 11:04:58.167 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 11:04:58.172 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 11:04:58.172 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 11:04:58.172 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC2, CartId=2}
+2026-05-27 11:04:58.172 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-27 11:04:58.172 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 2
+2026-05-27 11:04:58.172 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 2
+2026-05-27 11:04:58.172 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/2
+2026-05-27 11:04:58.172 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/2
+2026-05-27 11:04:58.172 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:04:58.172 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:04:58.661 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:04:58.661 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:04:58.661 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:04:58.661 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":2,"userId":1,"date":"2020-01-02T00:00:00.000Z","products":[{"productId":2,"quantity":4},{"productId":1,"quantity":10},{"productId":5,"quantity":2}],"__v":0}
+2026-05-27 11:04:58.663 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:04:58.663 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 11:04:58.663 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:04:58.663 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (2)
+2026-05-27 11:04:58.665 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-27 11:04:58.665 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 11:04:58.667 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 11:04:58.667 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 11:04:58.667 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC3, CartId=5}
+2026-05-27 11:04:58.667 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC3
+2026-05-27 11:04:58.667 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 5
+2026-05-27 11:04:58.667 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 5
+2026-05-27 11:04:58.667 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/5
+2026-05-27 11:04:58.667 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/5
+2026-05-27 11:04:58.667 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:04:58.667 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:04:59.161 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:04:59.162 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:04:59.162 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:04:59.163 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":5,"userId":3,"date":"2020-03-01T00:00:00.000Z","products":[{"productId":7,"quantity":1},{"productId":8,"quantity":1}],"__v":0}
+2026-05-27 11:04:59.163 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:04:59.164 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 11:04:59.164 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:04:59.164 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (5)
+2026-05-27 11:04:59.164 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC3 ==========
+2026-05-27 11:04:59.165 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 11:04:59.168 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down CartTests...
+2026-05-27 11:04:59.168 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests teardown completed
+2026-05-27 11:04:59.169 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Cart_DeleteCart
+2026-05-27 11:04:59.260 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-27 11:08:22.478 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreCartTest_DeleteCart.log
+2026-05-27 11:08:22.478 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Cart_DeleteCart
+2026-05-27 11:08:22.478 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up CartTests...
+2026-05-27 11:08:22.478 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests setup completed
+2026-05-27 11:08:22.478 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:DeleteCart
+2026-05-27 11:08:22.478 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 11:08:22.478 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 11:08:22.478 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: DeleteCart
+2026-05-27 11:08:22.542 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 11:08:22.556 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 3
+2026-05-27 11:08:22.558 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-27 11:08:22.561 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 11:08:22.561 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 11:08:22.561 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC1, CartId=1}
+2026-05-27 11:08:22.561 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-27 11:08:22.561 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 1
+2026-05-27 11:08:22.561 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 1
+2026-05-27 11:08:22.561 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/1
+2026-05-27 11:08:22.561 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/1
+2026-05-27 11:08:22.561 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:08:22.561 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:08:23.025 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:08:23.025 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:08:23.025 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:08:23.025 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1,"userId":1,"date":"2020-03-02T00:00:00.000Z","products":[{"productId":1,"quantity":4},{"productId":2,"quantity":1},{"productId":3,"quantity":6}],"__v":0}
+2026-05-27 11:08:23.025 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:08:23.025 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 11:08:23.025 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:08:23.025 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (1)
+2026-05-27 11:08:23.025 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-27 11:08:23.028 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 11:08:23.028 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 11:08:23.028 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 11:08:23.028 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC2, CartId=2}
+2026-05-27 11:08:23.031 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-27 11:08:23.031 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 2
+2026-05-27 11:08:23.031 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 2
+2026-05-27 11:08:23.031 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/2
+2026-05-27 11:08:23.031 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/2
+2026-05-27 11:08:23.031 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:08:23.031 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:08:23.500 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:08:23.500 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:08:23.513 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:08:23.513 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":2,"userId":1,"date":"2020-01-02T00:00:00.000Z","products":[{"productId":2,"quantity":4},{"productId":1,"quantity":10},{"productId":5,"quantity":2}],"__v":0}
+2026-05-27 11:08:23.513 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:08:23.513 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 11:08:23.515 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:08:23.515 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (2)
+2026-05-27 11:08:23.515 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-27 11:08:23.515 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 11:08:23.515 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 11:08:23.523 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 11:08:23.523 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC3, CartId=5}
+2026-05-27 11:08:23.523 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC3
+2026-05-27 11:08:23.523 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 5
+2026-05-27 11:08:23.523 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 5
+2026-05-27 11:08:23.523 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/5
+2026-05-27 11:08:23.523 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/5
+2026-05-27 11:08:23.523 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:08:23.523 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:08:24.010 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:08:24.011 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:08:24.011 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:08:24.011 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":5,"userId":3,"date":"2020-03-01T00:00:00.000Z","products":[{"productId":7,"quantity":1},{"productId":8,"quantity":1}],"__v":0}
+2026-05-27 11:08:24.011 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:08:24.011 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 11:08:24.011 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:08:24.011 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (5)
+2026-05-27 11:08:24.011 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC3 ==========
+2026-05-27 11:08:24.012 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 11:08:24.013 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down CartTests...
+2026-05-27 11:08:24.013 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests teardown completed
+2026-05-27 11:08:24.013 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Cart_DeleteCart
+2026-05-27 11:08:24.052 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-27 11:20:20.546 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreCartTest_DeleteCart.log
+2026-05-27 11:20:20.549 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Cart_DeleteCart
+2026-05-27 11:20:20.549 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up CartTests...
+2026-05-27 11:20:20.549 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests setup completed
+2026-05-27 11:20:20.549 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:DeleteCart
+2026-05-27 11:20:20.554 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 11:20:20.554 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 11:20:20.554 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: DeleteCart
+2026-05-27 11:20:20.654 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 11:20:20.656 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 3
+2026-05-27 11:20:20.656 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-27 11:20:20.658 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 11:20:20.658 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 11:20:20.660 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC1, CartId=1}
+2026-05-27 11:20:20.660 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-27 11:20:20.660 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 1
+2026-05-27 11:20:20.660 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 1
+2026-05-27 11:20:20.660 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/1
+2026-05-27 11:20:20.660 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/1
+2026-05-27 11:20:20.660 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:20:20.660 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:20:21.187 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:20:21.187 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:20:21.187 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:20:21.187 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1,"userId":1,"date":"2020-03-02T00:00:00.000Z","products":[{"productId":1,"quantity":4},{"productId":2,"quantity":1},{"productId":3,"quantity":6}],"__v":0}
+2026-05-27 11:20:21.187 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:20:21.190 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 11:20:21.190 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:20:21.190 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (1)
+2026-05-27 11:20:21.190 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-27 11:20:21.190 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 11:20:21.192 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 11:20:21.192 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 11:20:21.192 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC2, CartId=2}
+2026-05-27 11:20:21.192 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-27 11:20:21.192 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 2
+2026-05-27 11:20:21.192 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 2
+2026-05-27 11:20:21.192 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/2
+2026-05-27 11:20:21.192 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/2
+2026-05-27 11:20:21.194 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:20:21.194 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:20:21.702 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:20:21.702 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:20:21.702 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:20:21.702 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":2,"userId":1,"date":"2020-01-02T00:00:00.000Z","products":[{"productId":2,"quantity":4},{"productId":1,"quantity":10},{"productId":5,"quantity":2}],"__v":0}
+2026-05-27 11:20:21.702 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:20:21.702 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 11:20:21.702 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:20:21.702 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (2)
+2026-05-27 11:20:21.702 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-27 11:20:21.702 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 11:20:21.704 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 11:20:21.704 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 11:20:21.704 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC3, CartId=5}
+2026-05-27 11:20:21.704 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC3
+2026-05-27 11:20:21.704 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 5
+2026-05-27 11:20:21.704 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 5
+2026-05-27 11:20:21.706 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/5
+2026-05-27 11:20:21.706 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/5
+2026-05-27 11:20:21.706 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:20:21.706 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:20:22.202 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:20:22.202 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:20:22.202 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:20:22.202 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":5,"userId":3,"date":"2020-03-01T00:00:00.000Z","products":[{"productId":7,"quantity":1},{"productId":8,"quantity":1}],"__v":0}
+2026-05-27 11:20:22.202 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:20:22.202 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 11:20:22.202 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:20:22.202 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (5)
+2026-05-27 11:20:22.202 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC3 ==========
+2026-05-27 11:20:22.202 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 11:20:22.202 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down CartTests...
+2026-05-27 11:20:22.202 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests teardown completed
+2026-05-27 11:20:22.202 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Cart_DeleteCart
+2026-05-27 11:20:22.234 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-27 11:25:02.284 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreCartTest_DeleteCart.log
+2026-05-27 11:25:02.287 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Cart_DeleteCart
+2026-05-27 11:25:02.291 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up CartTests...
+2026-05-27 11:25:02.291 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests setup completed
+2026-05-27 11:25:02.291 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:DeleteCart
+2026-05-27 11:25:02.291 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 11:25:02.291 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 11:25:02.291 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: DeleteCart
+2026-05-27 11:25:02.388 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 11:25:02.388 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 3
+2026-05-27 11:25:02.388 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-27 11:25:02.390 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 11:25:02.392 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 11:25:02.392 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC1, CartId=1}
+2026-05-27 11:25:02.392 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-27 11:25:02.394 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 1
+2026-05-27 11:25:02.394 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 1
+2026-05-27 11:25:02.394 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/1
+2026-05-27 11:25:02.394 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/1
+2026-05-27 11:25:02.394 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:25:02.394 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:25:02.917 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:25:02.917 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:25:02.917 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:25:02.917 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1,"userId":1,"date":"2020-03-02T00:00:00.000Z","products":[{"productId":1,"quantity":4},{"productId":2,"quantity":1},{"productId":3,"quantity":6}],"__v":0}
+2026-05-27 11:25:02.917 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:25:02.917 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 11:25:02.917 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:25:02.917 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (1)
+2026-05-27 11:25:02.917 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-27 11:25:02.917 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 11:25:02.921 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 11:25:02.923 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 11:25:02.923 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC2, CartId=2}
+2026-05-27 11:25:02.923 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-27 11:25:02.923 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 2
+2026-05-27 11:25:02.923 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 2
+2026-05-27 11:25:02.923 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/2
+2026-05-27 11:25:02.923 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/2
+2026-05-27 11:25:02.923 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:25:02.923 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:25:03.469 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:25:03.471 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:25:03.471 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:25:03.471 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":2,"userId":1,"date":"2020-01-02T00:00:00.000Z","products":[{"productId":2,"quantity":4},{"productId":1,"quantity":10},{"productId":5,"quantity":2}],"__v":0}
+2026-05-27 11:25:03.471 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:25:03.471 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 11:25:03.471 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:25:03.471 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (2)
+2026-05-27 11:25:03.471 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-27 11:25:03.471 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 11:25:03.475 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 11:25:03.475 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 11:25:03.475 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC3, CartId=5}
+2026-05-27 11:25:03.475 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC3
+2026-05-27 11:25:03.475 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 5
+2026-05-27 11:25:03.475 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 5
+2026-05-27 11:25:03.475 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/5
+2026-05-27 11:25:03.475 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/5
+2026-05-27 11:25:03.475 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:25:03.475 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:25:04.000 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:25:04.000 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:25:04.000 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:25:04.000 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":5,"userId":3,"date":"2020-03-01T00:00:00.000Z","products":[{"productId":7,"quantity":1},{"productId":8,"quantity":1}],"__v":0}
+2026-05-27 11:25:04.002 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:25:04.002 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 11:25:04.002 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:25:04.002 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (5)
+2026-05-27 11:25:04.002 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC3 ==========
+2026-05-27 11:25:04.002 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 11:25:04.002 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down CartTests...
+2026-05-27 11:25:04.004 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests teardown completed
+2026-05-27 11:25:04.004 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Cart_DeleteCart
+2026-05-27 11:25:04.081 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-27 11:42:14.447 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreCartTest_DeleteCart.log
+2026-05-27 11:42:14.455 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Cart_DeleteCart
+2026-05-27 11:42:14.455 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up CartTests...
+2026-05-27 11:42:14.455 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests setup completed
+2026-05-27 11:42:14.458 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:DeleteCart
+2026-05-27 11:42:14.458 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 11:42:14.458 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 11:42:14.458 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: DeleteCart
+2026-05-27 11:42:14.559 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 11:42:14.561 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 3
+2026-05-27 11:42:14.561 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-27 11:42:14.563 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 11:42:14.563 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 11:42:14.563 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC1, CartId=1}
+2026-05-27 11:42:14.563 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-27 11:42:14.563 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 1
+2026-05-27 11:42:14.565 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 1
+2026-05-27 11:42:14.565 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/1
+2026-05-27 11:42:14.565 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/1
+2026-05-27 11:42:14.565 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:42:14.565 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:42:15.075 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:42:15.075 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:42:15.075 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:42:15.075 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1,"userId":1,"date":"2020-03-02T00:00:00.000Z","products":[{"productId":1,"quantity":4},{"productId":2,"quantity":1},{"productId":3,"quantity":6}],"__v":0}
+2026-05-27 11:42:15.075 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:42:15.075 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 11:42:15.075 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:42:15.075 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (1)
+2026-05-27 11:42:15.075 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-27 11:42:15.075 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 11:42:15.075 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 11:42:15.075 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 11:42:15.075 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC2, CartId=2}
+2026-05-27 11:42:15.075 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-27 11:42:15.075 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 2
+2026-05-27 11:42:15.075 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 2
+2026-05-27 11:42:15.075 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/2
+2026-05-27 11:42:15.075 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/2
+2026-05-27 11:42:15.075 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:42:15.075 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:42:15.583 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:42:15.591 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:42:15.591 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:42:15.591 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":2,"userId":1,"date":"2020-01-02T00:00:00.000Z","products":[{"productId":2,"quantity":4},{"productId":1,"quantity":10},{"productId":5,"quantity":2}],"__v":0}
+2026-05-27 11:42:15.591 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:42:15.591 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 11:42:15.591 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:42:15.591 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (2)
+2026-05-27 11:42:15.591 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-27 11:42:15.591 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 11:42:15.593 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testDeleteCart
+2026-05-27 11:42:15.593 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Delete Cart ==========
+2026-05-27 11:42:15.593 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC3, CartId=5}
+2026-05-27 11:42:15.593 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC3
+2026-05-27 11:42:15.595 [main] INFO  c.f.automation.utils.LoggerUtil - Cart ID: 5
+2026-05-27 11:42:15.595 [main] INFO  c.f.automation.utils.LoggerUtil - Deleting cart with ID: 5
+2026-05-27 11:42:15.595 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /carts/5
+2026-05-27 11:42:15.595 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> DELETE https://fakestoreapi.com/carts/5
+2026-05-27 11:42:15.595 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:42:15.595 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:42:16.139 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:42:16.139 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:42:16.139 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:42:16.139 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":5,"userId":3,"date":"2020-03-01T00:00:00.000Z","products":[{"productId":7,"quantity":1},{"productId":8,"quantity":1}],"__v":0}
+2026-05-27 11:42:16.141 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:42:16.141 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 11:42:16.141 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:42:16.141 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Cart ID Validation PASSED: ID matches deleted cart (5)
+2026-05-27 11:42:16.141 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC3 ==========
+2026-05-27 11:42:16.141 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testDeleteCart
+2026-05-27 11:42:16.146 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down CartTests...
+2026-05-27 11:42:16.146 [main] INFO  c.f.automation.utils.LoggerUtil - CartTests teardown completed
+2026-05-27 11:42:16.146 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Cart_DeleteCart
+2026-05-27 11:42:16.243 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully

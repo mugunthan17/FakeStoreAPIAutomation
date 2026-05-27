@@ -1,0 +1,151 @@
+2026-05-26 22:48:00.572 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreLoginTest_Login.log
+2026-05-26 22:48:00.574 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Login_Login
+2026-05-26 22:48:00.575 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up LoginTests...
+2026-05-26 22:48:00.575 [main] INFO  c.f.automation.utils.LoggerUtil - LoginTests setup completed
+2026-05-26 22:48:00.576 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:Login
+2026-05-26 22:48:00.586 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-26 22:48:00.586 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-26 22:48:00.587 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: Login
+2026-05-26 22:48:00.628 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-26 22:48:00.628 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 1
+2026-05-26 22:48:00.628 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-26 22:48:00.629 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testLogin
+2026-05-26 22:48:00.629 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: User Login ==========
+2026-05-26 22:48:00.629 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC1, Username=mor_2314, Password=83r5^_}
+2026-05-26 22:48:00.630 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-26 22:48:00.630 [main] INFO  c.f.automation.utils.LoggerUtil - Username: mor_2314
+2026-05-26 22:48:00.630 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Input Data Validation PASSED: Username and password have values
+2026-05-26 22:48:00.630 [main] INFO  c.f.automation.utils.LoggerUtil - Attempting login with username: mor_2314
+2026-05-26 22:48:00.630 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> POST https://fakestoreapi.com/auth/login
+2026-05-26 22:48:00.630 [main] DEBUG c.f.automation.utils.LoggerUtil - Request Payload: {
+  "password" : "83r5^_",
+  "username" : "mor_2314"
+}
+2026-05-26 22:48:00.631 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-26 22:48:00.631 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-26 22:48:01.264 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:48:01.264 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-26 22:48:01.264 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:48:01.264 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXIiOiJtb3JfMjMxNCIsImlhdCI6MTc3OTgxNTg4MX0.FysTzNA7wdD2I3CqB7SLuq3xzMoM2HxfAvmTawE7_9A"}
+2026-05-26 22:48:01.265 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 201 is a success code
+2026-05-26 22:48:01.265 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'token' field
+2026-05-26 22:48:01.265 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-26 22:48:01.922 [main] INFO  c.f.automation.utils.LoggerUtil - Auth token extracted successfully
+2026-05-26 22:48:01.922 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Token Validation PASSED: Valid authentication token received
+2026-05-26 22:48:01.922 [main] INFO  c.f.automation.utils.LoggerUtil - Authentication Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXIiOiJtb3JfMjMxNCIsImlhdCI6MTc3OTgxNTg4MX0.FysTzNA7wdD2I3CqB7SLuq3xzMoM2HxfAvmTawE7_9A
+2026-05-26 22:48:01.934 [main] INFO  c.f.automation.utils.LoggerUtil - Auth token extracted successfully
+2026-05-26 22:48:01.934 [main] INFO  c.f.automation.utils.LoggerUtil - Login successful
+2026-05-26 22:48:01.934 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Login Success Validation PASSED: User authenticated successfully
+2026-05-26 22:48:01.934 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-26 22:48:01.935 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testLogin
+2026-05-26 22:48:01.936 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down LoginTests...
+2026-05-26 22:48:01.936 [main] INFO  c.f.automation.utils.LoggerUtil - LoginTests teardown completed
+2026-05-26 22:48:01.936 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Login_Login
+2026-05-26 22:48:01.956 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-26 22:56:29.534 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreLoginTest_Login.log
+2026-05-26 22:56:29.536 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Login_Login
+2026-05-26 22:56:29.537 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up LoginTests...
+2026-05-26 22:56:29.537 [main] INFO  c.f.automation.utils.LoggerUtil - LoginTests setup completed
+2026-05-26 22:56:29.538 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:Login
+2026-05-26 22:56:29.538 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-26 22:56:29.538 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-26 22:56:29.538 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: Login
+2026-05-26 22:56:29.575 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-26 22:56:29.575 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 2
+2026-05-26 22:56:29.575 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-26 22:56:29.576 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testLogin
+2026-05-26 22:56:29.577 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: User Login ==========
+2026-05-26 22:56:29.577 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC1, Username=mor_2314, Password=83r5^_}
+2026-05-26 22:56:29.577 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-26 22:56:29.577 [main] INFO  c.f.automation.utils.LoggerUtil - Username: mor_2314
+2026-05-26 22:56:29.577 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Input Data Validation PASSED: Username and password have values
+2026-05-26 22:56:29.577 [main] INFO  c.f.automation.utils.LoggerUtil - Attempting login with username: mor_2314
+2026-05-26 22:56:29.577 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> POST https://fakestoreapi.com/auth/login
+2026-05-26 22:56:29.577 [main] DEBUG c.f.automation.utils.LoggerUtil - Request Payload: {
+  "password" : "83r5^_",
+  "username" : "mor_2314"
+}
+2026-05-26 22:56:29.577 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-26 22:56:29.578 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-26 22:56:30.119 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:56:30.120 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-26 22:56:30.120 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:56:30.120 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXIiOiJtb3JfMjMxNCIsImlhdCI6MTc3OTgxNjM5MH0.16O4ICxp7Lgp-EPWL2J03TIJFDAtv4xBT0lM9jv3SPk"}
+2026-05-26 22:56:30.121 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 201 is a success code
+2026-05-26 22:56:30.121 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'token' field
+2026-05-26 22:56:30.121 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-26 22:56:30.713 [main] INFO  c.f.automation.utils.LoggerUtil - Auth token extracted successfully
+2026-05-26 22:56:30.713 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Token Validation PASSED: Valid authentication token received
+2026-05-26 22:56:30.714 [main] INFO  c.f.automation.utils.LoggerUtil - Authentication Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXIiOiJtb3JfMjMxNCIsImlhdCI6MTc3OTgxNjM5MH0.16O4ICxp7Lgp-EPWL2J03TIJFDAtv4xBT0lM9jv3SPk
+2026-05-26 22:56:30.727 [main] INFO  c.f.automation.utils.LoggerUtil - Auth token extracted successfully
+2026-05-26 22:56:30.727 [main] INFO  c.f.automation.utils.LoggerUtil - Login successful
+2026-05-26 22:56:30.727 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Login Success Validation PASSED: User authenticated successfully
+2026-05-26 22:56:30.727 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-26 22:56:30.727 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testLogin
+2026-05-26 22:56:30.729 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testLogin
+2026-05-26 22:56:30.729 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: User Login ==========
+2026-05-26 22:56:30.729 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC2, Username=john_doe, Password=pass123}
+2026-05-26 22:56:30.729 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-26 22:56:30.729 [main] INFO  c.f.automation.utils.LoggerUtil - Username: john_doe
+2026-05-26 22:56:30.729 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Input Data Validation PASSED: Username and password have values
+2026-05-26 22:56:30.729 [main] INFO  c.f.automation.utils.LoggerUtil - Attempting login with username: john_doe
+2026-05-26 22:56:30.729 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> POST https://fakestoreapi.com/auth/login
+2026-05-26 22:56:30.729 [main] DEBUG c.f.automation.utils.LoggerUtil - Request Payload: {
+  "password" : "pass123",
+  "username" : "john_doe"
+}
+2026-05-26 22:56:30.730 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-26 22:56:30.730 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-26 22:56:31.327 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 401
+2026-05-26 22:56:31.327 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-26 22:56:31.328 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 401
+2026-05-26 22:56:31.329 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: username or password is incorrect
+2026-05-26 22:56:31.358 [main] ERROR c.f.automation.utils.LoggerUtil - Test failed: testLogin
+2026-05-26 22:56:31.363 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down LoginTests...
+2026-05-26 22:56:31.363 [main] INFO  c.f.automation.utils.LoggerUtil - LoginTests teardown completed
+2026-05-26 22:56:31.364 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Login_Login
+2026-05-26 22:56:31.387 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-26 22:57:19.919 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreLoginTest_Login.log
+2026-05-26 22:57:19.923 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Login_Login
+2026-05-26 22:57:19.924 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up LoginTests...
+2026-05-26 22:57:19.924 [main] INFO  c.f.automation.utils.LoggerUtil - LoginTests setup completed
+2026-05-26 22:57:19.925 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:Login
+2026-05-26 22:57:19.925 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-26 22:57:19.925 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-26 22:57:19.925 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: Login
+2026-05-26 22:57:19.992 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-26 22:57:19.992 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 1
+2026-05-26 22:57:19.992 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-26 22:57:19.994 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testLogin
+2026-05-26 22:57:19.994 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: User Login ==========
+2026-05-26 22:57:19.994 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC1, Username=mor_2314, Password=83r5^_}
+2026-05-26 22:57:19.994 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-26 22:57:19.994 [main] INFO  c.f.automation.utils.LoggerUtil - Username: mor_2314
+2026-05-26 22:57:19.994 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Input Data Validation PASSED: Username and password have values
+2026-05-26 22:57:19.994 [main] INFO  c.f.automation.utils.LoggerUtil - Attempting login with username: mor_2314
+2026-05-26 22:57:19.994 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> POST https://fakestoreapi.com/auth/login
+2026-05-26 22:57:19.994 [main] DEBUG c.f.automation.utils.LoggerUtil - Request Payload: {
+  "password" : "83r5^_",
+  "username" : "mor_2314"
+}
+2026-05-26 22:57:19.994 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-26 22:57:19.994 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-26 22:57:20.758 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:57:20.758 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-26 22:57:20.758 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 201
+2026-05-26 22:57:20.758 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXIiOiJtb3JfMjMxNCIsImlhdCI6MTc3OTgxNjQ0MH0.-TOamPTSkajyLKQEjJng9jKb4FV5ZGnmqb6C7kLOjjA"}
+2026-05-26 22:57:20.758 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 201 is a success code
+2026-05-26 22:57:20.758 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'token' field
+2026-05-26 22:57:20.758 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-26 22:57:21.965 [main] INFO  c.f.automation.utils.LoggerUtil - Auth token extracted successfully
+2026-05-26 22:57:21.965 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Token Validation PASSED: Valid authentication token received
+2026-05-26 22:57:21.965 [main] INFO  c.f.automation.utils.LoggerUtil - Authentication Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsInVzZXIiOiJtb3JfMjMxNCIsImlhdCI6MTc3OTgxNjQ0MH0.-TOamPTSkajyLKQEjJng9jKb4FV5ZGnmqb6C7kLOjjA
+2026-05-26 22:57:21.989 [main] INFO  c.f.automation.utils.LoggerUtil - Auth token extracted successfully
+2026-05-26 22:57:21.990 [main] INFO  c.f.automation.utils.LoggerUtil - Login successful
+2026-05-26 22:57:21.990 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Login Success Validation PASSED: User authenticated successfully
+2026-05-26 22:57:21.990 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-26 22:57:21.990 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testLogin
+2026-05-26 22:57:21.993 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down LoginTests...
+2026-05-26 22:57:21.993 [main] INFO  c.f.automation.utils.LoggerUtil - LoginTests teardown completed
+2026-05-26 22:57:21.993 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Login_Login
+2026-05-26 22:57:22.024 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully

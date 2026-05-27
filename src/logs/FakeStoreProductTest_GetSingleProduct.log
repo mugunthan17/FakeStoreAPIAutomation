@@ -1,0 +1,1116 @@
+2026-05-27 10:24:27.687 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreProductTest_GetSingleProduct.log
+2026-05-27 10:24:27.695 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Product_GetSingleProduct
+2026-05-27 10:24:27.697 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up ProductTests...
+2026-05-27 10:24:27.697 [main] INFO  c.f.automation.utils.LoggerUtil - ProductTests setup completed
+2026-05-27 10:24:27.697 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:GetSingleProduct
+2026-05-27 10:24:27.699 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 10:24:27.699 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:24:27.699 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: GetSingleProduct
+2026-05-27 10:24:27.896 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:24:27.900 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 3
+2026-05-27 10:24:27.902 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-27 10:24:27.908 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 10:24:27.908 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 10:24:27.908 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC1, ProductId=1}
+2026-05-27 10:24:27.908 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-27 10:24:27.920 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 1
+2026-05-27 10:24:27.920 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 1
+2026-05-27 10:24:27.920 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/1
+2026-05-27 10:24:27.920 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/1
+2026-05-27 10:24:27.920 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:24:27.920 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:24:28.494 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:24:28.496 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:24:28.496 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:24:28.496 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1,"title":"Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops","price":109.95,"description":"Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday","category":"men's clothing","image":"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png","rating":{"rate":3.9,"count":120}}
+2026-05-27 10:24:28.506 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:24:28.508 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:24:28.509 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:24:28.511 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (1)
+2026-05-27 10:24:28.512 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 10:24:28.512 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 10:24:28.512 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 10:24:28.513 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 10:24:28.513 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 10:24:28.513 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 10:24:28.515 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-27 10:24:28.515 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 10:24:28.522 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 10:24:28.524 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 10:24:28.524 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC2, ProductId=2}
+2026-05-27 10:24:28.524 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-27 10:24:28.524 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 2
+2026-05-27 10:24:28.524 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 2
+2026-05-27 10:24:28.526 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/2
+2026-05-27 10:24:28.526 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/2
+2026-05-27 10:24:28.526 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:24:28.526 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:24:29.106 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:24:29.106 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:24:29.108 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:24:29.108 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":2,"title":"Mens Casual Premium Slim Fit T-Shirts ","price":22.3,"description":"Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.","category":"men's clothing","image":"https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png","rating":{"rate":4.1,"count":259}}
+2026-05-27 10:24:29.108 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:24:29.108 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:24:29.108 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:24:29.110 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (2)
+2026-05-27 10:24:29.110 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 10:24:29.110 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 10:24:29.110 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 10:24:29.110 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 10:24:29.110 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 10:24:29.110 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 10:24:29.110 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-27 10:24:29.110 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 10:24:29.120 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 10:24:29.120 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 10:24:29.120 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC3, ProductId=3}
+2026-05-27 10:24:29.120 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC3
+2026-05-27 10:24:29.122 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 3
+2026-05-27 10:24:29.122 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 3
+2026-05-27 10:24:29.122 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/3
+2026-05-27 10:24:29.122 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/3
+2026-05-27 10:24:29.122 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:24:29.122 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:24:29.553 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:24:29.553 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:24:29.555 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:24:29.555 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":3,"title":"Mens Cotton Jacket","price":55.99,"description":"great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.","category":"men's clothing","image":"https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png","rating":{"rate":4.7,"count":500}}
+2026-05-27 10:24:29.555 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:24:29.555 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:24:29.555 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:24:29.555 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (3)
+2026-05-27 10:24:29.555 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 10:24:29.555 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 10:24:29.555 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 10:24:29.557 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 10:24:29.557 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 10:24:29.557 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 10:24:29.557 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC3 ==========
+2026-05-27 10:24:29.557 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 10:24:29.559 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down ProductTests...
+2026-05-27 10:24:29.559 [main] INFO  c.f.automation.utils.LoggerUtil - ProductTests teardown completed
+2026-05-27 10:24:29.561 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Product_GetSingleProduct
+2026-05-27 10:24:29.628 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-27 10:28:46.380 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreProductTest_GetSingleProduct.log
+2026-05-27 10:28:46.382 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Product_GetSingleProduct
+2026-05-27 10:28:46.386 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up ProductTests...
+2026-05-27 10:28:46.386 [main] INFO  c.f.automation.utils.LoggerUtil - ProductTests setup completed
+2026-05-27 10:28:46.386 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:GetSingleProduct
+2026-05-27 10:28:46.386 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 10:28:46.386 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:28:46.386 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: GetSingleProduct
+2026-05-27 10:28:46.488 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:28:46.488 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 3
+2026-05-27 10:28:46.488 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-27 10:28:46.490 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 10:28:46.490 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 10:28:46.490 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC1, ProductId=1}
+2026-05-27 10:28:46.492 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-27 10:28:46.492 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 1
+2026-05-27 10:28:46.492 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 1
+2026-05-27 10:28:46.492 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/1
+2026-05-27 10:28:46.492 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/1
+2026-05-27 10:28:46.492 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:28:46.492 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:28:46.965 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:28:46.965 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:28:46.965 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:28:46.965 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1,"title":"Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops","price":109.95,"description":"Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday","category":"men's clothing","image":"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png","rating":{"rate":3.9,"count":120}}
+2026-05-27 10:28:46.965 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:28:46.965 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:28:46.965 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:28:46.965 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (1)
+2026-05-27 10:28:46.965 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 10:28:46.965 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 10:28:46.965 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 10:28:46.965 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 10:28:46.965 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 10:28:46.965 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 10:28:46.965 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-27 10:28:46.965 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 10:28:46.971 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 10:28:46.971 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 10:28:46.971 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC2, ProductId=2}
+2026-05-27 10:28:46.971 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-27 10:28:46.971 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 2
+2026-05-27 10:28:46.971 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 2
+2026-05-27 10:28:46.971 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/2
+2026-05-27 10:28:46.971 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/2
+2026-05-27 10:28:46.971 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:28:46.971 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:28:47.487 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:28:47.487 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:28:47.487 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:28:47.487 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":2,"title":"Mens Casual Premium Slim Fit T-Shirts ","price":22.3,"description":"Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.","category":"men's clothing","image":"https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png","rating":{"rate":4.1,"count":259}}
+2026-05-27 10:28:47.487 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:28:47.487 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:28:47.487 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:28:47.487 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (2)
+2026-05-27 10:28:47.487 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 10:28:47.487 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 10:28:47.487 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 10:28:47.487 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 10:28:47.487 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 10:28:47.487 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 10:28:47.487 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-27 10:28:47.487 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 10:28:47.489 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 10:28:47.489 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 10:28:47.489 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC3, ProductId=3}
+2026-05-27 10:28:47.489 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC3
+2026-05-27 10:28:47.489 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 3
+2026-05-27 10:28:47.489 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 3
+2026-05-27 10:28:47.489 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/3
+2026-05-27 10:28:47.489 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/3
+2026-05-27 10:28:47.489 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:28:47.489 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:28:48.357 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:28:48.357 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:28:48.357 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:28:48.357 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":3,"title":"Mens Cotton Jacket","price":55.99,"description":"great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.","category":"men's clothing","image":"https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png","rating":{"rate":4.7,"count":500}}
+2026-05-27 10:28:48.357 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:28:48.357 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:28:48.357 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:28:48.357 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (3)
+2026-05-27 10:28:48.357 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 10:28:48.357 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 10:28:48.357 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 10:28:48.357 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 10:28:48.357 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 10:28:48.357 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 10:28:48.357 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC3 ==========
+2026-05-27 10:28:48.357 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 10:28:48.362 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down ProductTests...
+2026-05-27 10:28:48.362 [main] INFO  c.f.automation.utils.LoggerUtil - ProductTests teardown completed
+2026-05-27 10:28:48.362 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Product_GetSingleProduct
+2026-05-27 10:28:48.377 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-27 10:35:39.079 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreProductTest_GetSingleProduct.log
+2026-05-27 10:35:39.084 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Product_GetSingleProduct
+2026-05-27 10:35:39.084 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up ProductTests...
+2026-05-27 10:35:39.084 [main] INFO  c.f.automation.utils.LoggerUtil - ProductTests setup completed
+2026-05-27 10:35:39.086 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:GetSingleProduct
+2026-05-27 10:35:39.086 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 10:35:39.086 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:35:39.086 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: GetSingleProduct
+2026-05-27 10:35:39.202 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:35:39.207 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 3
+2026-05-27 10:35:39.209 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-27 10:35:39.211 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 10:35:39.211 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 10:35:39.211 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC1, ProductId=1}
+2026-05-27 10:35:39.211 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-27 10:35:39.213 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 1
+2026-05-27 10:35:39.213 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 1
+2026-05-27 10:35:39.213 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/1
+2026-05-27 10:35:39.213 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/1
+2026-05-27 10:35:39.213 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:35:39.213 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:35:40.826 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:35:40.827 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 1 seconds
+2026-05-27 10:35:40.827 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:35:40.827 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1,"title":"Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops","price":109.95,"description":"Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday","category":"men's clothing","image":"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png","rating":{"rate":3.9,"count":120}}
+2026-05-27 10:35:40.828 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:35:40.828 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:35:40.829 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:35:40.829 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (1)
+2026-05-27 10:35:40.829 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 10:35:40.829 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 10:35:40.829 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 10:35:40.829 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 10:35:40.830 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 10:35:40.830 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 10:35:40.830 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-27 10:35:40.830 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 10:35:40.832 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 10:35:40.833 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 10:35:40.833 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC2, ProductId=2}
+2026-05-27 10:35:40.833 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-27 10:35:40.833 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 2
+2026-05-27 10:35:40.833 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 2
+2026-05-27 10:35:40.833 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/2
+2026-05-27 10:35:40.834 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/2
+2026-05-27 10:35:40.834 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:35:40.834 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:35:41.307 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:35:41.307 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:35:41.307 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:35:41.307 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":2,"title":"Mens Casual Premium Slim Fit T-Shirts ","price":22.3,"description":"Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.","category":"men's clothing","image":"https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png","rating":{"rate":4.1,"count":259}}
+2026-05-27 10:35:41.307 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:35:41.307 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:35:41.307 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:35:41.307 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (2)
+2026-05-27 10:35:41.307 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 10:35:41.307 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 10:35:41.307 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 10:35:41.307 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 10:35:41.307 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 10:35:41.307 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 10:35:41.307 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-27 10:35:41.307 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 10:35:41.309 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 10:35:41.311 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 10:35:41.311 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC3, ProductId=3}
+2026-05-27 10:35:41.311 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC3
+2026-05-27 10:35:41.311 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 3
+2026-05-27 10:35:41.311 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 3
+2026-05-27 10:35:41.311 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/3
+2026-05-27 10:35:41.311 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/3
+2026-05-27 10:35:41.311 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:35:41.311 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:35:41.777 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:35:41.777 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:35:41.777 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:35:41.777 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":3,"title":"Mens Cotton Jacket","price":55.99,"description":"great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.","category":"men's clothing","image":"https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png","rating":{"rate":4.7,"count":500}}
+2026-05-27 10:35:41.777 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:35:41.777 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:35:41.777 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:35:41.777 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (3)
+2026-05-27 10:35:41.777 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 10:35:41.793 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 10:35:41.793 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 10:35:41.793 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 10:35:41.793 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 10:35:41.793 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 10:35:41.793 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC3 ==========
+2026-05-27 10:35:41.793 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 10:35:41.795 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down ProductTests...
+2026-05-27 10:35:41.797 [main] INFO  c.f.automation.utils.LoggerUtil - ProductTests teardown completed
+2026-05-27 10:35:41.797 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Product_GetSingleProduct
+2026-05-27 10:35:41.858 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-27 10:38:59.727 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreProductTest_GetSingleProduct.log
+2026-05-27 10:38:59.729 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Product_GetSingleProduct
+2026-05-27 10:38:59.731 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up ProductTests...
+2026-05-27 10:38:59.731 [main] INFO  c.f.automation.utils.LoggerUtil - ProductTests setup completed
+2026-05-27 10:38:59.731 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:GetSingleProduct
+2026-05-27 10:38:59.731 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 10:38:59.731 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:38:59.731 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: GetSingleProduct
+2026-05-27 10:38:59.835 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:38:59.843 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 3
+2026-05-27 10:38:59.843 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-27 10:38:59.845 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 10:38:59.845 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 10:38:59.845 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC1, ProductId=1}
+2026-05-27 10:38:59.845 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-27 10:38:59.845 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 1
+2026-05-27 10:38:59.845 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 1
+2026-05-27 10:38:59.845 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/1
+2026-05-27 10:38:59.845 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/1
+2026-05-27 10:38:59.847 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:38:59.847 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:39:00.249 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:39:00.249 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:39:00.253 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:39:00.253 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1,"title":"Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops","price":109.95,"description":"Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday","category":"men's clothing","image":"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png","rating":{"rate":3.9,"count":120}}
+2026-05-27 10:39:00.253 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:39:00.253 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:39:00.255 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:39:00.255 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (1)
+2026-05-27 10:39:00.255 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 10:39:00.255 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 10:39:00.255 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 10:39:00.255 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 10:39:00.255 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 10:39:00.255 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 10:39:00.255 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-27 10:39:00.257 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 10:39:00.258 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 10:39:00.260 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 10:39:00.260 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC2, ProductId=2}
+2026-05-27 10:39:00.260 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-27 10:39:00.260 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 2
+2026-05-27 10:39:00.260 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 2
+2026-05-27 10:39:00.260 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/2
+2026-05-27 10:39:00.260 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/2
+2026-05-27 10:39:00.260 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:39:00.260 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:39:00.662 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:39:00.662 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:39:00.662 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:39:00.662 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":2,"title":"Mens Casual Premium Slim Fit T-Shirts ","price":22.3,"description":"Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.","category":"men's clothing","image":"https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png","rating":{"rate":4.1,"count":259}}
+2026-05-27 10:39:00.662 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:39:00.662 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:39:00.662 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:39:00.662 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (2)
+2026-05-27 10:39:00.662 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 10:39:00.662 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 10:39:00.662 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 10:39:00.662 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 10:39:00.664 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 10:39:00.664 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 10:39:00.664 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-27 10:39:00.664 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 10:39:00.664 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 10:39:00.668 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 10:39:00.668 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC3, ProductId=3}
+2026-05-27 10:39:00.668 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC3
+2026-05-27 10:39:00.668 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 3
+2026-05-27 10:39:00.668 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 3
+2026-05-27 10:39:00.668 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/3
+2026-05-27 10:39:00.668 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/3
+2026-05-27 10:39:00.668 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:39:00.668 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:39:01.066 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:39:01.066 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:39:01.066 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:39:01.066 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":3,"title":"Mens Cotton Jacket","price":55.99,"description":"great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.","category":"men's clothing","image":"https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png","rating":{"rate":4.7,"count":500}}
+2026-05-27 10:39:01.066 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:39:01.071 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:39:01.071 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:39:01.071 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (3)
+2026-05-27 10:39:01.071 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 10:39:01.071 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 10:39:01.071 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 10:39:01.071 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 10:39:01.071 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 10:39:01.071 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 10:39:01.071 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC3 ==========
+2026-05-27 10:39:01.071 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 10:39:01.073 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down ProductTests...
+2026-05-27 10:39:01.075 [main] INFO  c.f.automation.utils.LoggerUtil - ProductTests teardown completed
+2026-05-27 10:39:01.075 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Product_GetSingleProduct
+2026-05-27 10:39:01.111 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-27 10:46:18.633 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreProductTest_GetSingleProduct.log
+2026-05-27 10:46:18.637 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Product_GetSingleProduct
+2026-05-27 10:46:18.639 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up ProductTests...
+2026-05-27 10:46:18.639 [main] INFO  c.f.automation.utils.LoggerUtil - ProductTests setup completed
+2026-05-27 10:46:18.639 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:GetSingleProduct
+2026-05-27 10:46:18.639 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 10:46:18.639 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:46:18.639 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: GetSingleProduct
+2026-05-27 10:46:18.732 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:46:18.732 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 3
+2026-05-27 10:46:18.732 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-27 10:46:18.732 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 10:46:18.732 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 10:46:18.732 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC1, ProductId=1}
+2026-05-27 10:46:18.732 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-27 10:46:18.732 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 1
+2026-05-27 10:46:18.732 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 1
+2026-05-27 10:46:18.732 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/1
+2026-05-27 10:46:18.732 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/1
+2026-05-27 10:46:18.732 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:46:18.732 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:46:19.144 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:46:19.144 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:46:19.144 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:46:19.144 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1,"title":"Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops","price":109.95,"description":"Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday","category":"men's clothing","image":"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png","rating":{"rate":3.9,"count":120}}
+2026-05-27 10:46:19.144 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:46:19.144 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:46:19.144 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:46:19.144 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (1)
+2026-05-27 10:46:19.144 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 10:46:19.144 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 10:46:19.144 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 10:46:19.144 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 10:46:19.144 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 10:46:19.144 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 10:46:19.144 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-27 10:46:19.144 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 10:46:19.144 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 10:46:19.144 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 10:46:19.144 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC2, ProductId=2}
+2026-05-27 10:46:19.144 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-27 10:46:19.144 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 2
+2026-05-27 10:46:19.144 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 2
+2026-05-27 10:46:19.144 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/2
+2026-05-27 10:46:19.144 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/2
+2026-05-27 10:46:19.144 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:46:19.144 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:46:19.591 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:46:19.591 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:46:19.591 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:46:19.591 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":2,"title":"Mens Casual Premium Slim Fit T-Shirts ","price":22.3,"description":"Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.","category":"men's clothing","image":"https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png","rating":{"rate":4.1,"count":259}}
+2026-05-27 10:46:19.591 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:46:19.591 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:46:19.591 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:46:19.591 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (2)
+2026-05-27 10:46:19.591 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 10:46:19.591 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 10:46:19.591 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 10:46:19.591 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 10:46:19.591 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 10:46:19.591 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 10:46:19.591 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-27 10:46:19.591 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 10:46:19.607 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 10:46:19.607 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 10:46:19.607 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC3, ProductId=3}
+2026-05-27 10:46:19.607 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC3
+2026-05-27 10:46:19.607 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 3
+2026-05-27 10:46:19.607 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 3
+2026-05-27 10:46:19.607 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/3
+2026-05-27 10:46:19.607 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/3
+2026-05-27 10:46:19.607 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:46:19.607 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:46:20.105 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:46:20.105 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:46:20.105 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:46:20.105 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":3,"title":"Mens Cotton Jacket","price":55.99,"description":"great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.","category":"men's clothing","image":"https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png","rating":{"rate":4.7,"count":500}}
+2026-05-27 10:46:20.109 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:46:20.109 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:46:20.109 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:46:20.109 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (3)
+2026-05-27 10:46:20.109 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 10:46:20.111 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 10:46:20.111 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 10:46:20.111 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 10:46:20.111 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 10:46:20.111 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 10:46:20.111 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC3 ==========
+2026-05-27 10:46:20.111 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 10:46:20.117 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down ProductTests...
+2026-05-27 10:46:20.117 [main] INFO  c.f.automation.utils.LoggerUtil - ProductTests teardown completed
+2026-05-27 10:46:20.119 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Product_GetSingleProduct
+2026-05-27 10:46:20.216 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-27 10:52:53.148 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreProductTest_GetSingleProduct.log
+2026-05-27 10:52:53.153 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Product_GetSingleProduct
+2026-05-27 10:52:53.153 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up ProductTests...
+2026-05-27 10:52:53.153 [main] INFO  c.f.automation.utils.LoggerUtil - ProductTests setup completed
+2026-05-27 10:52:53.154 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:GetSingleProduct
+2026-05-27 10:52:53.154 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 10:52:53.154 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:52:53.154 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: GetSingleProduct
+2026-05-27 10:52:53.249 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:52:53.250 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 3
+2026-05-27 10:52:53.250 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-27 10:52:53.252 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 10:52:53.252 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 10:52:53.253 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC1, ProductId=1}
+2026-05-27 10:52:53.253 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-27 10:52:53.253 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 1
+2026-05-27 10:52:53.253 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 1
+2026-05-27 10:52:53.253 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/1
+2026-05-27 10:52:53.253 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/1
+2026-05-27 10:52:53.254 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:52:53.254 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:52:53.829 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:52:53.829 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:52:53.832 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:52:53.832 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1,"title":"Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops","price":109.95,"description":"Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday","category":"men's clothing","image":"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png","rating":{"rate":3.9,"count":120}}
+2026-05-27 10:52:53.832 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:52:53.832 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:52:53.832 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:52:53.832 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (1)
+2026-05-27 10:52:53.832 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 10:52:53.832 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 10:52:53.832 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 10:52:53.832 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 10:52:53.832 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 10:52:53.832 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 10:52:53.832 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-27 10:52:53.832 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 10:52:53.832 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 10:52:53.832 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 10:52:53.832 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC2, ProductId=2}
+2026-05-27 10:52:53.832 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-27 10:52:53.832 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 2
+2026-05-27 10:52:53.839 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 2
+2026-05-27 10:52:53.839 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/2
+2026-05-27 10:52:53.839 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/2
+2026-05-27 10:52:53.839 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:52:53.839 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:52:54.318 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:52:54.318 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:52:54.319 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:52:54.319 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":2,"title":"Mens Casual Premium Slim Fit T-Shirts ","price":22.3,"description":"Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.","category":"men's clothing","image":"https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png","rating":{"rate":4.1,"count":259}}
+2026-05-27 10:52:54.319 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:52:54.319 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:52:54.319 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:52:54.320 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (2)
+2026-05-27 10:52:54.320 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 10:52:54.320 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 10:52:54.320 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 10:52:54.320 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 10:52:54.320 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 10:52:54.320 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 10:52:54.320 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-27 10:52:54.320 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 10:52:54.323 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 10:52:54.323 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 10:52:54.323 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC3, ProductId=3}
+2026-05-27 10:52:54.323 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC3
+2026-05-27 10:52:54.323 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 3
+2026-05-27 10:52:54.323 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 3
+2026-05-27 10:52:54.323 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/3
+2026-05-27 10:52:54.323 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/3
+2026-05-27 10:52:54.323 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:52:54.323 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:52:54.847 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:52:54.848 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:52:54.849 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:52:54.849 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":3,"title":"Mens Cotton Jacket","price":55.99,"description":"great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.","category":"men's clothing","image":"https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png","rating":{"rate":4.7,"count":500}}
+2026-05-27 10:52:54.850 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:52:54.851 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:52:54.851 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:52:54.852 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (3)
+2026-05-27 10:52:54.852 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 10:52:54.853 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 10:52:54.853 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 10:52:54.853 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 10:52:54.854 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 10:52:54.854 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 10:52:54.854 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC3 ==========
+2026-05-27 10:52:54.855 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 10:52:54.859 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down ProductTests...
+2026-05-27 10:52:54.862 [main] INFO  c.f.automation.utils.LoggerUtil - ProductTests teardown completed
+2026-05-27 10:52:54.863 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Product_GetSingleProduct
+2026-05-27 10:52:54.954 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-27 10:58:58.610 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreProductTest_GetSingleProduct.log
+2026-05-27 10:58:58.611 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Product_GetSingleProduct
+2026-05-27 10:58:58.616 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up ProductTests...
+2026-05-27 10:58:58.616 [main] INFO  c.f.automation.utils.LoggerUtil - ProductTests setup completed
+2026-05-27 10:58:58.616 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:GetSingleProduct
+2026-05-27 10:58:58.616 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 10:58:58.616 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:58:58.616 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: GetSingleProduct
+2026-05-27 10:58:58.698 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 10:58:58.698 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 3
+2026-05-27 10:58:58.698 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-27 10:58:58.698 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 10:58:58.698 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 10:58:58.698 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC1, ProductId=1}
+2026-05-27 10:58:58.698 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-27 10:58:58.704 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 1
+2026-05-27 10:58:58.704 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 1
+2026-05-27 10:58:58.704 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/1
+2026-05-27 10:58:58.704 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/1
+2026-05-27 10:58:58.704 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:58:58.704 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:58:59.077 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:58:59.077 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:58:59.077 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:58:59.077 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1,"title":"Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops","price":109.95,"description":"Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday","category":"men's clothing","image":"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png","rating":{"rate":3.9,"count":120}}
+2026-05-27 10:58:59.077 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:58:59.079 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:58:59.079 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:58:59.079 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (1)
+2026-05-27 10:58:59.079 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 10:58:59.079 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 10:58:59.079 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 10:58:59.079 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 10:58:59.079 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 10:58:59.079 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 10:58:59.079 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-27 10:58:59.079 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 10:58:59.083 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 10:58:59.083 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 10:58:59.083 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC2, ProductId=2}
+2026-05-27 10:58:59.083 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-27 10:58:59.083 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 2
+2026-05-27 10:58:59.083 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 2
+2026-05-27 10:58:59.083 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/2
+2026-05-27 10:58:59.083 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/2
+2026-05-27 10:58:59.083 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:58:59.083 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:58:59.446 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:58:59.448 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:58:59.450 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:58:59.450 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":2,"title":"Mens Casual Premium Slim Fit T-Shirts ","price":22.3,"description":"Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.","category":"men's clothing","image":"https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png","rating":{"rate":4.1,"count":259}}
+2026-05-27 10:58:59.450 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:58:59.450 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:58:59.450 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:58:59.450 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (2)
+2026-05-27 10:58:59.450 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 10:58:59.450 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 10:58:59.452 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 10:58:59.452 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 10:58:59.452 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 10:58:59.452 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 10:58:59.452 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-27 10:58:59.452 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 10:58:59.454 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 10:58:59.458 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 10:58:59.458 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC3, ProductId=3}
+2026-05-27 10:58:59.458 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC3
+2026-05-27 10:58:59.458 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 3
+2026-05-27 10:58:59.458 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 3
+2026-05-27 10:58:59.458 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/3
+2026-05-27 10:58:59.458 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/3
+2026-05-27 10:58:59.458 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 10:58:59.458 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 10:58:59.822 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:58:59.830 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 10:58:59.830 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 10:58:59.830 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":3,"title":"Mens Cotton Jacket","price":55.99,"description":"great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.","category":"men's clothing","image":"https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png","rating":{"rate":4.7,"count":500}}
+2026-05-27 10:58:59.830 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 10:58:59.830 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 10:58:59.831 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 10:58:59.831 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (3)
+2026-05-27 10:58:59.831 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 10:58:59.831 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 10:58:59.831 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 10:58:59.831 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 10:58:59.831 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 10:58:59.831 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 10:58:59.831 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC3 ==========
+2026-05-27 10:58:59.831 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 10:58:59.831 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down ProductTests...
+2026-05-27 10:58:59.831 [main] INFO  c.f.automation.utils.LoggerUtil - ProductTests teardown completed
+2026-05-27 10:58:59.831 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Product_GetSingleProduct
+2026-05-27 10:58:59.872 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-27 11:04:51.859 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreProductTest_GetSingleProduct.log
+2026-05-27 11:04:51.868 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Product_GetSingleProduct
+2026-05-27 11:04:51.870 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up ProductTests...
+2026-05-27 11:04:51.870 [main] INFO  c.f.automation.utils.LoggerUtil - ProductTests setup completed
+2026-05-27 11:04:51.871 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:GetSingleProduct
+2026-05-27 11:04:51.872 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 11:04:51.872 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 11:04:51.872 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: GetSingleProduct
+2026-05-27 11:04:52.001 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 11:04:52.004 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 3
+2026-05-27 11:04:52.004 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-27 11:04:52.006 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 11:04:52.007 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 11:04:52.008 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC1, ProductId=1}
+2026-05-27 11:04:52.008 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-27 11:04:52.008 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 1
+2026-05-27 11:04:52.008 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 1
+2026-05-27 11:04:52.009 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/1
+2026-05-27 11:04:52.009 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/1
+2026-05-27 11:04:52.009 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:04:52.009 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:04:52.396 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:04:52.396 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:04:52.397 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:04:52.397 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1,"title":"Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops","price":109.95,"description":"Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday","category":"men's clothing","image":"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png","rating":{"rate":3.9,"count":120}}
+2026-05-27 11:04:52.399 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:04:52.399 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:04:52.399 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 11:04:52.400 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (1)
+2026-05-27 11:04:52.400 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 11:04:52.400 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 11:04:52.400 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 11:04:52.400 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 11:04:52.400 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 11:04:52.401 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 11:04:52.401 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-27 11:04:52.401 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 11:04:52.403 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 11:04:52.404 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 11:04:52.404 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC2, ProductId=2}
+2026-05-27 11:04:52.404 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-27 11:04:52.405 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 2
+2026-05-27 11:04:52.405 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 2
+2026-05-27 11:04:52.405 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/2
+2026-05-27 11:04:52.405 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/2
+2026-05-27 11:04:52.405 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:04:52.405 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:04:52.768 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:04:52.768 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:04:52.768 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:04:52.768 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":2,"title":"Mens Casual Premium Slim Fit T-Shirts ","price":22.3,"description":"Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.","category":"men's clothing","image":"https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png","rating":{"rate":4.1,"count":259}}
+2026-05-27 11:04:52.768 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:04:52.768 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:04:52.768 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 11:04:52.768 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (2)
+2026-05-27 11:04:52.768 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 11:04:52.768 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 11:04:52.768 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 11:04:52.768 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 11:04:52.768 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 11:04:52.768 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 11:04:52.768 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-27 11:04:52.768 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 11:04:52.768 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 11:04:52.768 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 11:04:52.778 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC3, ProductId=3}
+2026-05-27 11:04:52.778 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC3
+2026-05-27 11:04:52.778 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 3
+2026-05-27 11:04:52.778 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 3
+2026-05-27 11:04:52.778 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/3
+2026-05-27 11:04:52.778 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/3
+2026-05-27 11:04:52.778 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:04:52.778 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:04:53.145 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:04:53.145 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:04:53.145 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:04:53.145 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":3,"title":"Mens Cotton Jacket","price":55.99,"description":"great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.","category":"men's clothing","image":"https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png","rating":{"rate":4.7,"count":500}}
+2026-05-27 11:04:53.145 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:04:53.145 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:04:53.145 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 11:04:53.145 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (3)
+2026-05-27 11:04:53.145 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 11:04:53.145 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 11:04:53.145 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 11:04:53.145 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 11:04:53.145 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 11:04:53.145 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 11:04:53.145 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC3 ==========
+2026-05-27 11:04:53.145 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 11:04:53.157 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down ProductTests...
+2026-05-27 11:04:53.157 [main] INFO  c.f.automation.utils.LoggerUtil - ProductTests teardown completed
+2026-05-27 11:04:53.157 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Product_GetSingleProduct
+2026-05-27 11:04:53.203 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-27 11:08:16.021 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreProductTest_GetSingleProduct.log
+2026-05-27 11:08:16.026 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Product_GetSingleProduct
+2026-05-27 11:08:16.028 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up ProductTests...
+2026-05-27 11:08:16.029 [main] INFO  c.f.automation.utils.LoggerUtil - ProductTests setup completed
+2026-05-27 11:08:16.030 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:GetSingleProduct
+2026-05-27 11:08:16.030 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 11:08:16.030 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 11:08:16.030 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: GetSingleProduct
+2026-05-27 11:08:16.101 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 11:08:16.101 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 3
+2026-05-27 11:08:16.101 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-27 11:08:16.112 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 11:08:16.112 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 11:08:16.112 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC1, ProductId=1}
+2026-05-27 11:08:16.112 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-27 11:08:16.112 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 1
+2026-05-27 11:08:16.112 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 1
+2026-05-27 11:08:16.112 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/1
+2026-05-27 11:08:16.112 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/1
+2026-05-27 11:08:16.112 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:08:16.112 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:08:17.304 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:08:17.319 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 1 seconds
+2026-05-27 11:08:17.321 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:08:17.321 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1,"title":"Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops","price":109.95,"description":"Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday","category":"men's clothing","image":"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png","rating":{"rate":3.9,"count":120}}
+2026-05-27 11:08:17.323 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:08:17.323 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:08:17.323 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 11:08:17.323 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (1)
+2026-05-27 11:08:17.323 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 11:08:17.323 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 11:08:17.323 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 11:08:17.323 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 11:08:17.323 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 11:08:17.323 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 11:08:17.323 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-27 11:08:17.323 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 11:08:17.334 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 11:08:17.336 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 11:08:17.336 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC2, ProductId=2}
+2026-05-27 11:08:17.336 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-27 11:08:17.336 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 2
+2026-05-27 11:08:17.336 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 2
+2026-05-27 11:08:17.336 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/2
+2026-05-27 11:08:17.336 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/2
+2026-05-27 11:08:17.336 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:08:17.336 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:08:17.727 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:08:17.727 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:08:17.727 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:08:17.727 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":2,"title":"Mens Casual Premium Slim Fit T-Shirts ","price":22.3,"description":"Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.","category":"men's clothing","image":"https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png","rating":{"rate":4.1,"count":259}}
+2026-05-27 11:08:17.729 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:08:17.729 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:08:17.729 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 11:08:17.729 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (2)
+2026-05-27 11:08:17.729 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 11:08:17.729 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 11:08:17.729 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 11:08:17.731 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 11:08:17.731 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 11:08:17.731 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 11:08:17.731 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-27 11:08:17.731 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 11:08:17.738 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 11:08:17.738 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 11:08:17.738 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC3, ProductId=3}
+2026-05-27 11:08:17.738 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC3
+2026-05-27 11:08:17.738 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 3
+2026-05-27 11:08:17.738 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 3
+2026-05-27 11:08:17.738 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/3
+2026-05-27 11:08:17.738 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/3
+2026-05-27 11:08:17.741 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:08:17.741 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:08:18.116 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:08:18.116 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:08:18.116 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:08:18.117 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":3,"title":"Mens Cotton Jacket","price":55.99,"description":"great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.","category":"men's clothing","image":"https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png","rating":{"rate":4.7,"count":500}}
+2026-05-27 11:08:18.117 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:08:18.117 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:08:18.117 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 11:08:18.117 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (3)
+2026-05-27 11:08:18.117 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 11:08:18.117 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 11:08:18.117 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 11:08:18.117 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 11:08:18.117 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 11:08:18.117 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 11:08:18.117 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC3 ==========
+2026-05-27 11:08:18.117 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 11:08:18.120 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down ProductTests...
+2026-05-27 11:08:18.120 [main] INFO  c.f.automation.utils.LoggerUtil - ProductTests teardown completed
+2026-05-27 11:08:18.120 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Product_GetSingleProduct
+2026-05-27 11:08:18.160 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-27 11:20:13.881 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreProductTest_GetSingleProduct.log
+2026-05-27 11:20:13.881 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Product_GetSingleProduct
+2026-05-27 11:20:13.881 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up ProductTests...
+2026-05-27 11:20:13.881 [main] INFO  c.f.automation.utils.LoggerUtil - ProductTests setup completed
+2026-05-27 11:20:13.881 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:GetSingleProduct
+2026-05-27 11:20:13.881 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 11:20:13.881 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 11:20:13.881 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: GetSingleProduct
+2026-05-27 11:20:13.963 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 11:20:13.963 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 3
+2026-05-27 11:20:13.963 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-27 11:20:13.963 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 11:20:13.963 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 11:20:13.963 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC1, ProductId=1}
+2026-05-27 11:20:13.963 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-27 11:20:13.963 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 1
+2026-05-27 11:20:13.963 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 1
+2026-05-27 11:20:13.963 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/1
+2026-05-27 11:20:13.963 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/1
+2026-05-27 11:20:13.963 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:20:13.963 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:20:14.399 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:20:14.406 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:20:14.406 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:20:14.406 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1,"title":"Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops","price":109.95,"description":"Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday","category":"men's clothing","image":"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png","rating":{"rate":3.9,"count":120}}
+2026-05-27 11:20:14.410 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:20:14.410 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:20:14.410 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 11:20:14.410 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (1)
+2026-05-27 11:20:14.410 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 11:20:14.410 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 11:20:14.410 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 11:20:14.414 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 11:20:14.414 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 11:20:14.414 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 11:20:14.414 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-27 11:20:14.414 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 11:20:14.419 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 11:20:14.419 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 11:20:14.419 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC2, ProductId=2}
+2026-05-27 11:20:14.419 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-27 11:20:14.419 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 2
+2026-05-27 11:20:14.419 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 2
+2026-05-27 11:20:14.419 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/2
+2026-05-27 11:20:14.419 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/2
+2026-05-27 11:20:14.419 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:20:14.419 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:20:14.891 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:20:14.891 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:20:14.891 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:20:14.891 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":2,"title":"Mens Casual Premium Slim Fit T-Shirts ","price":22.3,"description":"Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.","category":"men's clothing","image":"https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png","rating":{"rate":4.1,"count":259}}
+2026-05-27 11:20:14.891 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:20:14.891 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:20:14.891 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 11:20:14.891 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (2)
+2026-05-27 11:20:14.891 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 11:20:14.891 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 11:20:14.891 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 11:20:14.891 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 11:20:14.891 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 11:20:14.891 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 11:20:14.891 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-27 11:20:14.891 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 11:20:14.896 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 11:20:14.896 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 11:20:14.896 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC3, ProductId=3}
+2026-05-27 11:20:14.896 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC3
+2026-05-27 11:20:14.896 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 3
+2026-05-27 11:20:14.898 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 3
+2026-05-27 11:20:14.898 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/3
+2026-05-27 11:20:14.898 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/3
+2026-05-27 11:20:14.898 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:20:14.898 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:20:15.347 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:20:15.347 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:20:15.347 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:20:15.347 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":3,"title":"Mens Cotton Jacket","price":55.99,"description":"great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.","category":"men's clothing","image":"https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png","rating":{"rate":4.7,"count":500}}
+2026-05-27 11:20:15.347 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:20:15.349 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:20:15.349 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 11:20:15.349 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (3)
+2026-05-27 11:20:15.349 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 11:20:15.349 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 11:20:15.349 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 11:20:15.349 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 11:20:15.349 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 11:20:15.349 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 11:20:15.349 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC3 ==========
+2026-05-27 11:20:15.349 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 11:20:15.351 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down ProductTests...
+2026-05-27 11:20:15.352 [main] INFO  c.f.automation.utils.LoggerUtil - ProductTests teardown completed
+2026-05-27 11:20:15.353 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Product_GetSingleProduct
+2026-05-27 11:20:15.452 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-27 11:24:56.202 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreProductTest_GetSingleProduct.log
+2026-05-27 11:24:56.206 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Product_GetSingleProduct
+2026-05-27 11:24:56.207 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up ProductTests...
+2026-05-27 11:24:56.207 [main] INFO  c.f.automation.utils.LoggerUtil - ProductTests setup completed
+2026-05-27 11:24:56.207 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:GetSingleProduct
+2026-05-27 11:24:56.207 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 11:24:56.207 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 11:24:56.207 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: GetSingleProduct
+2026-05-27 11:24:56.306 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 11:24:56.309 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 3
+2026-05-27 11:24:56.309 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-27 11:24:56.311 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 11:24:56.311 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 11:24:56.311 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC1, ProductId=1}
+2026-05-27 11:24:56.311 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-27 11:24:56.311 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 1
+2026-05-27 11:24:56.311 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 1
+2026-05-27 11:24:56.311 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/1
+2026-05-27 11:24:56.311 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/1
+2026-05-27 11:24:56.311 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:24:56.311 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:24:56.738 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:24:56.738 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:24:56.738 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:24:56.738 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1,"title":"Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops","price":109.95,"description":"Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday","category":"men's clothing","image":"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png","rating":{"rate":3.9,"count":120}}
+2026-05-27 11:24:56.738 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:24:56.738 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:24:56.738 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 11:24:56.742 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (1)
+2026-05-27 11:24:56.743 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 11:24:56.743 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 11:24:56.743 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 11:24:56.743 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 11:24:56.743 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 11:24:56.743 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 11:24:56.745 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-27 11:24:56.745 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 11:24:56.745 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 11:24:56.745 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 11:24:56.745 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC2, ProductId=2}
+2026-05-27 11:24:56.745 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-27 11:24:56.745 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 2
+2026-05-27 11:24:56.748 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 2
+2026-05-27 11:24:56.748 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/2
+2026-05-27 11:24:56.748 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/2
+2026-05-27 11:24:56.748 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:24:56.748 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:24:57.174 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:24:57.174 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:24:57.176 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:24:57.176 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":2,"title":"Mens Casual Premium Slim Fit T-Shirts ","price":22.3,"description":"Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.","category":"men's clothing","image":"https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png","rating":{"rate":4.1,"count":259}}
+2026-05-27 11:24:57.176 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:24:57.178 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:24:57.178 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 11:24:57.178 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (2)
+2026-05-27 11:24:57.178 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 11:24:57.178 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 11:24:57.180 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 11:24:57.180 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 11:24:57.180 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 11:24:57.180 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 11:24:57.180 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-27 11:24:57.180 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 11:24:57.188 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 11:24:57.188 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 11:24:57.188 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC3, ProductId=3}
+2026-05-27 11:24:57.190 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC3
+2026-05-27 11:24:57.190 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 3
+2026-05-27 11:24:57.190 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 3
+2026-05-27 11:24:57.190 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/3
+2026-05-27 11:24:57.190 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/3
+2026-05-27 11:24:57.190 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:24:57.192 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:24:57.583 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:24:57.583 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:24:57.583 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:24:57.583 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":3,"title":"Mens Cotton Jacket","price":55.99,"description":"great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.","category":"men's clothing","image":"https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png","rating":{"rate":4.7,"count":500}}
+2026-05-27 11:24:57.583 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:24:57.583 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:24:57.583 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 11:24:57.583 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (3)
+2026-05-27 11:24:57.583 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 11:24:57.583 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 11:24:57.583 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 11:24:57.583 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 11:24:57.583 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 11:24:57.583 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 11:24:57.583 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC3 ==========
+2026-05-27 11:24:57.583 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 11:24:57.590 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down ProductTests...
+2026-05-27 11:24:57.590 [main] INFO  c.f.automation.utils.LoggerUtil - ProductTests teardown completed
+2026-05-27 11:24:57.590 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Product_GetSingleProduct
+2026-05-27 11:24:57.663 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully
+2026-05-27 11:42:08.316 [main] INFO  c.f.automation.utils.LoggerUtil - Log file set to: FakeStoreProductTest_GetSingleProduct.log
+2026-05-27 11:42:08.322 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite started: Product_GetSingleProduct
+2026-05-27 11:42:08.324 [main] INFO  c.f.automation.utils.LoggerUtil - Setting up ProductTests...
+2026-05-27 11:42:08.324 [main] INFO  c.f.automation.utils.LoggerUtil - ProductTests setup completed
+2026-05-27 11:42:08.324 [main] INFO  c.f.automation.utils.LoggerUtil - Loading test data from: ./src/main/resources/testdata/combinedTestData.xlsx:GetSingleProduct
+2026-05-27 11:42:08.324 [main] INFO  c.f.automation.utils.LoggerUtil - Test data sets filter: ALL
+2026-05-27 11:42:08.324 [main] INFO  c.f.automation.utils.LoggerUtil - Excel File: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 11:42:08.324 [main] INFO  c.f.automation.utils.LoggerUtil - Sheet Name: GetSingleProduct
+2026-05-27 11:42:08.422 [main] INFO  c.f.automation.utils.LoggerUtil - Excel file loaded: ./src/main/resources/testdata/combinedTestData.xlsx
+2026-05-27 11:42:08.424 [main] INFO  c.f.automation.utils.LoggerUtil - Total test data rows loaded: 3
+2026-05-27 11:42:08.424 [main] INFO  c.f.automation.utils.LoggerUtil - Excel workbook closed
+2026-05-27 11:42:08.426 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 11:42:08.426 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 11:42:08.428 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC1, ProductId=1}
+2026-05-27 11:42:08.428 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC1
+2026-05-27 11:42:08.428 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 1
+2026-05-27 11:42:08.428 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 1
+2026-05-27 11:42:08.428 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/1
+2026-05-27 11:42:08.428 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/1
+2026-05-27 11:42:08.428 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:42:08.428 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:42:08.801 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:42:08.801 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:42:08.801 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:42:08.801 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":1,"title":"Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops","price":109.95,"description":"Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday","category":"men's clothing","image":"https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_t.png","rating":{"rate":3.9,"count":120}}
+2026-05-27 11:42:08.811 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:42:08.811 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:42:08.811 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 11:42:08.811 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (1)
+2026-05-27 11:42:08.813 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 11:42:08.813 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 11:42:08.813 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 11:42:08.813 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 11:42:08.813 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 11:42:08.813 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 11:42:08.813 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC1 ==========
+2026-05-27 11:42:08.817 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 11:42:08.822 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 11:42:08.825 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 11:42:08.825 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC2, ProductId=2}
+2026-05-27 11:42:08.825 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC2
+2026-05-27 11:42:08.827 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 2
+2026-05-27 11:42:08.827 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 2
+2026-05-27 11:42:08.827 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/2
+2026-05-27 11:42:08.827 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/2
+2026-05-27 11:42:08.827 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:42:08.827 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:42:09.266 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:42:09.266 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:42:09.266 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:42:09.266 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":2,"title":"Mens Casual Premium Slim Fit T-Shirts ","price":22.3,"description":"Slim-fitting style, contrast raglan long sleeve, three-button henley placket, light weight & soft fabric for breathable and comfortable wearing. And Solid stitched shirts with round neck made for durability and a great fit for casual fashion wear and diehard baseball fans. The Henley style round neckline includes a three-button placket.","category":"men's clothing","image":"https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_t.png","rating":{"rate":4.1,"count":259}}
+2026-05-27 11:42:09.266 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:42:09.266 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:42:09.266 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 11:42:09.266 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (2)
+2026-05-27 11:42:09.268 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 11:42:09.268 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 11:42:09.268 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 11:42:09.268 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 11:42:09.268 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 11:42:09.268 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 11:42:09.268 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC2 ==========
+2026-05-27 11:42:09.268 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 11:42:09.270 [main] INFO  c.f.automation.utils.LoggerUtil - Test started: testGetSingleProduct
+2026-05-27 11:42:09.270 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test: Get Single Product ==========
+2026-05-27 11:42:09.270 [main] INFO  c.f.automation.utils.LoggerUtil - Test Data: {TestCase=TC3, ProductId=3}
+2026-05-27 11:42:09.270 [main] INFO  c.f.automation.utils.LoggerUtil - Executing Test Case: TC3
+2026-05-27 11:42:09.270 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching Product ID: 3
+2026-05-27 11:42:09.270 [main] INFO  c.f.automation.utils.LoggerUtil - Fetching product with ID: 3
+2026-05-27 11:42:09.270 [main] DEBUG c.f.automation.utils.LoggerUtil - URL after placeholder substitution: /products/3
+2026-05-27 11:42:09.270 [main] INFO  c.f.automation.utils.LoggerUtil - Sending HTTP Request --> GET https://fakestoreapi.com/products/3
+2026-05-27 11:42:09.270 [main] DEBUG c.f.automation.utils.LoggerUtil - REST call timeout configured: 5 minutes
+2026-05-27 11:42:09.270 [main] INFO  c.f.automation.utils.LoggerUtil - Headers: {Accept=application/json, Content-Type=application/json}
+2026-05-27 11:42:09.648 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:42:09.648 [main] INFO  c.f.automation.utils.LoggerUtil - Response Time: 0 seconds
+2026-05-27 11:42:09.648 [main] INFO  c.f.automation.utils.LoggerUtil - Response Code: 200
+2026-05-27 11:42:09.648 [main] INFO  c.f.automation.utils.LoggerUtil - Response Body: {"id":3,"title":"Mens Cotton Jacket","price":55.99,"description":"great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking, camping, mountain/rock climbing, cycling, traveling or other outdoors. Good gift choice for you or your family member. A warm hearted love to Father, husband or son in this thanksgiving or Christmas Day.","category":"men's clothing","image":"https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_t.png","rating":{"rate":4.7,"count":500}}
+2026-05-27 11:42:09.648 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Status Code Validation PASSED: Response code 200 is a success code
+2026-05-27 11:42:09.648 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Structure Validation PASSED: Valid JSON format
+2026-05-27 11:42:09.648 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'id' field
+2026-05-27 11:42:09.648 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Product ID Validation PASSED: Response ID matches requested product ID (3)
+2026-05-27 11:42:09.664 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'title' field
+2026-05-27 11:42:09.664 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'price' field
+2026-05-27 11:42:09.664 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'description' field
+2026-05-27 11:42:09.664 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'category' field
+2026-05-27 11:42:09.664 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'image' field
+2026-05-27 11:42:09.664 [main] INFO  c.f.automation.utils.LoggerUtil - ✓ Response Body Validation PASSED: Contains 'rating' field
+2026-05-27 11:42:09.664 [main] INFO  c.f.automation.utils.LoggerUtil - ========== Test Completed: TC3 ==========
+2026-05-27 11:42:09.664 [main] INFO  c.f.automation.utils.LoggerUtil - Test passed: testGetSingleProduct
+2026-05-27 11:42:09.668 [main] INFO  c.f.automation.utils.LoggerUtil - Tearing down ProductTests...
+2026-05-27 11:42:09.668 [main] INFO  c.f.automation.utils.LoggerUtil - ProductTests teardown completed
+2026-05-27 11:42:09.668 [main] INFO  c.f.automation.utils.LoggerUtil - Test Suite finished: Product_GetSingleProduct
+2026-05-27 11:42:09.745 [main] INFO  c.f.automation.utils.LoggerUtil - Extent Report flushed successfully

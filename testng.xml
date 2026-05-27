@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FakeStore API Automation Suite" parallel="none" allow-return-values="true" preserve-order="true">
+    
+    <!-- Register Custom Listeners -->
+    <listeners>
+        <listener class-name="com.fakestoreapi.automation.utils.TestListener"/>
+    </listeners>
+    
+    <!-- Suite Level Global Parameters -->
+    <parameter name="baseUrl" value="https://fakestoreapi.com"/>
+    <parameter name="logName" value="FAKESTOREAPI_LOGS"/>
+    
+    <!-- Product API Tests -->
+    <test name="Product_AddNewProduct">
+        <parameter name="testData" value="./src/main/resources/testdata/combinedTestData.xlsx:AddNewProduct"/>
+        <parameter name="testDataSets" value="ALL"/>
+        <parameter name="loggerFileName" value="FakeStoreProductTest_AddNewProduct.log"/>
+        <classes>
+            <class name="com.fakestoreapi.automation.test.ProductTests">
+                <methods>
+                    <include name="testAddNewProduct"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <test name="Product_UpdateProduct">
+        <parameter name="testData" value="./src/main/resources/testdata/combinedTestData.xlsx:UpdateProduct"/>
+        <parameter name="testDataSets" value="ALL"/>
+        <parameter name="loggerFileName" value="FakeStoreProductTest_UpdateProduct.log"/>
+        <classes>
+            <class name="com.fakestoreapi.automation.test.ProductTests">
+                <methods>
+                    <include name="testUpdateProduct"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <test name="Product_DeleteProduct">
+        <parameter name="testData" value="./src/main/resources/testdata/combinedTestData.xlsx:DeleteProduct"/>
+        <parameter name="testDataSets" value="ALL"/>
+        <parameter name="loggerFileName" value="FakeStoreProductTest_DeleteProduct.log"/>
+        <classes>
+            <class name="com.fakestoreapi.automation.test.ProductTests">
+                <methods>
+                    <include name="testDeleteProduct"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <test name="Product_GetSingleProduct">
+        <parameter name="testData" value="./src/main/resources/testdata/combinedTestData.xlsx:GetSingleProduct"/>
+        <parameter name="testDataSets" value="ALL"/>
+        <parameter name="loggerFileName" value="FakeStoreProductTest_GetSingleProduct.log"/>
+        <classes>
+            <class name="com.fakestoreapi.automation.test.ProductTests">
+                <methods>
+                    <include name="testGetSingleProduct"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <test name="Product_GetAllProducts">
+        <parameter name="loggerFileName" value="FakeStoreProductTest_GetAllProducts.log"/>
+        <classes>
+            <class name="com.fakestoreapi.automation.test.ProductTests">
+                <methods>
+                    <include name="testGetAllProducts"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <!-- Cart API Tests -->
+    <test name="Cart_AddNewCart">
+        <parameter name="testData" value="./src/main/resources/testdata/combinedTestData.xlsx:AddNewCart"/>
+        <parameter name="testDataSets" value="ALL"/>
+        <parameter name="loggerFileName" value="FakeStoreCartTest_AddNewCart.log"/>
+        <classes>
+            <class name="com.fakestoreapi.automation.test.CartTests">
+                <methods>
+                    <include name="testAddNewCart"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <test name="Cart_UpdateCart">
+        <parameter name="testData" value="./src/main/resources/testdata/combinedTestData.xlsx:UpdateCart"/>
+        <parameter name="testDataSets" value="ALL"/>
+        <parameter name="loggerFileName" value="FakeStoreCartTest_UpdateCart.log"/>
+        <classes>
+            <class name="com.fakestoreapi.automation.test.CartTests">
+                <methods>
+                    <include name="testUpdateCart"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <test name="Cart_DeleteCart">
+        <parameter name="testData" value="./src/main/resources/testdata/combinedTestData.xlsx:DeleteCart"/>
+        <parameter name="testDataSets" value="ALL"/>
+        <parameter name="loggerFileName" value="FakeStoreCartTest_DeleteCart.log"/>
+        <classes>
+            <class name="com.fakestoreapi.automation.test.CartTests">
+                <methods>
+                    <include name="testDeleteCart"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <test name="Cart_GetSingleCart">
+        <parameter name="testData" value="./src/main/resources/testdata/combinedTestData.xlsx:GetSingleCart"/>
+        <parameter name="testDataSets" value="ALL"/>
+        <parameter name="loggerFileName" value="FakeStoreCartTest_GetSingleCart.log"/>
+        <classes>
+            <class name="com.fakestoreapi.automation.test.CartTests">
+                <methods>
+                    <include name="testGetSingleCart"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <test name="Cart_GetAllCarts">
+        <parameter name="loggerFileName" value="FakeStoreCartTest_GetAllCarts.log"/>
+        <classes>
+            <class name="com.fakestoreapi.automation.test.CartTests">
+                <methods>
+                    <include name="testGetAllCarts"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <!-- User/Login API Tests -->
+    <test name="Login_AddNewUser">
+        <parameter name="testData" value="./src/main/resources/testdata/combinedTestData.xlsx:AddNewUser"/>
+        <parameter name="testDataSets" value="ALL"/>
+        <parameter name="loggerFileName" value="FakeStoreLoginTest_AddNewUser.log"/>
+        <classes>
+            <class name="com.fakestoreapi.automation.test.LoginTests">
+                <methods>
+                    <include name="testAddNewUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <test name="Login_DeleteUser">
+        <parameter name="testData" value="./src/main/resources/testdata/combinedTestData.xlsx:DeleteUser"/>
+        <parameter name="testDataSets" value="ALL"/>
+        <parameter name="loggerFileName" value="FakeStoreLoginTest_DeleteUser.log"/>
+        <classes>
+            <class name="com.fakestoreapi.automation.test.LoginTests">
+                <methods>
+                    <include name="testDeleteUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <test name="Login_Login">
+        <parameter name="testData" value="./src/main/resources/testdata/combinedTestData.xlsx:Login"/>
+        <parameter name="testDataSets" value="ALL"/>
+        <parameter name="loggerFileName" value="FakeStoreLoginTest_Login.log"/>
+        <classes>
+            <class name="com.fakestoreapi.automation.test.LoginTests">
+                <methods>
+                    <include name="testLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <test name="Login_GetSingleUser">
+        <parameter name="testData" value="./src/main/resources/testdata/combinedTestData.xlsx:GetSingleUser"/>
+        <parameter name="testDataSets" value="ALL"/>
+        <parameter name="loggerFileName" value="FakeStoreLoginTest_GetSingleUser.log"/>
+        <classes>
+            <class name="com.fakestoreapi.automation.test.LoginTests">
+                <methods>
+                    <include name="testGetSingleUser"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+    <test name="Login_GetAllUsers">
+        <parameter name="loggerFileName" value="FakeStoreLoginTest_GetAllUsers.log"/>
+        <classes>
+            <class name="com.fakestoreapi.automation.test.LoginTests">
+                <methods>
+                    <include name="testGetAllUsers"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    
+</suite>
