@@ -262,7 +262,3 @@ This project is open-source and available for educational and testing purposes.
 Developed as a comprehensive REST API testing solution demonstrating industry-standard automation practices with Java and REST Assured.
 
 ---
-
-**Framework Version**: 0.0.1-SNAPSHOT  
-**Last Updated**: May 2026  
-**Status**: Production Ready ✅
