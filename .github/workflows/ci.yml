@@ -15,6 +15,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Debug API reachability
+        run: curl -i https://fakestoreapi.com/products
+
       - name: Set up JDK 17
         uses: actions/setup-java@v4
         with:
