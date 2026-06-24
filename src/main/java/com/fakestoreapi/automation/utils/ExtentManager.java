@@ -15,7 +15,7 @@ public class ExtentManager {
     private static ThreadLocal<ExtentTest> extentTest = new ThreadLocal<>();
     private static String reportPath;
     
-    public static ExtentReports createInstance() {
+    public synchronized static ExtentReports createInstance() {
         if (extentReports == null) {
             String timestamp = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date());
             String reportDir = ConfigReader.getReportPath();
@@ -48,7 +48,7 @@ public class ExtentManager {
         return extentReports;
     }
     
-    public static ExtentReports getInstance() {
+    public synchronized static ExtentReports getInstance() {
         if (extentReports == null) {
             createInstance();
         }

@@ -14,7 +14,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-public class CartTests {
+public class CartTests extends BaseTest{
     
     private Cart cart;
     
@@ -28,7 +28,6 @@ public class CartTests {
     @AfterClass
     public void tearDown() {
         LoggerUtil.info("Tearing down CartTests...");
-         ExtentManager.flushReports();
         LoggerUtil.info("CartTests teardown completed");
     }
     

@@ -14,7 +14,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-public class LoginTests {
+public class LoginTests extends BaseTest{
     
     private Login login;
     
@@ -28,7 +28,6 @@ public class LoginTests {
     @AfterClass
     public void tearDown() {
         LoggerUtil.info("Tearing down LoginTests...");
-        ExtentManager.flushReports();
         LoggerUtil.info("LoginTests teardown completed");
         
     }

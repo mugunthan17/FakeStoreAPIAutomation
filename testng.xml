@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="FakeStore API Automation Suite" parallel="none" allow-return-values="true" preserve-order="true">
-    
+<!-- <suite name="FakeStore API Automation Suite" parallel="none" allow-return-values="true" preserve-order="true"> -->
+<suite name="FakeStore API Automation Suite" parallel="tests" thread-count="3"> 
+
     <!-- Register Custom Listeners -->
     <listeners>
         <listener class-name="com.fakestoreapi.automation.utils.TestListener"/>
