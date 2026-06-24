@@ -156,7 +156,7 @@
                 <configuration>
 
                     <suiteXmlFiles>
-                        <suiteXmlFile>testcases/regression-suite.xml</suiteXmlFile>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
 
                     <testFailureIgnore>false</testFailureIgnore>
@@ -167,11 +167,16 @@
 
             <!-- Surefire Report Plugin -->
             <plugin>
-
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-report-plugin</artifactId>
+                <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.2.5</version>
-
+                <configuration>
+                    <suiteXmlFiles>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
+                    </suiteXmlFiles>
+                    <testFailureIgnore>false</testFailureIgnore>
+                    <argLine>-Xmx512m</argLine>
+                </configuration>
             </plugin>
 
         </plugins>
