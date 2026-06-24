@@ -1,6 +1,6 @@
 package com.fakestoreapi.automation.test;
 
-import com.fakestoreapi.automation.pagefactory.Login;
+import com.fakestoreapi.automation.pages.Login;
 import com.fakestoreapi.automation.utils.ExcelUtils;
 import com.fakestoreapi.automation.utils.ExtentManager;
 import com.fakestoreapi.automation.utils.LoggerUtil;
@@ -29,6 +29,7 @@ public class LoginTests {
     public void tearDown() {
         LoggerUtil.info("Tearing down LoginTests...");
         LoggerUtil.info("LoginTests teardown completed");
+        
     }
     
     @DataProvider(name = "loginTestData")
@@ -62,7 +63,7 @@ public class LoginTests {
         
         
         if (testDataSets != null && !"ALL".equalsIgnoreCase(testDataSets.trim())) {
-            testDataList = filterTestData(testDataList, testDataSets);
+            testDataList = excelUtils.filterTestData(testDataList, testDataSets);
         }
         
         LoggerUtil.info("Total test data rows loaded: " + testDataList.size());
@@ -78,21 +79,7 @@ public class LoginTests {
         return dataProviderList.iterator();
     }
     
-    private List<Map<String, String>> filterTestData(List<Map<String, String>> allData, String testDataSets) {
-        List<Map<String, String>> filteredData = new ArrayList<>();
-        String[] testCases = testDataSets.split(",");
-        
-        for (String testCase : testCases) {
-            for (Map<String, String> row : allData) {
-                if (testCase.trim().equals(row.get("TestCase"))) {
-                    filteredData.add(row);
-                }
-            }
-        }
-        
-        LoggerUtil.info("Filtered to " + filteredData.size() + " test cases");
-        return filteredData;
-    }
+    
     
     @Test(dataProvider = "loginTestData", description = "Add New User API Test")
     public void testAddNewUser(Map<String, String> testData) {

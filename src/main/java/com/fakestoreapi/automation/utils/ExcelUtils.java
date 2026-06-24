@@ -75,6 +75,22 @@ public class ExcelUtils {
                 return "";
         }
     }
+
+    public List<Map<String, String>> filterTestData(List<Map<String, String>> allData, String testDataSets) {
+        List<Map<String, String>> filteredData = new ArrayList<>();
+        String[] testCases = testDataSets.split(",");
+        
+        for (String testCase : testCases) {
+            for (Map<String, String> row : allData) {
+                if (testCase.trim().equals(row.get("TestCase"))) {
+                    filteredData.add(row);
+                }
+            }
+        }
+        
+        LoggerUtil.info("Filtered to " + filteredData.size() + " test cases");
+        return filteredData;
+    }
     
     public int getRowCount() {
         return sheet.getLastRowNum() + 1;
