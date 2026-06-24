@@ -28,6 +28,7 @@ public class ProductTests {
     @AfterClass
     public void tearDown() {
         LoggerUtil.info("Tearing down ProductTests...");
+        ExtentManager.flushReports();
         LoggerUtil.info("ProductTests teardown completed");
     }
     

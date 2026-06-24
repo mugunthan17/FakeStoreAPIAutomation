@@ -28,6 +28,7 @@ public class LoginTests {
     @AfterClass
     public void tearDown() {
         LoggerUtil.info("Tearing down LoginTests...");
+        ExtentManager.flushReports();
         LoggerUtil.info("LoginTests teardown completed");
         
     }

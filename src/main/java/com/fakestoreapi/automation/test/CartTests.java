@@ -28,6 +28,7 @@ public class CartTests {
     @AfterClass
     public void tearDown() {
         LoggerUtil.info("Tearing down CartTests...");
+         ExtentManager.flushReports();
         LoggerUtil.info("CartTests teardown completed");
     }
     
